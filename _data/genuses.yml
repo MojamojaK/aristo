@@ -1,0 +1,21 @@
+- name: nepenthes
+  header: Nepenthes - ネペンテス (ウツボカズラ)
+  sub_categories:
+    - name: species
+      header: Species - 原種
+      environments:
+        - name: highland
+          header: Highland - 高山性
+        - name: intermediate
+          header: Intermediate - 中間性
+        - name: lowland
+          header: Lowland - 低地性
+    - name: hybrid
+      header: Hybrids - 交配種
+      environments:
+        - name: highland
+          header: Highland Greenhouse - 高山性温室
+        - name: livingroom
+          header: Living Room - リビング
+        - name: lowland
+          header: Lowland/Intermediate Greenhouse - 低地性/中間性温室
