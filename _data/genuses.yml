@@ -15,6 +15,8 @@
       environments:
         - name: highland
           header: Highland Greenhouse - 高山性温室
+        - name: prehighland
+          header: Pre-Highland Greenhouse - 準高山性温室
         - name: livingroom
           header: Living Room - リビング
         - name: lowland

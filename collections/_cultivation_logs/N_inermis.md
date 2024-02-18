@@ -16,6 +16,26 @@ logs:
             - text: |-
                 70cm長 特大株!!!!!温室にギリギリ入る!!!じんわり曲げながら育てる!!!
             - auto_image: {id: KF24 }
+      - date: 2024-01-27
+        contents:
+          - items:
+            - text: |-
+                主茎の成長が止まって、脇芽がぐんぐん伸びてる。
+                脇芽からもう1-2枚葉が出たら切って挿そう。
+            - auto_image: {id: KF24 }
+      - date: 2024-02-16
+        contents:
+          - items:
+            - text: |-
+                主茎からまさかの花芽!!嬉しい - (みた感じ♀...?)
+            - auto_image: {id: KF24}
+      - date: 2024-02-18
+        contents:
+          - items:
+            - text: |-
+                花芽がついて主茎への負担が大きいはずなので脇芽は切り離して挿すことに
+                主茎の唯一の捕虫葉も黄色くなってきた
+            - auto_image: {id: KF24}
 ---
 - 自生地: スマトラ島 - Gunung Talang, Gunung Kerintji, Gunung Gadut, Guning Belirang, Gunung Gadang
 - 自生地標高: 1500 - 2600m

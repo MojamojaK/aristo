@@ -16,6 +16,10 @@ logs:
             - text: |-
                 某イベントにて入手。ピートモス100%。めちゃくちゃ粘性の高い消化液が常時大量に垂れる。
             - auto_image: {id: KF2 }
+      - date: 2023-04-28
+        contents:
+          - items:
+            - auto_image: {id: KF2 }
       - date: 2023-05-13
         contents:
           - items:

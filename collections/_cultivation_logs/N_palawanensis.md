@@ -14,7 +14,7 @@ logs:
         contents:
           - items:
             - text: |-
-                バイオゴールドバイタル漬け後導入。
+                バイオゴールドバイタル漬けして導入。
             - auto_image: {id: KF41}
 ---
 - 自生地: パラワン島 - Mount Victoria

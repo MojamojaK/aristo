@@ -16,9 +16,49 @@ logs:
             - text: |-
                 少し赤い葉。葉焼けではないと思うがおそらく陽に敏感。(陽にあたっていないところは明るい緑)
             - auto_image: {id: KF3}
+      - date: 2023-10-06
+        contents:
+          - items:
+            - text: |-
+                少し丸みを帯びた感じの捕虫葉
+            - auto_image: {id: KF3}
+      - date: 2024-02-18
+        contents:
+          - items:
+            - text: |-
+                脇芽が出てきて、主茎の成長点の勢いが弱まってきた
+                主茎を切って挿すことに - 捕虫葉は邪魔なので勿体無いけど切除
+            - auto_image: {id: KF3}
   - source: "NE-72A Sinabung"
     propagation: 
     start_date: 2023-05-23
+    entries:
+      - date: 2023-10-06
+        contents:
+          - items:
+            - text: |-
+                新しい捕虫葉、導入以来一番でかい!
+                細長い感じの捕虫葉
+            - auto_image: {id: KF10}
+      - date: 2023-12-15
+        contents:
+          - items:
+            - text: |-
+                新温室に引越し 
+            - auto_image: {id: KF10}
+      - date: 2024-01-19
+        contents:
+          - items:
+            - auto_image: {id: KF10}
+      - date: 2024-02-18
+        contents:
+          - items:
+            - text: |-
+                (さらに)過去最大の捕虫葉 - 4ヶ月前のやつの2倍はでかい
+                リーフスパンは変わらず
+                特に何もしていないのにこの驚異的な成長スピード
+                そして、以前の捕虫葉がまだ枯れていないことがすごい
+            - auto_image: {id: KF10}
 ---
 - 自生地: 
 - 自生地標高: 1400 - 2200m

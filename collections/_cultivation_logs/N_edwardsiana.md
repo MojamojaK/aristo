@@ -5,6 +5,17 @@ alias:
 genus: nepenthes
 sub_category: species
 environment: highland
+logs:
+  - source: "Tambuyukon seed grown"
+    propagation: 実生由来
+    start_date: 2024-01-21
+    entries:
+      - date: 2024-01-27
+        contents:
+          - items:
+            - auto_image: {id: KF40}
+            - text: |-
+                コインサイズの小さい苗
 ---
 - 自生地: 
 - 自生地標高: - m

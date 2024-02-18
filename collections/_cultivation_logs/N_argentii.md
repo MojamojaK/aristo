@@ -15,6 +15,14 @@ logs:
           - items:
             - text: |-
                 BCPなので2株ご登場。草体が全体的にありえんくらい真っ赤。おそらく日照に敏感なタイプ。輸送ダメージも酷い方。
+      - date: 2024-01-19
+        contents:
+          - items:
+            - auto_image: {id: KF12}
+            - auto_image: {id: KF13}
+            - text: |-
+                いつまでも捕虫葉を出してくれない...
+                葉焼けっぽい症状が出ているのでライトを弱めた
   - source: "BCP ID#N2046-09"
     propagation: 組織培養由来
     start_date: 2023-06-20
@@ -24,6 +32,19 @@ logs:
           - items:
             - text: |-
                 BCPなので2株ご登場。唯一捕虫葉付き。
+      - date: 2023-12-15
+        contents:
+          - items:
+            - auto_image: {id: KF15}
+      - date: 2024-01-19
+        contents:
+          - items:
+            - auto_image: {id: KF14}
+            - auto_image: {id: KF15}
+            - text: |-
+                小さめだがやっと捕虫葉を出してくれた。
+                葉も導入時の真っ赤っかな状態から緑っぽくなってきた。
+                組織培養苗の価格差に納得した。
 ---
 - 自生地: シブヤン島 - Guitung Guitung
 - 自生地標高: 1400 - 1900m
