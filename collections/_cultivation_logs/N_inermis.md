@@ -37,14 +37,18 @@ logs:
                 主茎の唯一の捕虫葉も黄色くなってきた
             - auto_image: {id: KF24}
 ---
-- 自生地: スマトラ島 - Gunung Talang, Gunung Kerintji, Gunung Gadut, Guning Belirang, Gunung Gadang
-- 自生地標高: 1500 - 2600m
-- 温度:
-  - 理論値: Night 9 - 18℃ / Day 19 - 28℃
-  - うちでは 13 - 24℃
+### 自生地
+- スマトラ島 - Gunung Talang, Gunung Kerintji, Gunung Gadut, Guning Belirang, Gunung Gadang
+- 標高: 1500 - 2600m
+- 温度: Night 9 - 18℃ / Day 19 - 28℃
+
+### 栽培環境
+- 温度: 13 - 24℃
 - 空中湿度: 70~90%
 - 鉢内:
-  - 常に湿っている感じだが、通気性は確保する必要あり。
+  - 上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒+赤玉中粒
+    - 保水しつつ、通気性を保っている
+    - 絶好調 - 極端に乾かしたりしなければ大丈夫そう
 - 日照:
-  - 12時間 6000-7000Lux (内11:00-14:00は 10000-12000Lux)
-    - 実験中
+  - 12時間 8000-9000Lux
+    - 問題なさそう。これで花芽も出た。
