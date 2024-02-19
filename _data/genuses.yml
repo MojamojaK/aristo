@@ -5,11 +5,11 @@
       header: Species - 原種
       environments:
         - name: highland
-          header: Highland - 高山性
+          header: Highland - 高山性 [1500~2500m]
         - name: intermediate
-          header: Intermediate - 中間性
+          header: Intermediate - 中間性 [1000~1500m]
         - name: lowland
-          header: Lowland - 低地性
+          header: Lowland - 低地性 [0~1000m]
     - name: hybrid
       header: Hybrids - 交配種
       environments:

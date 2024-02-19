@@ -27,7 +27,7 @@ logs:
         contents:
           - items:
             - text: |-
-                主茎からまさかの花芽!!嬉しい - (みた感じ♀...?)
+                主茎からまさかの花芽!!嬉しい - (みた感じ♂...?)
             - auto_image: {id: KF24}
       - date: 2024-02-18
         contents:
