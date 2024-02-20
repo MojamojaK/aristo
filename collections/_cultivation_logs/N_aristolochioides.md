@@ -115,6 +115,20 @@ logs:
         contents:
           - items:
             - auto_image: {id: KF22}
+            - text: |-
+                3点から成長している。真ん中、一番下、一番上、の節の順に成長が旺盛。
+                一番上はドンドン葉が小さくなっているのでこのままだと衰退するだろう。
+      - date: 2024-01-28
+        contents:
+          - items:
+            - text: |-
+                一番上の節を切って挿した
+      - date: 2024-02-20
+        contents:
+          - items:
+            - auto_image: {id: KF22}
+            - text: |-
+                一番上だった節の挿木。このサイズで1ヶ月経っても枯れる気配がないので大丈夫だと思う。
   - source: "AW Clone AC01"
     propagation: 組織培養由来
     start_date: 2024-01-06
