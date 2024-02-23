@@ -36,6 +36,12 @@ logs:
                 花芽がついて主茎への負担が大きいはずなので脇芽は切り離して挿すことに
                 主茎の唯一の捕虫葉も黄色くなってきた
             - auto_image: {id: KF24}
+      - date: 2024-02-22
+        contents:
+          - items:
+            - text: |-
+                花が成長して捕虫葉が枯れ始めた
+            - auto_image: {id: KF24}
 ---
 ### 自生地
 - スマトラ島 - Gunung Talang, Gunung Kerintji, Gunung Gadut, Guning Belirang, Gunung Gadang

@@ -29,6 +29,10 @@ logs:
                 脇芽が出てきて、主茎の成長点の勢いが弱まってきた
                 主茎を切って挿すことに - 捕虫葉は邪魔なので勿体無いけど切除
             - auto_image: {id: KF3}
+      - date: 2024-02-22
+        contents:
+          - items:
+            - auto_image: {id: KF3}
   - source: "NE-72A Sinabung"
     propagation: 
     start_date: 2023-05-23

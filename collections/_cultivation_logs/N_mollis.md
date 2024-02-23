@@ -30,7 +30,7 @@ logs:
             - auto_image: {id: KF25}
 ---
 ### 自生地
-- カリマンタン島東部 - Gunung Kemul
+- ボルネオ島 - カリマンタン東部 - Gunung Kemul
 - 標高: 1300 - 2400m
 - 温度:
   - 理論値: Night 10 - 19℃ / Day 20 - 29℃
