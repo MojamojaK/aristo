@@ -22,6 +22,12 @@ logs:
         contents:
           - items:
             - auto_image: {id: KF33}
+      - date: 2024-02-24
+        contents:
+          - items:
+            - text: |-
+                新捕虫葉。襟の発色がとても良い。
+            - auto_image: {id: KF33}
   - source: "Hiro's original N.veitchii bario Seed Grown (BE-3646) × N. veitchii bario Y's"
     propagation: 実生
     start_date: 2024-01-10
