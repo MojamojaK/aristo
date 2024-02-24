@@ -144,7 +144,16 @@ logs:
       - date: 2024-01-09
         contents:
           - items:
+            - text: |-
+                到着後、即植替え
             - auto_image: {id: KF30, line_breaks: [3]}
+      - date: 2024-02-24
+        contents:
+          - items:
+            - text: |-
+                うちに来てからゆっくりとリーフジャンプしてくれている。
+                新しくついた捕虫葉はそこそこ大きいが、蓋が少ししか開かないみたい。
+            - auto_image: {id: KF30}
 ---
 ### 自生地
   - スマトラ島 - Gunung Tujuh, Gunung Kerinci
