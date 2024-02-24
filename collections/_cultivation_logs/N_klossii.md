@@ -26,6 +26,7 @@ logs:
 ### 自生地
 - ニューギニア島西南部 - パプア州
   - <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d707947.2308506999!2d135.939159907399!3d-3.688597076885888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x68221884715c6a27%3A0x3ab182ea3071e7af!2sPaniai%20Lakes!5e0!3m2!1sen!2sjp!4v1708762106175!5m2!1sen!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  - <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d384735.6834726944!2d138.32140964158023!3d-7.854645571845378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6834dee3fbe457b1%3A0x8e90fe7df1b4af85!2sMerauke%20Regency%2C%20Papua%2C%20Indonesia!5e0!3m2!1sen!2sjp!4v1708769461017!5m2!1sen!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 - 標高: 930 - 2000m
 - 温度: Night 12 - 20℃ / Day 22 - 30℃
 - リンク
