@@ -33,7 +33,9 @@ logs:
             - auto_image: {id: KF31}
 ---
 ### 自生地
-- スラウェシ島中央部
+- インドネシア,スラウェシ島,中部スラウェシ州のどこかの山
+  - 保護のためどの山なのかは非公開
+  - <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1625023.029183338!2d121.41999850296702!3d-0.5992943930625992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d8809c9659a2d3d%3A0x436e33fd8cdb6299!2sCentral%20Sulawesi%2C%20Indonesia!5e0!3m2!1sen!2sjp!4v1708759295934!5m2!1sen!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 - 標高: 2200 - 2300m
 - 温度: Night 11 - 14℃ / Day 21 - 24℃
 

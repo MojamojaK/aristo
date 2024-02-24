@@ -30,7 +30,8 @@ logs:
             - auto_image: {id: KF25}
 ---
 ### 自生地
-- ボルネオ島 - カリマンタン東部 - Gunung Kemul
+- ボルネオ島 - 東カリマンタン州 - Gunung Kemul
+  - <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7975.431017035644!2d116.1712391488086!3d1.8602887156929735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x320fb97bc288fe61%3A0x209d71fe1a15e797!2sMount%20Kemul!5e0!3m2!1sen!2sjp!4v1708762657533!5m2!1sen!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 - 標高: 1300 - 2400m
 - 温度:
   - 理論値: Night 10 - 19℃ / Day 20 - 29℃

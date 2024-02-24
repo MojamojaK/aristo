@@ -156,9 +156,11 @@ logs:
             - auto_image: {id: KF30}
 ---
 ### 自生地
-  - スマトラ島 - Gunung Tujuh, Gunung Kerinci
-  - 標高: 1800 - 2500m
-  - 温度: Night 10 - 16℃ / Day 20 - 26℃
+- スマトラ島 - Gunung Tujuh, Gunung Kerinci
+  - <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79380.0692276567!2d101.38356461484655!3d-1.676785670805948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2c5729efda3fd7%3A0xe6b626cc3eb141a5!2sGunung%20Tudjuh!5e0!3m2!1sen!2sjp!4v1708758905054!5m2!1sen!2sjp" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  - <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79380.0692276567!2d101.38356461484655!3d-1.676785670805948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2cf969cb1a6b07%3A0xc31a5eb85921983c!2sMount%20Kerinci!5e0!3m2!1sen!2sjp!4v1708758928486!5m2!1sen!2sjp" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+- 標高: 1800 - 2500m
+- 温度: Night 10 - 16℃ / Day 20 - 26℃
 
 ### 栽培環境
 - 温度: 夜13 - 昼24℃

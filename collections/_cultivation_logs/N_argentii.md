@@ -49,6 +49,7 @@ logs:
 ---
 ### 自生地
 - シブヤン島 - Guitung Guitung
+  - <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90498.12452489306!2d122.58811169170345!3d12.391653703867771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a4429305df7281%3A0xe8e4a62974176fcb!2sMount%20Guiting-Guiting!5e0!3m2!1sen!2sjp!4v1708758445967!5m2!1sen!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 - 標高: 1400 - 1900m
 - 温度: Night 13 - 18℃ / Day 23 - 28℃
 

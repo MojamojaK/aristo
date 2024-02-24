@@ -37,6 +37,7 @@ logs:
 ---
 ### 自生地
 - 自生地: タイ東北部, ラオス南部, カンボジア, ベトナム
+  - <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30544.657732661613!2d108.54823201329414!3d12.142218116667506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3171098e0fb3187f%3A0xb6e6105c4aa122e7!2sBQL%20Bidoup%20Nui%20Ba%20National%20Park!5e0!3m2!1sen!2sjp!4v1708762907455!5m2!1sen!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 - 標高: 0 - 1500m
 - 温度: Night 15 - 25℃ / Day 25 - 35 ℃
 

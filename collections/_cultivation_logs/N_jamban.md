@@ -23,7 +23,8 @@ logs:
             - auto_image: {id: KF11}
 ---
 ### 自生地
-- スマトラ島北部 - Padangsidempuan
+- スマトラ島 - 北スマトラ州の Padang Sidempuanから南の山々
+  - <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31909.45158011927!2d99.24213094719536!3d1.3678148880672345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302c04c7ec8ae94f%3A0x3039d80b220d060!2sPadang%20Sidempuan%2C%20Padangsidimpuan%20Utara%2C%20Padang%20Sidempuan%20City%2C%20North%20Sumatra%2C%20Indonesia!5e0!3m2!1sen!2sjp!4v1708761517438!5m2!1sen!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 - 標高: 1800 - 2100m
 - 温度: Night 12 - 16℃ / Day 22 - 26℃
 

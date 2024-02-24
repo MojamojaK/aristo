@@ -6,7 +6,7 @@ genus: nepenthes
 sub_category: species
 environment: highland
 logs:
-  - source: "BE-3177 Sibuyatan form"
+  - source: "BE-3177 Sibuatan form"
     propagation: 組織培養由来
     start_date: 2023-04-15
     entries:
@@ -65,7 +65,9 @@ logs:
             - auto_image: {id: KF10}
 ---
 ### 自生地
-- 自生地: スマトラ島北部
+- 自生地: スマトラ島北部 - Lake Toba から Mount Kemiriにかけて広く分布
+  - <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d893103.7983973733!2d98.51953916621538!3d2.9952480000688073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30305226580ce755%3A0x72ce20db5930c2fc!2sMount%20Sibuatan!5e0!3m2!1sen!2sjp!4v1708762965273!5m2!1sen!2sjp" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  - <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29787.449188621667!2d98.39328224352656!3d3.1564141038964197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3030fb896e2dce3d%3A0x78aa2a0b96c7f525!2sMount%20Sinabung!5e0!3m2!1sen!2sjp!4v1708762980638!5m2!1sen!2sjp" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 - 標高: 1400 - 2200m
 - 温度: Night 11 - 18℃ / Day 21 - 28℃
 

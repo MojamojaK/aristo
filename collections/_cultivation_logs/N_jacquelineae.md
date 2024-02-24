@@ -64,7 +64,8 @@ logs:
             - auto_image: {id: KF8}
 ---
 ### 自生地
-- スマトラ島西部 - バリサーン山脈
+- スマトラ島 - 西スマトラ州 Bukittinggi より北の山々
+  - <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15959.05050253022!2d100.35249621667884!3d-0.30273912482861376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd538a460df4be1%3A0xc940d13d891ab206!2sBukittinggi%2C%20Bukittinggi%20City%2C%20West%20Sumatra%2C%20Indonesia!5e0!3m2!1sen!2sjp!4v1708761465940!5m2!1sen!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 - 標高: 1700 - 2200m
 - 温度: Night 11 - 17℃ / Day 21 - 27℃
 

@@ -38,7 +38,8 @@ logs:
             - auto_image: {id: KF34}
 ---
 ### 自生地
-- ボルネオ島北西部 & カリマンタン
+- ボルネオ島全域
+  - <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4188054.3995132456!2d117.21943641908322!3d2.0516920800646608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3219c360a1c09f57%3A0x99d6fb7dce35d306!2sBario%2C%20Sarawak%2C%20Malaysia!5e0!3m2!1sen!2sjp!4v1708763307739!5m2!1sen!2sjp" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 - 標高: 0 - 1600m
 - 温度: Night 14 - 25℃ / Day 24 - 35 ℃
 

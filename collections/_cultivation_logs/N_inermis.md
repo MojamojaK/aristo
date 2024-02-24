@@ -45,6 +45,8 @@ logs:
 ---
 ### 自生地
 - スマトラ島 - Gunung Talang, Gunung Kerintji, Gunung Gadut, Guning Belirang, Gunung Gadang
+  - <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79380.0692276567!2d101.38356461484655!3d-1.676785670805948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2cf969cb1a6b07%3A0xc31a5eb85921983c!2sMount%20Kerinci!5e0!3m2!1sen!2sjp!4v1708758928486!5m2!1sen!2sjp" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  - <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d67701.54869020259!2d100.64385163891934!3d-0.96922649707558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2b4c6da50bd541%3A0x3f6bd78d294269f5!2sMount%20Talang!5e0!3m2!1sen!2sjp!4v1708760547567!5m2!1sen!2sjp" width="100%" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 - 標高: 1500 - 2600m
 - 温度: Night 9 - 18℃ / Day 19 - 28℃
 
