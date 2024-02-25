@@ -6,7 +6,7 @@ genus: nepenthes
 sub_category: species
 environment: highland
 logs:
-  - source: "某即売会にて - 詳細不明"
+  - source: "某即売会にて - 詳細不明 (株Aとする)"
     propagation: 挿木由来
     start_date: 2023-04-15
     entries:
@@ -79,6 +79,6 @@ logs:
 - 日照:
   - 12時間 6000-7000Lux (内11:00-14:00は 10000-12000Lux)
     - BE-3092 幼苗は特に葉焼けせず、着々とリーフジャンプしながら成長
-    - 成長した苗は時間が経つにつれ赤くなる - 悪い意味での葉焼けではないと思う。
+    - 株Aは時間が経つにつれ紅葉している - 悪い葉焼けではないと思う。
 - その他
   - 消化液の粘性が高い

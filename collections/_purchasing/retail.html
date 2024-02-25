@@ -1,0 +1,62 @@
+---
+layout: default
+title: 販売業者
+---
+把握次第追加
+
+<h3> Domestic (Japan) Stores - 日本国内の食虫専門販売業者 </h3>
+<table class="hscrollable">
+    <thead>
+        <tr>
+            <th>業者名</th>
+            <th>拠点 都道府県</th>
+            <th>販売形式</th>
+            <th>Webサイト</th>
+            <th>メモ</th>
+        </tr>
+    </thead>
+    <tbody>
+{% for store in site.data.domestic_stores %}
+        <tr>
+            <th>{{store.name}}</th>
+            <th><span class="nobr">{{store.location}}</span></th>
+            <th>
+{% for type in store.types %}
+                <span class="nobr">{{type}}</span><br>
+{% endfor %}
+            </th>
+            <th><span class="text-content">{{store.link}}</span></th>
+            <th><span class="nobr">{{store.memo}}</span></th>
+        </tr>
+{% endfor %}
+    </tbody>
+</table>
+
+上記以外だとヤフオクやメルカリにて多数出品有り。
+
+<h3> Tokyo Events - 都内のイベント </h3>
+TODO
+
+<h3>Importing - 海外輸入</h3>
+<table class="hscrollable">
+    <thead>
+        <tr>
+            <th>Name - 業者名</th>
+            <th>Nation - 所在国</th>
+            <th>Website - Webサイト</th>
+            <th>Notes - 備考</th>
+            <th>Import Log - 輸入ログ</th>
+        </tr>
+    </thead>
+    <tbody>
+{% for store in site.data.international_stores %}
+        <tr>
+            <th>{{store.name}}</th>
+            <th><span class="nobr">{{store.location}}</span></th>
+            <th><span class="text-content">{{store.link}}</span></th>
+            <th><span class="nobr">{{store.notes}}</span></th>
+            <th><span class="nobr">{{store.import_logs}}</span></th>
+        </tr>
+{% endfor %}
+    </tbody>
+</table>

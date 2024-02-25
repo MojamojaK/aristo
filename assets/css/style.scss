@@ -13,3 +13,14 @@
 .text-content {
     white-space: pre-line;
 }
+
+.nobr {
+    white-space: pre;
+}
+
+table.hscrollable {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+    text-align: left;
+}
