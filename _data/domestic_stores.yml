@@ -1,6 +1,8 @@
 - name: Cherryradish Plants
   location: 東京都
-  types: [実店舗(予約制), 即売会??]
+  types:
+    - 実店舗(予約制)
+    - 即売会??
   link: |-
     <a href="https://cherryradishplants.com">cherryradishplants.com</a>
   memo: |-
@@ -8,7 +10,8 @@
     即売会で1度だけお世話になった。
 - name: Exotic Botanics	
   location: 東京都
-  types: [オンライン]
+  types:
+    - オンライン
   link: |-
     <a href="https://ebotanics.buyshop.jp">ebotanics.buyshop.jp</a>
     ヤフオクもあり
@@ -17,7 +20,9 @@
     他由来や大株の取扱も時々あり。
 - name: Heli's Garden
   location: 大阪府
-  types: [実店舗, オンライン(限定的)]
+  types:
+    - 実店舗
+    - オンライン(限定的)
   link: |-
     <a href="https://helisgarden.themedia.jp">helisgarden.themedia.jp</a>
   memo: |-
@@ -25,7 +30,11 @@
     オンラインで一度だけ挿し穂を購入。
 - name: Hiro's Pitcher Plants
   location: 山梨県
-  types: [実店舗, オンライン, 輸入代行, 即売会]
+  types:
+    - 実店舗
+    - オンライン
+    - 輸入代行
+    - 即売会
   link: |-
     <a href="https://www.hiros-pp.com">www.hiros-pp.com</a>
     ヤフオクもあり
@@ -34,7 +43,9 @@
     他では見かけないオリジナル交配にも力を入れている。
 - name: 大森食虫植物農園
   location: 宮崎県
-  types: [オンライン, 輸入代行]
+  types:
+    - オンライン
+    - 輸入代行
   link: |-
     <a href="https://omori-kazunori.com">omori-kazunori.com</a>
     ヤフオクもあり
@@ -43,7 +54,8 @@
     高品質(&高価)なものが主。
 - name: 大谷園芸
   location: 神奈川県
-  types: [即売会など]
+  types:
+    - 即売会など
   link: |-
     <a href="http://www.greatvalley.sakura.ne.jp">www.greatvalley.sakura.ne.jp</a>
   memo: |-
@@ -51,7 +63,9 @@
     即売会で2回お世話になった。
 - name: Y's Exotics
   location: 広島県
-  types: [オンライン, 輸入代行]
+  types:
+    - オンライン
+    - 輸入代行
   link: |-
     通常販売: <a href="https://ysexotics.cart.fc2.com">ysexotics.cart.fc2.com</a>
     輸入代行: <a href="http://greengrass.shop-pro.jp">greengrass.shop-pro.jp</a>
@@ -60,7 +74,8 @@
     個人的No1オススメ。
 - name: ZERO PLANTS
   location: 千葉県
-  types: [オンライン]
+  types:
+    - オンライン
   link: |-
     <a href="https://www.zeroplants.com">www.zeroplants.com</a>
   memo: |-
