@@ -53,6 +53,12 @@ logs:
             - auto_image: {id: KF4}
             - text: |-
                 (ダメもとで挿していた元主茎は無事枯れた)
+      - date: 2024-02-27
+        contents:
+          - items:
+            - auto_image: {id: KF4}
+            - text: |-
+                リーフジャンプを繰り返してる。
   - source: "国内趣味家由来 #1"
     propagation: 挿木由来
     start_date: 2023-05-03

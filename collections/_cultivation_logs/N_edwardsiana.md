@@ -16,6 +16,17 @@ logs:
             - auto_image: {id: KF40}
             - text: |-
                 コインサイズの小さい苗
+  - source: "Marai Parai seed grown"
+    propagation: 実生由来
+    start_date: 2024-02-27
+    entries:
+      - date: 2024-02-28
+        contents:
+          - items:
+            - auto_image: {id: KF49}
+            - text: |-
+                コインサイズの小さい苗。
+                葉がTambuyukonと比べてちょっと細長い。
 ---
 ### 自生地
 - ボルネオ島 - フィリピン, Mt. Kinabalu, Mt. Tambuyukonなど

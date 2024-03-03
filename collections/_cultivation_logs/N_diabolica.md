@@ -6,7 +6,7 @@ genus: nepenthes
 sub_category: species
 environment: highland
 logs:
-  - source: "BCP ID#N293-01"
+  - source: "BCP ID#N2151-00"
     propagation: 組織培養由来
     start_date: 2023-10-11
     entries:
@@ -21,7 +21,7 @@ logs:
             - auto_image: {id: KF20}
             - text: |-
                 ゆっくり成長。3ヶ月で葉を2枚展開。
-  - source: "BCP ID#N2046-09"
+  - source: "BCP ID#N2151-00"
     propagation: 組織培養由来 → 挿木
     start_date: 2024-01-10
     entries:
@@ -31,6 +31,12 @@ logs:
             - text: |-
                 めちゃくちゃ元気そうな挿木苗。発根したばかりらしいのでそっとしておく。
             - auto_image: {id: KF31}
+      - date: 2024-02-27
+        contents:
+          - items:
+            - text: |-
+                同じ由来をもうひと苗導入。
+            - auto_image: {id: KF50}
 ---
 ### 自生地
 - インドネシア,スラウェシ島,中部スラウェシ州のどこかの山
