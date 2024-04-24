@@ -21,6 +21,10 @@ logs:
             - text: |-
                 順化が終わって成長の勢いがすごいので早めに鉢増し。
             - auto_image: {id: KF11}
+      - date: 2024-03-30
+        contents:
+          - items:
+            - auto_image: {id: KF11}
 ---
 ### 自生地
 - スマトラ島 - 北スマトラ州の Padang Sidempuanから南の山々

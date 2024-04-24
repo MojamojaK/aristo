@@ -39,6 +39,10 @@ logs:
         contents:
           - items:
             - auto_image: {id: KF2 }
+      - date: 2024-04-06
+        contents:
+          - items:
+            - auto_image: {id: KF2 }
   - source: "BE-3092"
     propagation: 組織培養由来
     start_date: 2023-05-14
@@ -59,6 +63,10 @@ logs:
             - text: |-
                 順化中で一時小さくなっていた葉が元に戻った。一度に捕虫葉が5-6個付くように。
       - date: 2024-01-19
+        contents:
+          - items:
+            - auto_image: {id: KF8}
+      - date: 2024-04-13
         contents:
           - items:
             - auto_image: {id: KF8}

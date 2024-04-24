@@ -46,6 +46,14 @@ logs:
                 小さめだがやっと捕虫葉を出してくれた。
                 葉も導入時の真っ赤っかな状態から緑っぽくなってきた。
                 組織培養苗の価格差に納得した。
+      - date: 2024-03-29
+        contents:
+          - items:
+            - auto_image: {id: KF14}
+      - date: 2024-04-13
+        contents:
+          - items:
+            - auto_image: {id: KF14}
 ---
 ### 自生地
 - シブヤン島 - Guitung Guitung

@@ -22,6 +22,10 @@ logs:
         contents:
           - items:
             - auto_image: {id: KF43}
+      - date: 2024-04-19
+        contents:
+          - items:
+            - auto_image: {id: KF43}
 ---
 ### 栽培環境
 - 温度理論値: Night 11 - 18℃ / Day 21 - 28℃

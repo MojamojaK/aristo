@@ -25,6 +25,18 @@ logs:
             - text: |-
                 新捕虫葉。両親の特徴がしっかり出ている。
             - auto_image: {id: KF23}
+      - date: 2024-03-10
+        contents:
+          - items:
+            - auto_image: {id: KF23}
+      - date: 2024-03-16
+        contents:
+          - items:
+            - auto_image: {id: KF23}
+      - date: 2024-04-19
+        contents:
+          - items:
+            - auto_image: {id: KF23}
 ---
 ### 栽培環境
 - 温度理論値: Night 15 - 21℃ / Day 25 - 31℃

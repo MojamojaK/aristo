@@ -24,6 +24,10 @@ logs:
         contents:
           - items:
             - auto_image: {id: KF54}
+      - date: 2024-03-29
+        contents:
+          - items:
+            - auto_image: {id: KF54}
 ---
 ### 自生地
 - 自生地: マレーシア, ボルネオ島北部 - Gunung Kinabalu, Gunung Trusmadi, Gunung Murud, Gunung Mulu などSabah州およびSarawak州の山

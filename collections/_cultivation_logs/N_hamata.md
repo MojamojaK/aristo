@@ -17,6 +17,27 @@ logs:
             - text: |-
                 全てが素晴らしすぎる...
                 頑張って育てよう。
+      - date: 2024-03-04
+        contents:
+          - items:
+            - auto_image: {id: KF55}
+      - date: 2024-03-24
+        contents:
+          - items:
+            - auto_image: {id: KF55}
+            - text: |-
+                植え替えじゃー
+                根っこがデリケートで結構難しかった
+      - date: 2024-04-01
+        contents:
+          - items:
+            - auto_image: {id: KF55}
+      - date: 2024-04-19
+        contents:
+          - items:
+            - auto_image: {id: KF55}
+            - text: |-
+                Newピッチャー、少し前の植え替えでサイズダウン
 ---
 ### 自生地
 - 自生地: インドネシア,スラウェシ島,Gunung Tumbusisi, Gunung Lumutなど

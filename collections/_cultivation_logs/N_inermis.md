@@ -42,6 +42,16 @@ logs:
             - text: |-
                 花が成長して捕虫葉が枯れ始めた
             - auto_image: {id: KF24}
+      - date: 2024-03-12
+        contents:
+          - items:
+            - auto_image: {id: KF24}
+      - date: 2024-03-13
+        contents:
+          - items:
+            - text: |-
+                花が咲き始めた。受粉先がないので試しに乾燥して冷凍。
+            - auto_image: {id: KF24}
 ---
 ### 自生地
 - スマトラ島 - Gunung Talang, Gunung Kerintji, Gunung Gadut, Guning Belirang, Gunung Gadang

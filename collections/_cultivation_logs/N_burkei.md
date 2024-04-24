@@ -22,6 +22,14 @@ logs:
             - auto_image: {id: KF45}
             - text: |-
                 植え替え - (導入時、用土にトビムシがついていたので)
+      - date: 2024-03-16
+        contents:
+          - items:
+            - auto_image: {id: KF45}
+      - date: 2024-04-19
+        contents:
+          - items:
+            - auto_image: {id: KF45}
 ---
 ### 自生地
 - ミンドロ島 - フィリピン

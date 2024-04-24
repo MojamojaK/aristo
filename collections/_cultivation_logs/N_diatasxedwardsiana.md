@@ -29,6 +29,14 @@ logs:
                 導入前からただでさえリーフジャンプしていた感じがするのに引き続きリーフジャンプしている。
                 これはでかくなるに違いない。
             - auto_image: {id: KF26}
+      - date: 2024-03-11
+        contents:
+          - items:
+            - auto_image: {id: KF26}
+      - date: 2024-04-19
+        contents:
+          - items:
+            - auto_image: {id: KF26}
 ---
 ### 栽培環境
 - 温度理論値: Night 8 - 15 ℃ / Day 18 - 25℃

@@ -31,6 +31,10 @@ logs:
           - auto_image: {id: KF21}
           - text: |-
               植替え後ライトに1-2週間は当てたくないので支柱を立てて折り紙を被せた(写真4枚目)。
+      - date: 2024-04-18
+        contents:
+        - items:
+          - auto_image: {id: KF21}
 ---
 ### 栽培環境
 - 温度理論値: Night 11 - 16℃ / Day 20 - 26℃

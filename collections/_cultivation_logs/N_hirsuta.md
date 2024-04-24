@@ -14,6 +14,10 @@ logs:
         contents:
           - items:
             - auto_image: {id: KF44}
+      - date: 2024-04-13
+        contents:
+          - items:
+            - auto_image: {id: KF44}
 ---
 ### 自生地
 - ボルネオ島 全域(熱帯白砂林、山地林が主)
