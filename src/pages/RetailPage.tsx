@@ -1,8 +1,22 @@
 import domesticStores from '../data/domesticStores.json';
 import internationalStores from '../data/internationalStores.json';
+import { usePageTitle } from '../hooks/usePageTitle';
 import type { DomesticStore, InternationalStore } from '../types';
 
+function SafeLink({ html }: { html: string }) {
+  const match = html.match(/href=["']([^"']*)["'][^>]*>([^<]*)<\/a>/);
+  if (match) {
+    return (
+      <a href={match[1]} target="_blank" rel="noreferrer">
+        {match[2]}
+      </a>
+    );
+  }
+  return <span>{html}</span>;
+}
+
 export default function RetailPage() {
+  usePageTitle('販売業者');
   const domestic = domesticStores as DomesticStore[];
   const international = internationalStores as InternationalStore[];
 
@@ -24,27 +38,24 @@ export default function RetailPage() {
         <tbody>
           {domestic.map((store) => (
             <tr key={store.name}>
-              <th>{store.name}</th>
-              <th>
+              <td>{store.name}</td>
+              <td>
                 <span className="nobr">{store.location}</span>
-              </th>
-              <th>
+              </td>
+              <td>
                 {store.types.map((type, idx) => (
                   <span key={idx}>
                     <span className="nobr">{type}</span>
                     {idx < store.types.length - 1 && <br />}
                   </span>
                 ))}
-              </th>
-              <th>
-                <span
-                  className="text-content"
-                  dangerouslySetInnerHTML={{ __html: store.link }}
-                />
-              </th>
-              <th>
+              </td>
+              <td>
+                <SafeLink html={store.link} />
+              </td>
+              <td>
                 <span className="nobr">{store.memo}</span>
-              </th>
+              </td>
             </tr>
           ))}
         </tbody>
@@ -52,8 +63,7 @@ export default function RetailPage() {
 
       <p>上記以外だとヤフオクやメルカリにて多数出品有り。</p>
 
-      <h3>Tokyo Events - 都内のイベント</h3>
-      <p>TODO</p>
+      {/* Tokyo Events section hidden until content is available (#19) */}
 
       <h3>Importing - 海外輸入</h3>
       <table className="hscrollable">
@@ -69,22 +79,19 @@ export default function RetailPage() {
         <tbody>
           {international.map((store) => (
             <tr key={store.name}>
-              <th>{store.name}</th>
-              <th>
+              <td>{store.name}</td>
+              <td>
                 <span className="nobr">{store.location}</span>
-              </th>
-              <th>
-                <span
-                  className="text-content"
-                  dangerouslySetInnerHTML={{ __html: store.link }}
-                />
-              </th>
-              <th>
+              </td>
+              <td>
+                <SafeLink html={store.link} />
+              </td>
+              <td>
                 <span className="nobr">{store.notes}</span>
-              </th>
-              <th>
+              </td>
+              <td>
                 <span className="nobr">{store.import_logs}</span>
-              </th>
+              </td>
             </tr>
           ))}
         </tbody>

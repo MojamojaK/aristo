@@ -1,4 +1,7 @@
+import { usePageTitle } from '../hooks/usePageTitle';
+
 export default function HomePage() {
+  usePageTitle();
   return (
     <>
       <h1>aristo - 食虫植物 素人栽培 備忘録</h1>

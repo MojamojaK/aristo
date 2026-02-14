@@ -325,6 +325,16 @@ a.sidebar-nav-item:focus {
   border-color: transparent;
 }
 
+button.sidebar-nav-item {
+  background: none;
+  border: none;
+  color: inherit;
+  font: inherit;
+  cursor: pointer;
+  text-align: left;
+  width: 100%;
+}
+
 @media (min-width: 48em) {
   .sidebar-item {
     padding: 1.5rem;
@@ -466,7 +476,8 @@ a.sidebar-nav-item:focus {
   list-style-type: none;
 }
 
-#accordian ul li a {
+#accordian ul li a,
+#accordian ul li button {
   text-decoration: none;
   font-size: 15px;
   display: block;
@@ -476,7 +487,8 @@ a.sidebar-nav-item:focus {
   border-radius: 3px;
 }
 
-#accordian ul.show-dropdown > li.active > a {
+#accordian ul.show-dropdown > li.active > a,
+#accordian ul.show-dropdown > li.active > button {
   box-shadow: 0px 1px 2px rgba(0, 137, 255, 0.2);
 }
 
@@ -500,29 +512,32 @@ a.sidebar-nav-item:focus {
   padding-left: .5rem;
 }
 
-#accordian a:not(:only-child):after {
-  content: "\f105";
+#accordian a:not(:only-child):after,
+#accordian button:not(:only-child):after {
+  content: "";
   position: absolute;
   right: 20px;
-  top: 14px;
-  font-size: 15px;
-  font-family: "Font Awesome 5 Free";
+  top: 16px;
+  width: 8px;
+  height: 8px;
+  border-right: 2px solid currentColor;
+  border-bottom: 2px solid currentColor;
+  transform: rotate(-45deg);
   display: inline-block;
-  padding-right: 3px;
-  vertical-align: middle;
-  font-weight: 900;
-  transition: 0.5s;
+  transition: transform 0.5s;
 }
 
-#accordian .active > a:not(:only-child):after {
-  transform: rotate(90deg);
+#accordian .active > a:not(:only-child):after,
+#accordian .active > button:not(:only-child):after {
+  transform: rotate(45deg);
 }
 
 /* Custom styles */
 .log-image {
-  width: 7vw;
+  width: clamp(80px, 15vw, 200px);
   height: auto;
-  max-height: 10vw;
+  max-height: clamp(100px, 20vw, 280px);
+  min-width: 60px;
   object-fit: contain;
   object-position: center center;
   display: inline;

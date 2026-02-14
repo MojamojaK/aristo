@@ -1,6 +1,7 @@
-import { existsSync, mkdirSync, symlinkSync, unlinkSync } from 'fs';
+import { existsSync, mkdirSync, symlinkSync, unlinkSync, cpSync } from 'fs';
 import { resolve, dirname } from 'path';
 import { fileURLToPath } from 'url';
+import { platform } from 'os';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = resolve(__dirname, '..');
@@ -26,5 +27,13 @@ if (existsSync(linkTarget)) {
   }
 }
 
-symlinkSync(source, linkTarget, 'dir');
-console.log('Linked public/assets/images -> assets/images');
+try {
+  // Use 'junction' on Windows (no admin required), 'dir' on other platforms
+  const symlinkType = platform() === 'win32' ? 'junction' : 'dir';
+  symlinkSync(source, linkTarget, symlinkType);
+  console.log('Linked public/assets/images -> assets/images');
+} catch (err) {
+  console.warn(`Symlink failed (${err.message}), falling back to copy.`);
+  cpSync(source, linkTarget, { recursive: true });
+  console.log('Copied assets/images -> public/assets/images');
+}
