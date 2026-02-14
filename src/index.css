@@ -3,8 +3,8 @@
  */
 * {
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html,
@@ -14,7 +14,7 @@ body {
 }
 
 html {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
 }
@@ -28,7 +28,7 @@ body {
   color: #515151;
   background-color: #fff;
   -webkit-text-size-adjust: 100%;
-      -ms-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 a {
@@ -43,17 +43,35 @@ a:focus {
   text-decoration: underline;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  margin-bottom: .5rem;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-bottom: 0.5rem;
   font-weight: bold;
   line-height: 1.25;
   color: #313131;
   text-rendering: optimizeLegibility;
 }
-h1 { font-size: 2rem; }
-h2 { margin-top: 1rem; font-size: 1.5rem; }
-h3 { margin-top: 1.5rem; font-size: 1.25rem; }
-h4, h5, h6 { margin-top: 1rem; font-size: 1rem; }
+h1 {
+  font-size: 2rem;
+}
+h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem;
+}
+h3 {
+  margin-top: 1.5rem;
+  font-size: 1.25rem;
+}
+h4,
+h5,
+h6 {
+  margin-top: 1rem;
+  font-size: 1rem;
+}
 
 p {
   margin-top: 0;
@@ -64,13 +82,19 @@ strong {
   color: #303030;
 }
 
-ul, ol, dl {
+ul,
+ol,
+dl {
   margin-top: 0;
   margin-bottom: 1rem;
 }
 
-dt { font-weight: bold; }
-dd { margin-bottom: .5rem; }
+dt {
+  font-weight: bold;
+}
+dd {
+  margin-bottom: 0.5rem;
+}
 
 hr {
   position: relative;
@@ -93,10 +117,10 @@ abbr[title] {
 
 code,
 pre {
-  font-family: Menlo, Monaco, "Courier New", monospace;
+  font-family: Menlo, Monaco, 'Courier New', monospace;
 }
 code {
-  padding: .25em .5em;
+  padding: 0.25em 0.5em;
   font-size: 85%;
   color: #bf616a;
   background-color: #f9f9f9;
@@ -107,7 +131,7 @@ pre {
   margin-top: 0;
   margin-bottom: 1rem;
   padding: 1rem;
-  font-size: .8rem;
+  font-size: 0.8rem;
   line-height: 1.4;
   white-space: pre;
   white-space: pre-wrap;
@@ -123,10 +147,10 @@ pre code {
 }
 
 blockquote {
-  padding: .5rem 1rem;
-  margin: .8rem 0;
+  padding: 0.5rem 1rem;
+  margin: 0.8rem 0;
   color: #7a7a7a;
-  border-left: .25rem solid #e5e5e5;
+  border-left: 0.25rem solid #e5e5e5;
 }
 blockquote p:last-child {
   margin-bottom: 0;
@@ -153,7 +177,7 @@ table {
 }
 td,
 th {
-  padding: .25rem .5rem;
+  padding: 0.25rem 0.5rem;
   border: 1px solid #e5e5e5;
 }
 tbody tr:nth-child(odd) td,
@@ -218,7 +242,7 @@ tbody tr:nth-child(odd) th {
 
 .post-date {
   display: block;
-  margin-top: -.5rem;
+  margin-top: -0.5rem;
   margin-bottom: 1rem;
   color: #9a9a9a;
 }
@@ -232,14 +256,19 @@ body {
 }
 
 html {
-  font-family: "PT Serif", Georgia, "Times New Roman", serif;
+  font-family: 'PT Serif', Georgia, 'Times New Roman', serif;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
   font-weight: 400;
   color: #313131;
-  letter-spacing: -.025rem;
+  letter-spacing: -0.025rem;
 }
 
 .wrap {
@@ -285,16 +314,16 @@ h1, h2, h3, h4, h5, h6 {
   width: 24rem;
   visibility: hidden;
   overflow-y: auto;
-  font-family: "PT Sans", Helvetica, Arial, sans-serif;
-  font-size: .875rem;
-  color: rgba(255,255,255,.6);
+  font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+  font-size: 0.875rem;
+  color: rgba(255, 255, 255, 0.6);
   background-color: #202020;
-  -webkit-transition: all .3s ease-in-out;
-          transition: all .3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }
 @media (min-width: 30em) {
   .sidebar {
-    font-size: .75rem;
+    font-size: 0.75rem;
   }
 }
 
@@ -310,18 +339,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .sidebar-nav {
-  border-bottom: 1px solid rgba(255,255,255,.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 .sidebar-nav-item {
   display: block;
-  padding: .5rem 1rem;
-  border-top: 1px solid rgba(255,255,255,.1);
+  padding: 0.5rem 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 .sidebar-nav-item.active,
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
   text-decoration: none;
-  background-color: rgba(255,255,255,.1);
+  background-color: rgba(255, 255, 255, 0.1);
   border-color: transparent;
 }
 
@@ -349,20 +378,20 @@ button.sidebar-nav-item {
   position: absolute;
   opacity: 0;
   -webkit-user-select: none;
-     -moz-user-select: none;
-          user-select: none;
+  -moz-user-select: none;
+  user-select: none;
 }
 
 .sidebar-toggle {
   position: absolute;
-  top: .8rem;
+  top: 0.8rem;
   left: 1rem;
   display: flex;
   align-items: center;
-  padding: .25rem .75rem;
+  padding: 0.25rem 0.75rem;
   color: #505050;
   background-color: #fff;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   cursor: pointer;
 }
 
@@ -370,8 +399,9 @@ button.sidebar-nav-item {
   display: inline-block;
   width: 32px;
   height: 32px;
-  content: "";
-  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' fill='%23555' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M2.5 11.5A.5.5 0 013 11h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 7h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 3h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5z' clip-rule='evenodd'/%3E%3C/svg%3E") no-repeat;
+  content: '';
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' fill='%23555' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M2.5 11.5A.5.5 0 013 11h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 7h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 3h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5z' clip-rule='evenodd'/%3E%3C/svg%3E")
+    no-repeat;
 }
 
 .sidebar-toggle:active,
@@ -384,7 +414,8 @@ button.sidebar-nav-item {
 .sidebar-toggle:active:before,
 .sidebar-checkbox:focus ~ .sidebar-toggle::before,
 .sidebar-checkbox:checked ~ .sidebar-toggle::before {
-  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M2.5 11.5A.5.5 0 013 11h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 7h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 3h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5z' clip-rule='evenodd'/%3E%3C/svg%3E") no-repeat;
+  background: url("data:image/svg+xml,%3Csvg viewBox='0 0 16 16' fill='%23fff' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' d='M2.5 11.5A.5.5 0 013 11h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 7h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5zm0-4A.5.5 0 013 3h10a.5.5 0 010 1H3a.5.5 0 01-.5-.5z' clip-rule='evenodd'/%3E%3C/svg%3E")
+    no-repeat;
 }
 
 @media (min-width: 30.1em) {
@@ -404,13 +435,13 @@ button.sidebar-nav-item {
 .sidebar,
 .sidebar-toggle {
   -webkit-backface-visibility: hidden;
-      -ms-backface-visibility: hidden;
-          backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 .wrap,
 .sidebar-toggle {
-  -webkit-transition: -webkit-transform .3s ease-in-out;
-          transition: transform .3s ease-in-out;
+  -webkit-transition: -webkit-transform 0.3s ease-in-out;
+  transition: transform 0.3s ease-in-out;
 }
 
 .sidebar-checkbox:checked + .sidebar {
@@ -421,8 +452,8 @@ button.sidebar-nav-item {
 .sidebar-checkbox:checked ~ .wrap,
 .sidebar-checkbox:checked ~ .sidebar-toggle {
   -webkit-transform: translateX(24rem);
-      -ms-transform: translateX(24rem);
-          transform: translateX(24rem);
+  -ms-transform: translateX(24rem);
+  transform: translateX(24rem);
 }
 
 /* Themes - Blue */
@@ -440,14 +471,14 @@ button.sidebar-nav-item {
 /* Overlay sidebar */
 .sidebar-overlay .sidebar-checkbox:checked ~ .wrap {
   -webkit-transform: translateX(0);
-      -ms-transform: translateX(0);
-          transform: translateX(0);
+  -ms-transform: translateX(0);
+  transform: translateX(0);
 }
 .sidebar-overlay .sidebar-checkbox:checked ~ .sidebar-toggle {
-  box-shadow: 0 0 0 .25rem #fff;
+  box-shadow: 0 0 0 0.25rem #fff;
 }
 .sidebar-overlay .sidebar-checkbox:checked ~ .sidebar {
-  box-shadow: .25rem 0 .5rem rgba(0,0,0,.1);
+  box-shadow: 0.25rem 0 0.5rem rgba(0, 0, 0, 0.1);
 }
 
 /* Accordion */
@@ -509,12 +540,12 @@ button.sidebar-nav-item {
 }
 
 #accordian > ul ul {
-  padding-left: .5rem;
+  padding-left: 0.5rem;
 }
 
 #accordian a:not(:only-child):after,
 #accordian button:not(:only-child):after {
-  content: "";
+  content: '';
   position: absolute;
   right: 20px;
   top: 16px;

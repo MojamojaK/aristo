@@ -14,8 +14,14 @@ export default function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route path={`${BASE}/`} element={<HomePage />} />
-          <Route path={`${BASE}/cultivation_logs`} element={<CultivationLogIndexPage />} />
-          <Route path={`${BASE}/cultivation_logs/:slug`} element={<CultivationLogPage />} />
+          <Route
+            path={`${BASE}/cultivation_logs`}
+            element={<CultivationLogIndexPage />}
+          />
+          <Route
+            path={`${BASE}/cultivation_logs/:slug`}
+            element={<CultivationLogPage />}
+          />
           <Route path={`${BASE}/greenhouse/*`} element={<GreenhousePage />} />
           <Route path={`${BASE}/purchasing/retail`} element={<RetailPage />} />
           <Route path="*" element={<NotFoundPage />} />

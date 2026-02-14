@@ -40,10 +40,7 @@ export default function CultivationLogIndexPage() {
                     </td>
                     <td>{log.environment}</td>
                     <td>
-                      {log.logs.reduce(
-                        (sum, l) => sum + l.entries.length,
-                        0
-                      )}
+                      {log.logs.reduce((sum, l) => sum + l.entries.length, 0)}
                     </td>
                   </tr>
                 ))}

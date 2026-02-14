@@ -64,7 +64,9 @@ function ImageGallery({
 
 export default function CultivationLogPage() {
   const { slug } = useParams<{ slug: string }>();
-  const log = (cultivationLogs as CultivationLog[]).find((l) => l.slug === slug);
+  const log = (cultivationLogs as CultivationLog[]).find(
+    (l) => l.slug === slug,
+  );
 
   usePageTitle(log?.name);
 
@@ -82,11 +84,9 @@ export default function CultivationLogPage() {
 
   // Compute last updated date from all entries
   const allDates = log.logs.flatMap((logData) =>
-    logData.entries.map((entry) => entry.date)
+    logData.entries.map((entry) => entry.date),
   );
-  const lastUpdated = allDates.length > 0
-    ? allDates.sort().reverse()[0]
-    : null;
+  const lastUpdated = allDates.length > 0 ? allDates.sort().reverse()[0] : null;
 
   return (
     <>
@@ -94,9 +94,7 @@ export default function CultivationLogPage() {
 
       {log.alias && <h2>{log.alias}</h2>}
 
-      {lastUpdated && (
-        <p className="post-date">最終更新: {lastUpdated}</p>
-      )}
+      {lastUpdated && <p className="post-date">最終更新: {lastUpdated}</p>}
 
       {log.bodyContent ? (
         <>
@@ -152,7 +150,7 @@ export default function CultivationLogPage() {
                       ))}
                     </td>
                   </tr>
-                ))
+                )),
               )}
             </tbody>
           </table>

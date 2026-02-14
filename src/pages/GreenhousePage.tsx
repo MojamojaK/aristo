@@ -6,7 +6,9 @@ import type { GreenhousePage as GreenhousePageType } from '../types';
 export default function GreenhousePage() {
   const { '*': wildcard } = useParams();
   const url = `/greenhouse/${wildcard}`;
-  const page = (greenhousePages as GreenhousePageType[]).find((p) => p.url === url);
+  const page = (greenhousePages as GreenhousePageType[]).find(
+    (p) => p.url === url,
+  );
 
   usePageTitle(page?.title);
 
