@@ -17,6 +17,33 @@ function AccordionItem({
   isActive: boolean;
   onToggle: () => void;
 }) {
+  function handleKeyDown(e: React.KeyboardEvent) {
+    const button = e.currentTarget as HTMLElement;
+    const li = button.parentElement;
+    if (!li) return;
+
+    if (e.key === 'Escape' && isActive) {
+      e.preventDefault();
+      onToggle();
+      return;
+    }
+
+    if (e.key === 'ArrowDown') {
+      e.preventDefault();
+      const next = li.nextElementSibling;
+      const focusable = next?.querySelector<HTMLElement>('button, a');
+      focusable?.focus();
+      return;
+    }
+
+    if (e.key === 'ArrowUp') {
+      e.preventDefault();
+      const prev = li.previousElementSibling;
+      const focusable = prev?.querySelector<HTMLElement>('button, a');
+      focusable?.focus();
+    }
+  }
+
   return (
     <li className={isActive ? 'active' : ''}>
       <button
@@ -27,10 +54,14 @@ function AccordionItem({
           e.stopPropagation();
           onToggle();
         }}
+        onKeyDown={handleKeyDown}
       >
         {label}
       </button>
-      <ul className={isActive ? 'show-dropdown' : ''} style={{ display: isActive ? 'block' : 'none' }}>
+      <ul
+        className={isActive ? 'show-dropdown' : ''}
+        style={{ display: isActive ? 'block' : 'none' }}
+      >
         {children}
       </ul>
     </li>
@@ -80,13 +111,18 @@ export default function Sidebar() {
         (log) =>
           log.genus === genusName &&
           log.sub_category === subCatName &&
-          log.environment === envName
+          log.environment === envName,
       ),
-    [logs]
+    [logs],
   );
 
   return (
-    <nav className="sidebar-nav" id="accordian" role="navigation" aria-label="サイトナビゲーション">
+    <nav
+      className="sidebar-nav"
+      id="accordian"
+      role="navigation"
+      aria-label="サイトナビゲーション"
+    >
       <ul className="show-dropdown">
         <li>
           <Link
@@ -126,12 +162,18 @@ export default function Sidebar() {
                   label={subCat.header}
                   isActive={openSubCat === subCat.name}
                   onToggle={() => {
-                    setOpenSubCat(openSubCat === subCat.name ? null : subCat.name);
+                    setOpenSubCat(
+                      openSubCat === subCat.name ? null : subCat.name,
+                    );
                     setOpenEnv(null);
                   }}
                 >
                   {subCat.environments.map((env) => {
-                    const envLogs = getLogsForEnv(genus.name, subCat.name, env.name);
+                    const envLogs = getLogsForEnv(
+                      genus.name,
+                      subCat.name,
+                      env.name,
+                    );
                     return (
                       <AccordionItem
                         key={env.name}
@@ -169,10 +211,7 @@ export default function Sidebar() {
         >
           {greenhousePages.map((page) => (
             <li key={page.slug}>
-              <Link
-                to={`${BASE}${page.url}`}
-                className="sidebar-nav-item"
-              >
+              <Link to={`${BASE}${page.url}`} className="sidebar-nav-item">
                 {page.title}
               </Link>
             </li>
