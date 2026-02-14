@@ -1,0 +1,48 @@
+[
+  {
+    "name": "nepenthes",
+    "header": "Nepenthes - \u30cd\u30da\u30f3\u30c6\u30b9 (\u30a6\u30c4\u30dc\u30ab\u30ba\u30e9)",
+    "sub_categories": [
+      {
+        "name": "species",
+        "header": "Species & Natural Hybrids - \u539f\u7a2e & \u81ea\u7136\u4ea4\u914d\u7a2e",
+        "environments": [
+          {
+            "name": "highland",
+            "header": "Highland - \u9ad8\u5c71\u6027 [1500~2500m]"
+          },
+          {
+            "name": "intermediate",
+            "header": "Intermediate - \u4e2d\u9593\u6027 [1000~1500m]"
+          },
+          {
+            "name": "lowland",
+            "header": "Lowland - \u4f4e\u5730\u6027 [0~1000m]"
+          }
+        ]
+      },
+      {
+        "name": "hybrid",
+        "header": "Artificial Hybrids - \u4eba\u5de5\u4ea4\u914d\u7a2e",
+        "environments": [
+          {
+            "name": "highland",
+            "header": "Highland Greenhouse - \u9ad8\u5c71\u6027\u6e29\u5ba4"
+          },
+          {
+            "name": "prehighland",
+            "header": "Pre-Highland Greenhouse - \u6e96\u9ad8\u5c71\u6027\u6e29\u5ba4"
+          },
+          {
+            "name": "livingroom",
+            "header": "Living Room - \u30ea\u30d3\u30f3\u30b0"
+          },
+          {
+            "name": "lowland",
+            "header": "Lowland/Intermediate Greenhouse - \u4f4e\u5730\u6027/\u4e2d\u9593\u6027\u6e29\u5ba4"
+          }
+        ]
+      }
+    ]
+  }
+]

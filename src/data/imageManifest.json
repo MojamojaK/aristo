@@ -1,0 +1,545 @@
+{
+  "greenhouse/mist_maker": [
+    "/aristo/assets/images/greenhouse/mist_maker.jpg"
+  ],
+  "greenhouse/peltier_fan": [
+    "/aristo/assets/images/greenhouse/peltier_fan.jpg"
+  ],
+  "greenhouse/peltier_water_block": [
+    "/aristo/assets/images/greenhouse/peltier_water_block.jpg"
+  ],
+  "nepenthes/KF1/2023-02-13": [
+    "/aristo/assets/images/nepenthes/KF1/2023-02-13-01.jpg"
+  ],
+  "nepenthes/KF1/2023-07-22": [
+    "/aristo/assets/images/nepenthes/KF1/2023-07-22-01.jpg"
+  ],
+  "nepenthes/KF1/2024-01-08": [
+    "/aristo/assets/images/nepenthes/KF1/2024-01-08-01.jpg",
+    "/aristo/assets/images/nepenthes/KF1/2024-01-08-02.jpg",
+    "/aristo/assets/images/nepenthes/KF1/2024-01-08-03.jpg",
+    "/aristo/assets/images/nepenthes/KF1/2024-01-08-04.jpg",
+    "/aristo/assets/images/nepenthes/KF1/2024-01-08-05.jpg",
+    "/aristo/assets/images/nepenthes/KF1/2024-01-08-06.jpg"
+  ],
+  "nepenthes/KF1/2024-01-19": [
+    "/aristo/assets/images/nepenthes/KF1/2024-01-19-01.jpg",
+    "/aristo/assets/images/nepenthes/KF1/2024-01-19-02.jpg"
+  ],
+  "nepenthes/KF1/2024-02-18": [
+    "/aristo/assets/images/nepenthes/KF1/2024-02-18-01.jpg"
+  ],
+  "nepenthes/KF10/2023-10-06": [
+    "/aristo/assets/images/nepenthes/KF10/2023-10-06-01.jpg"
+  ],
+  "nepenthes/KF10/2023-12-15": [
+    "/aristo/assets/images/nepenthes/KF10/2023-12-15-01.jpg"
+  ],
+  "nepenthes/KF10/2024-01-19": [
+    "/aristo/assets/images/nepenthes/KF10/2024-01-19-01.jpg",
+    "/aristo/assets/images/nepenthes/KF10/2024-01-19-02.jpg",
+    "/aristo/assets/images/nepenthes/KF10/2024-01-19-03.jpg",
+    "/aristo/assets/images/nepenthes/KF10/2024-01-19-04.jpg"
+  ],
+  "nepenthes/KF10/2024-02-18": [
+    "/aristo/assets/images/nepenthes/KF10/2024-02-18-01.jpg",
+    "/aristo/assets/images/nepenthes/KF10/2024-02-18-02.jpg",
+    "/aristo/assets/images/nepenthes/KF10/2024-02-18-03.jpg"
+  ],
+  "nepenthes/KF11/2024-01-04": [
+    "/aristo/assets/images/nepenthes/KF11/2024-01-04-01.jpg",
+    "/aristo/assets/images/nepenthes/KF11/2024-01-04-02.jpg",
+    "/aristo/assets/images/nepenthes/KF11/2024-01-04-03.jpg"
+  ],
+  "nepenthes/KF11/2024-03-30": [
+    "/aristo/assets/images/nepenthes/KF11/2024-03-30-01.jpg"
+  ],
+  "nepenthes/KF12/2024-01-19": [
+    "/aristo/assets/images/nepenthes/KF12/2024-01-19-01.jpg",
+    "/aristo/assets/images/nepenthes/KF12/2024-01-19-02.jpg"
+  ],
+  "nepenthes/KF13/2024-01-19": [
+    "/aristo/assets/images/nepenthes/KF13/2024-01-19-01.jpg",
+    "/aristo/assets/images/nepenthes/KF13/2024-01-19-02.jpg",
+    "/aristo/assets/images/nepenthes/KF13/2024-01-19-03.jpg",
+    "/aristo/assets/images/nepenthes/KF13/2024-01-19-04.jpg"
+  ],
+  "nepenthes/KF14/2024-01-19": [
+    "/aristo/assets/images/nepenthes/KF14/2024-01-19-01.jpg",
+    "/aristo/assets/images/nepenthes/KF14/2024-01-19-02.jpg",
+    "/aristo/assets/images/nepenthes/KF14/2024-01-19-03.jpg",
+    "/aristo/assets/images/nepenthes/KF14/2024-01-19-04.jpg"
+  ],
+  "nepenthes/KF14/2024-03-29": [
+    "/aristo/assets/images/nepenthes/KF14/2024-03-29-01.jpg",
+    "/aristo/assets/images/nepenthes/KF14/2024-03-29-02.jpg"
+  ],
+  "nepenthes/KF14/2024-04-13": [
+    "/aristo/assets/images/nepenthes/KF14/2024-04-13-01.jpg",
+    "/aristo/assets/images/nepenthes/KF14/2024-04-13-02.jpg",
+    "/aristo/assets/images/nepenthes/KF14/2024-04-13-03.jpg"
+  ],
+  "nepenthes/KF15/2023-12-15": [
+    "/aristo/assets/images/nepenthes/KF15/2023-12-15-01.jpg"
+  ],
+  "nepenthes/KF15/2024-01-19": [
+    "/aristo/assets/images/nepenthes/KF15/2024-01-19-01.jpg",
+    "/aristo/assets/images/nepenthes/KF15/2024-01-19-02.jpg"
+  ],
+  "nepenthes/KF18/2023-08-20": [
+    "/aristo/assets/images/nepenthes/KF18/2023-08-20-01.jpg",
+    "/aristo/assets/images/nepenthes/KF18/2023-08-20-02.jpg",
+    "/aristo/assets/images/nepenthes/KF18/2023-08-20-03.jpg"
+  ],
+  "nepenthes/KF18/2023-12-15": [
+    "/aristo/assets/images/nepenthes/KF18/2023-12-15-01.jpg",
+    "/aristo/assets/images/nepenthes/KF18/2023-12-15-02.jpg"
+  ],
+  "nepenthes/KF18/2023-12-20": [
+    "/aristo/assets/images/nepenthes/KF18/2023-12-20-01.jpg",
+    "/aristo/assets/images/nepenthes/KF18/2023-12-20-02.jpg"
+  ],
+  "nepenthes/KF18/2024-02-18": [
+    "/aristo/assets/images/nepenthes/KF18/2024-02-18-01.jpg",
+    "/aristo/assets/images/nepenthes/KF18/2024-02-18-02.jpg",
+    "/aristo/assets/images/nepenthes/KF18/2024-02-18-03.jpg",
+    "/aristo/assets/images/nepenthes/KF18/2024-02-18-04.jpg"
+  ],
+  "nepenthes/KF19/2024-03-31": [
+    "/aristo/assets/images/nepenthes/KF19/2024-03-31-01.jpg",
+    "/aristo/assets/images/nepenthes/KF19/2024-03-31-02.jpg"
+  ],
+  "nepenthes/KF2/2023-04-28": [
+    "/aristo/assets/images/nepenthes/KF2/2023-04-28-01.jpg",
+    "/aristo/assets/images/nepenthes/KF2/2023-04-28-02.jpg",
+    "/aristo/assets/images/nepenthes/KF2/2023-04-28-03.jpg",
+    "/aristo/assets/images/nepenthes/KF2/2023-04-28-04.jpg"
+  ],
+  "nepenthes/KF2/2024-01-19": [
+    "/aristo/assets/images/nepenthes/KF2/2024-01-19-01.jpg",
+    "/aristo/assets/images/nepenthes/KF2/2024-01-19-02.jpg",
+    "/aristo/assets/images/nepenthes/KF2/2024-01-19-03.jpg",
+    "/aristo/assets/images/nepenthes/KF2/2024-01-19-04.jpg",
+    "/aristo/assets/images/nepenthes/KF2/2024-01-19-05.jpg"
+  ],
+  "nepenthes/KF2/2024-04-06": [
+    "/aristo/assets/images/nepenthes/KF2/2024-04-06-01.jpg"
+  ],
+  "nepenthes/KF20/2024-01-19": [
+    "/aristo/assets/images/nepenthes/KF20/2024-01-19-01.jpg",
+    "/aristo/assets/images/nepenthes/KF20/2024-01-19-02.jpg"
+  ],
+  "nepenthes/KF21/2023-12-13": [
+    "/aristo/assets/images/nepenthes/KF21/2023-12-13-01.jpg"
+  ],
+  "nepenthes/KF21/2024-02-03": [
+    "/aristo/assets/images/nepenthes/KF21/2024-02-03-01.jpg",
+    "/aristo/assets/images/nepenthes/KF21/2024-02-03-02.jpg",
+    "/aristo/assets/images/nepenthes/KF21/2024-02-03-03.jpg",
+    "/aristo/assets/images/nepenthes/KF21/2024-02-03-04.jpg"
+  ],
+  "nepenthes/KF21/2024-04-18": [
+    "/aristo/assets/images/nepenthes/KF21/2024-04-18-01.jpg"
+  ],
+  "nepenthes/KF22/2024-01-19": [
+    "/aristo/assets/images/nepenthes/KF22/2024-01-19-01.jpg",
+    "/aristo/assets/images/nepenthes/KF22/2024-01-19-02.jpg",
+    "/aristo/assets/images/nepenthes/KF22/2024-01-19-03.jpg"
+  ],
+  "nepenthes/KF22/2024-02-20": [
+    "/aristo/assets/images/nepenthes/KF22/2024-02-20-01.jpg"
+  ],
+  "nepenthes/KF23/2024-01-27": [
+    "/aristo/assets/images/nepenthes/KF23/2024-01-27-01.jpg",
+    "/aristo/assets/images/nepenthes/KF23/2024-01-27-02.jpg",
+    "/aristo/assets/images/nepenthes/KF23/2024-01-27-03.jpg",
+    "/aristo/assets/images/nepenthes/KF23/2024-01-27-04.jpg"
+  ],
+  "nepenthes/KF23/2024-02-24": [
+    "/aristo/assets/images/nepenthes/KF23/2024-02-24-01.jpg"
+  ],
+  "nepenthes/KF23/2024-03-10": [
+    "/aristo/assets/images/nepenthes/KF23/2024-03-10-01.jpg"
+  ],
+  "nepenthes/KF23/2024-03-16": [
+    "/aristo/assets/images/nepenthes/KF23/2024-03-16-01.jpg"
+  ],
+  "nepenthes/KF23/2024-04-19": [
+    "/aristo/assets/images/nepenthes/KF23/2024-04-19-01.jpg",
+    "/aristo/assets/images/nepenthes/KF23/2024-04-19-02.jpg"
+  ],
+  "nepenthes/KF24/2023-11-27": [
+    "/aristo/assets/images/nepenthes/KF24/2023-11-27-01.jpg",
+    "/aristo/assets/images/nepenthes/KF24/2023-11-27-02.jpg"
+  ],
+  "nepenthes/KF24/2024-01-27": [
+    "/aristo/assets/images/nepenthes/KF24/2024-01-27-01.jpg",
+    "/aristo/assets/images/nepenthes/KF24/2024-01-27-02.jpg"
+  ],
+  "nepenthes/KF24/2024-02-16": [
+    "/aristo/assets/images/nepenthes/KF24/2024-02-16-01.jpg"
+  ],
+  "nepenthes/KF24/2024-02-18": [
+    "/aristo/assets/images/nepenthes/KF24/2024-02-18-01.jpg",
+    "/aristo/assets/images/nepenthes/KF24/2024-02-18-02.jpg"
+  ],
+  "nepenthes/KF24/2024-02-22": [
+    "/aristo/assets/images/nepenthes/KF24/2024-02-22-01.jpg",
+    "/aristo/assets/images/nepenthes/KF24/2024-02-22-02.jpg",
+    "/aristo/assets/images/nepenthes/KF24/2024-02-22-03.jpg",
+    "/aristo/assets/images/nepenthes/KF24/2024-02-22-04.jpg"
+  ],
+  "nepenthes/KF24/2024-03-12": [
+    "/aristo/assets/images/nepenthes/KF24/2024-03-12-01.jpg"
+  ],
+  "nepenthes/KF24/2024-03-13": [
+    "/aristo/assets/images/nepenthes/KF24/2024-03-13-01.jpg",
+    "/aristo/assets/images/nepenthes/KF24/2024-03-13-02.jpg",
+    "/aristo/assets/images/nepenthes/KF24/2024-03-13-03.jpg"
+  ],
+  "nepenthes/KF25/2024-01-19": [
+    "/aristo/assets/images/nepenthes/KF25/2024-01-19-01.jpg",
+    "/aristo/assets/images/nepenthes/KF25/2024-01-19-02.jpg",
+    "/aristo/assets/images/nepenthes/KF25/2024-01-19-03.jpg"
+  ],
+  "nepenthes/KF25/2024-02-03": [
+    "/aristo/assets/images/nepenthes/KF25/2024-02-03-01.jpg",
+    "/aristo/assets/images/nepenthes/KF25/2024-02-03-02.jpg",
+    "/aristo/assets/images/nepenthes/KF25/2024-02-03-03.jpg"
+  ],
+  "nepenthes/KF26/2024-01-05": [
+    "/aristo/assets/images/nepenthes/KF26/2024-01-05-01.jpg",
+    "/aristo/assets/images/nepenthes/KF26/2024-01-05-02.jpg",
+    "/aristo/assets/images/nepenthes/KF26/2024-01-05-03.jpg",
+    "/aristo/assets/images/nepenthes/KF26/2024-01-05-04.jpg",
+    "/aristo/assets/images/nepenthes/KF26/2024-01-05-05.jpg",
+    "/aristo/assets/images/nepenthes/KF26/2024-01-05-06.jpg"
+  ],
+  "nepenthes/KF26/2024-02-27": [
+    "/aristo/assets/images/nepenthes/KF26/2024-02-27-01.jpg"
+  ],
+  "nepenthes/KF26/2024-03-11": [
+    "/aristo/assets/images/nepenthes/KF26/2024-03-11-01.jpg"
+  ],
+  "nepenthes/KF26/2024-04-19": [
+    "/aristo/assets/images/nepenthes/KF26/2024-04-19-01.jpg",
+    "/aristo/assets/images/nepenthes/KF26/2024-04-19-02.jpg"
+  ],
+  "nepenthes/KF27/2024-01-05": [
+    "/aristo/assets/images/nepenthes/KF27/2024-01-05-01.jpg",
+    "/aristo/assets/images/nepenthes/KF27/2024-01-05-02.jpg",
+    "/aristo/assets/images/nepenthes/KF27/2024-01-05-03.jpg"
+  ],
+  "nepenthes/KF27/2024-02-18": [
+    "/aristo/assets/images/nepenthes/KF27/2024-02-18-01.jpg",
+    "/aristo/assets/images/nepenthes/KF27/2024-02-18-02.jpg",
+    "/aristo/assets/images/nepenthes/KF27/2024-02-18-03.jpg"
+  ],
+  "nepenthes/KF27/2024-03-06": [
+    "/aristo/assets/images/nepenthes/KF27/2024-03-06-01.jpg",
+    "/aristo/assets/images/nepenthes/KF27/2024-03-06-02.jpg",
+    "/aristo/assets/images/nepenthes/KF27/2024-03-06-03.jpg"
+  ],
+  "nepenthes/KF28/2024-01-06": [
+    "/aristo/assets/images/nepenthes/KF28/2024-01-06-01.jpg",
+    "/aristo/assets/images/nepenthes/KF28/2024-01-06-02.jpg",
+    "/aristo/assets/images/nepenthes/KF28/2024-01-06-03.jpg",
+    "/aristo/assets/images/nepenthes/KF28/2024-01-06-04.jpg"
+  ],
+  "nepenthes/KF3/2023-05-07": [
+    "/aristo/assets/images/nepenthes/KF3/2023-05-07-01.jpg",
+    "/aristo/assets/images/nepenthes/KF3/2023-05-07-02.jpg",
+    "/aristo/assets/images/nepenthes/KF3/2023-05-07-03.jpg",
+    "/aristo/assets/images/nepenthes/KF3/2023-05-07-04.jpg",
+    "/aristo/assets/images/nepenthes/KF3/2023-05-07-05.jpg"
+  ],
+  "nepenthes/KF3/2023-10-06": [
+    "/aristo/assets/images/nepenthes/KF3/2023-10-06-01.jpg",
+    "/aristo/assets/images/nepenthes/KF3/2023-10-06-02.jpg"
+  ],
+  "nepenthes/KF3/2024-02-18": [
+    "/aristo/assets/images/nepenthes/KF3/2024-02-18-01.jpg",
+    "/aristo/assets/images/nepenthes/KF3/2024-02-18-02.jpg",
+    "/aristo/assets/images/nepenthes/KF3/2024-02-18-03.jpg"
+  ],
+  "nepenthes/KF3/2024-02-22": [
+    "/aristo/assets/images/nepenthes/KF3/2024-02-22-01.jpg"
+  ],
+  "nepenthes/KF30/2024-01-09": [
+    "/aristo/assets/images/nepenthes/KF30/2024-01-09-01.jpg",
+    "/aristo/assets/images/nepenthes/KF30/2024-01-09-02.jpg",
+    "/aristo/assets/images/nepenthes/KF30/2024-01-09-03.jpg",
+    "/aristo/assets/images/nepenthes/KF30/2024-01-09-04.jpg",
+    "/aristo/assets/images/nepenthes/KF30/2024-01-09-05.jpg",
+    "/aristo/assets/images/nepenthes/KF30/2024-01-09-06.jpg"
+  ],
+  "nepenthes/KF30/2024-02-24": [
+    "/aristo/assets/images/nepenthes/KF30/2024-02-24-01.jpg",
+    "/aristo/assets/images/nepenthes/KF30/2024-02-24-02.jpg",
+    "/aristo/assets/images/nepenthes/KF30/2024-02-24-03.jpg",
+    "/aristo/assets/images/nepenthes/KF30/2024-02-24-04.jpg"
+  ],
+  "nepenthes/KF31/2024-01-10": [
+    "/aristo/assets/images/nepenthes/KF31/2024-01-10-01.jpg",
+    "/aristo/assets/images/nepenthes/KF31/2024-01-10-02.jpg",
+    "/aristo/assets/images/nepenthes/KF31/2024-01-10-03.jpg",
+    "/aristo/assets/images/nepenthes/KF31/2024-01-10-04.jpg"
+  ],
+  "nepenthes/KF32/2024-01-10": [
+    "/aristo/assets/images/nepenthes/KF32/2024-01-10-01.jpg",
+    "/aristo/assets/images/nepenthes/KF32/2024-01-10-02.jpg",
+    "/aristo/assets/images/nepenthes/KF32/2024-01-10-03.jpg"
+  ],
+  "nepenthes/KF33/2024-01-10": [
+    "/aristo/assets/images/nepenthes/KF33/2024-01-10-01.jpg",
+    "/aristo/assets/images/nepenthes/KF33/2024-01-10-02.jpg",
+    "/aristo/assets/images/nepenthes/KF33/2024-01-10-03.jpg"
+  ],
+  "nepenthes/KF33/2024-02-24": [
+    "/aristo/assets/images/nepenthes/KF33/2024-02-24-01.jpg"
+  ],
+  "nepenthes/KF34/2024-01-10": [
+    "/aristo/assets/images/nepenthes/KF34/2024-01-10-01.jpg",
+    "/aristo/assets/images/nepenthes/KF34/2024-01-10-02.jpg"
+  ],
+  "nepenthes/KF35_38/2024-01-19": [
+    "/aristo/assets/images/nepenthes/KF35_38/2024-01-19-01.jpg",
+    "/aristo/assets/images/nepenthes/KF35_38/2024-01-19-02.jpg",
+    "/aristo/assets/images/nepenthes/KF35_38/2024-01-19-03.jpg",
+    "/aristo/assets/images/nepenthes/KF35_38/2024-01-19-04.jpg",
+    "/aristo/assets/images/nepenthes/KF35_38/2024-01-19-05.jpg"
+  ],
+  "nepenthes/KF35_38/2024-02-01": [
+    "/aristo/assets/images/nepenthes/KF35_38/2024-02-01-01.jpg",
+    "/aristo/assets/images/nepenthes/KF35_38/2024-02-01-02.jpg",
+    "/aristo/assets/images/nepenthes/KF35_38/2024-02-01-03.jpg",
+    "/aristo/assets/images/nepenthes/KF35_38/2024-02-01-04.jpg",
+    "/aristo/assets/images/nepenthes/KF35_38/2024-02-01-05.jpg"
+  ],
+  "nepenthes/KF35_38/2024-02-15": [
+    "/aristo/assets/images/nepenthes/KF35_38/2024-02-15-01.jpg",
+    "/aristo/assets/images/nepenthes/KF35_38/2024-02-15-02.jpg"
+  ],
+  "nepenthes/KF39/2024-01-21": [
+    "/aristo/assets/images/nepenthes/KF39/2024-01-21-01.jpg",
+    "/aristo/assets/images/nepenthes/KF39/2024-01-21-02.jpg",
+    "/aristo/assets/images/nepenthes/KF39/2024-01-21-03.jpg"
+  ],
+  "nepenthes/KF4/2023-05-07": [
+    "/aristo/assets/images/nepenthes/KF4/2023-05-07-01.jpg",
+    "/aristo/assets/images/nepenthes/KF4/2023-05-07-02.jpg",
+    "/aristo/assets/images/nepenthes/KF4/2023-05-07-03.jpg",
+    "/aristo/assets/images/nepenthes/KF4/2023-05-07-04.jpg"
+  ],
+  "nepenthes/KF4/2023-07-15": [
+    "/aristo/assets/images/nepenthes/KF4/2023-07-15-01.jpg",
+    "/aristo/assets/images/nepenthes/KF4/2023-07-15-02.jpg"
+  ],
+  "nepenthes/KF4/2023-12-15": [
+    "/aristo/assets/images/nepenthes/KF4/2023-12-15-01.jpg"
+  ],
+  "nepenthes/KF4/2024-01-31": [
+    "/aristo/assets/images/nepenthes/KF4/2024-01-31-01.jpg"
+  ],
+  "nepenthes/KF4/2024-02-27": [
+    "/aristo/assets/images/nepenthes/KF4/2024-02-27-01.jpg"
+  ],
+  "nepenthes/KF4/2024-03-16": [
+    "/aristo/assets/images/nepenthes/KF4/2024-03-16-01.jpg",
+    "/aristo/assets/images/nepenthes/KF4/2024-03-16-02.jpg"
+  ],
+  "nepenthes/KF4/2024-04-24": [
+    "/aristo/assets/images/nepenthes/KF4/2024-04-24-01.jpg"
+  ],
+  "nepenthes/KF40/2024-01-27": [
+    "/aristo/assets/images/nepenthes/KF40/2024-01-27-01.jpg"
+  ],
+  "nepenthes/KF41/2024-01-21": [
+    "/aristo/assets/images/nepenthes/KF41/2024-01-21-01.jpg",
+    "/aristo/assets/images/nepenthes/KF41/2024-01-21-02.jpg",
+    "/aristo/assets/images/nepenthes/KF41/2024-01-21-03.jpg",
+    "/aristo/assets/images/nepenthes/KF41/2024-01-21-04.jpg"
+  ],
+  "nepenthes/KF43/2024-02-17": [
+    "/aristo/assets/images/nepenthes/KF43/2024-02-17-01.jpg",
+    "/aristo/assets/images/nepenthes/KF43/2024-02-17-02.jpg"
+  ],
+  "nepenthes/KF43/2024-02-21": [
+    "/aristo/assets/images/nepenthes/KF43/2024-02-21-01.jpg",
+    "/aristo/assets/images/nepenthes/KF43/2024-02-21-02.jpg",
+    "/aristo/assets/images/nepenthes/KF43/2024-02-21-03.jpg"
+  ],
+  "nepenthes/KF43/2024-04-19": [
+    "/aristo/assets/images/nepenthes/KF43/2024-04-19-01.jpg"
+  ],
+  "nepenthes/KF44/2024-02-22": [
+    "/aristo/assets/images/nepenthes/KF44/2024-02-22-01.jpg",
+    "/aristo/assets/images/nepenthes/KF44/2024-02-22-02.jpg",
+    "/aristo/assets/images/nepenthes/KF44/2024-02-22-03.jpg",
+    "/aristo/assets/images/nepenthes/KF44/2024-02-22-04.jpg"
+  ],
+  "nepenthes/KF44/2024-04-13": [
+    "/aristo/assets/images/nepenthes/KF44/2024-04-13-01.jpg",
+    "/aristo/assets/images/nepenthes/KF44/2024-04-13-02.jpg"
+  ],
+  "nepenthes/KF45/2024-02-15": [
+    "/aristo/assets/images/nepenthes/KF45/2024-02-15-01.jpg",
+    "/aristo/assets/images/nepenthes/KF45/2024-02-15-02.jpg",
+    "/aristo/assets/images/nepenthes/KF45/2024-02-15-03.jpg",
+    "/aristo/assets/images/nepenthes/KF45/2024-02-15-04.jpg",
+    "/aristo/assets/images/nepenthes/KF45/2024-02-15-05.jpg"
+  ],
+  "nepenthes/KF45/2024-02-17": [
+    "/aristo/assets/images/nepenthes/KF45/2024-02-17-01.jpg",
+    "/aristo/assets/images/nepenthes/KF45/2024-02-17-02.jpg",
+    "/aristo/assets/images/nepenthes/KF45/2024-02-17-03.jpg"
+  ],
+  "nepenthes/KF45/2024-03-16": [
+    "/aristo/assets/images/nepenthes/KF45/2024-03-16-01.jpg",
+    "/aristo/assets/images/nepenthes/KF45/2024-03-16-02.jpg",
+    "/aristo/assets/images/nepenthes/KF45/2024-03-16-03.jpg",
+    "/aristo/assets/images/nepenthes/KF45/2024-03-16-04.jpg",
+    "/aristo/assets/images/nepenthes/KF45/2024-03-16-05.jpg"
+  ],
+  "nepenthes/KF45/2024-04-19": [
+    "/aristo/assets/images/nepenthes/KF45/2024-04-19-01.jpg",
+    "/aristo/assets/images/nepenthes/KF45/2024-04-19-02.jpg",
+    "/aristo/assets/images/nepenthes/KF45/2024-04-19-03.jpg",
+    "/aristo/assets/images/nepenthes/KF45/2024-04-19-04.jpg"
+  ],
+  "nepenthes/KF48/2024-02-19": [
+    "/aristo/assets/images/nepenthes/KF48/2024-02-19-01.jpg",
+    "/aristo/assets/images/nepenthes/KF48/2024-02-19-02.jpg",
+    "/aristo/assets/images/nepenthes/KF48/2024-02-19-03.jpg",
+    "/aristo/assets/images/nepenthes/KF48/2024-02-19-04.jpg",
+    "/aristo/assets/images/nepenthes/KF48/2024-02-19-05.jpg",
+    "/aristo/assets/images/nepenthes/KF48/2024-02-19-06.jpg",
+    "/aristo/assets/images/nepenthes/KF48/2024-02-19-07.jpg",
+    "/aristo/assets/images/nepenthes/KF48/2024-02-19-08.jpg",
+    "/aristo/assets/images/nepenthes/KF48/2024-02-19-09.jpg",
+    "/aristo/assets/images/nepenthes/KF48/2024-02-19-10.jpg"
+  ],
+  "nepenthes/KF49/2024-02-28": [
+    "/aristo/assets/images/nepenthes/KF49/2024-02-28-01.jpg"
+  ],
+  "nepenthes/KF5/2023-05-03": [
+    "/aristo/assets/images/nepenthes/KF5/2023-05-03-01.jpg"
+  ],
+  "nepenthes/KF5/2024-01-19": [
+    "/aristo/assets/images/nepenthes/KF5/2024-01-19-01.jpg",
+    "/aristo/assets/images/nepenthes/KF5/2024-01-19-02.jpg",
+    "/aristo/assets/images/nepenthes/KF5/2024-01-19-03.jpg"
+  ],
+  "nepenthes/KF50/2024-02-27": [
+    "/aristo/assets/images/nepenthes/KF50/2024-02-27-01.jpg",
+    "/aristo/assets/images/nepenthes/KF50/2024-02-27-02.jpg",
+    "/aristo/assets/images/nepenthes/KF50/2024-02-27-03.jpg"
+  ],
+  "nepenthes/KF51/2024-02-27": [
+    "/aristo/assets/images/nepenthes/KF51/2024-02-27-01.jpg"
+  ],
+  "nepenthes/KF51/2024-02-28": [
+    "/aristo/assets/images/nepenthes/KF51/2024-02-28-01.jpg"
+  ],
+  "nepenthes/KF52/2024-02-27": [
+    "/aristo/assets/images/nepenthes/KF52/2024-02-27-01.jpg",
+    "/aristo/assets/images/nepenthes/KF52/2024-02-27-02.jpg"
+  ],
+  "nepenthes/KF53/2024-02-27": [
+    "/aristo/assets/images/nepenthes/KF53/2024-02-27-01.jpg",
+    "/aristo/assets/images/nepenthes/KF53/2024-02-27-02.jpg",
+    "/aristo/assets/images/nepenthes/KF53/2024-02-27-03.jpg"
+  ],
+  "nepenthes/KF54/2024-03-03": [
+    "/aristo/assets/images/nepenthes/KF54/2024-03-03-01.jpg",
+    "/aristo/assets/images/nepenthes/KF54/2024-03-03-02.jpg",
+    "/aristo/assets/images/nepenthes/KF54/2024-03-03-03.jpg",
+    "/aristo/assets/images/nepenthes/KF54/2024-03-03-04.jpg",
+    "/aristo/assets/images/nepenthes/KF54/2024-03-03-05.jpg",
+    "/aristo/assets/images/nepenthes/KF54/2024-03-03-06.jpg"
+  ],
+  "nepenthes/KF54/2024-03-29": [
+    "/aristo/assets/images/nepenthes/KF54/2024-03-29-01.jpg",
+    "/aristo/assets/images/nepenthes/KF54/2024-03-29-02.jpg"
+  ],
+  "nepenthes/KF55/2024-03-03": [
+    "/aristo/assets/images/nepenthes/KF55/2024-03-03-01.jpg",
+    "/aristo/assets/images/nepenthes/KF55/2024-03-03-02.jpg",
+    "/aristo/assets/images/nepenthes/KF55/2024-03-03-03.jpg",
+    "/aristo/assets/images/nepenthes/KF55/2024-03-03-04.jpg",
+    "/aristo/assets/images/nepenthes/KF55/2024-03-03-05.jpg"
+  ],
+  "nepenthes/KF55/2024-03-04": [
+    "/aristo/assets/images/nepenthes/KF55/2024-03-04-01.jpg",
+    "/aristo/assets/images/nepenthes/KF55/2024-03-04-02.jpg",
+    "/aristo/assets/images/nepenthes/KF55/2024-03-04-03.jpg"
+  ],
+  "nepenthes/KF55/2024-03-24": [
+    "/aristo/assets/images/nepenthes/KF55/2024-03-24-01.jpg",
+    "/aristo/assets/images/nepenthes/KF55/2024-03-24-02.jpg",
+    "/aristo/assets/images/nepenthes/KF55/2024-03-24-03.jpg"
+  ],
+  "nepenthes/KF55/2024-04-01": [
+    "/aristo/assets/images/nepenthes/KF55/2024-04-01-01.jpg"
+  ],
+  "nepenthes/KF55/2024-04-19": [
+    "/aristo/assets/images/nepenthes/KF55/2024-04-19-01.jpg"
+  ],
+  "nepenthes/KF56/2024-03-08": [
+    "/aristo/assets/images/nepenthes/KF56/2024-03-08-01.jpg",
+    "/aristo/assets/images/nepenthes/KF56/2024-03-08-02.jpg"
+  ],
+  "nepenthes/KF57/2024-03-16": [
+    "/aristo/assets/images/nepenthes/KF57/2024-03-16-01.jpg",
+    "/aristo/assets/images/nepenthes/KF57/2024-03-16-02.jpg",
+    "/aristo/assets/images/nepenthes/KF57/2024-03-16-03.jpg",
+    "/aristo/assets/images/nepenthes/KF57/2024-03-16-04.jpg"
+  ],
+  "nepenthes/KF57/2024-04-01": [
+    "/aristo/assets/images/nepenthes/KF57/2024-04-01-01.jpg",
+    "/aristo/assets/images/nepenthes/KF57/2024-04-01-02.jpg",
+    "/aristo/assets/images/nepenthes/KF57/2024-04-01-03.jpg"
+  ],
+  "nepenthes/KF57/2024-04-06": [
+    "/aristo/assets/images/nepenthes/KF57/2024-04-06-01.jpg",
+    "/aristo/assets/images/nepenthes/KF57/2024-04-06-02.jpg",
+    "/aristo/assets/images/nepenthes/KF57/2024-04-06-03.jpg"
+  ],
+  "nepenthes/KF57/2024-04-21": [
+    "/aristo/assets/images/nepenthes/KF57/2024-04-21-01.jpg",
+    "/aristo/assets/images/nepenthes/KF57/2024-04-21-02.jpg",
+    "/aristo/assets/images/nepenthes/KF57/2024-04-21-03.jpg"
+  ],
+  "nepenthes/KF59/2024-03-31": [
+    "/aristo/assets/images/nepenthes/KF59/2024-03-31-01.jpg",
+    "/aristo/assets/images/nepenthes/KF59/2024-03-31-02.jpg"
+  ],
+  "nepenthes/KF6/2023-05-03": [
+    "/aristo/assets/images/nepenthes/KF6/2023-05-03-01.jpg",
+    "/aristo/assets/images/nepenthes/KF6/2023-05-03-02.jpg",
+    "/aristo/assets/images/nepenthes/KF6/2023-05-03-03.jpg",
+    "/aristo/assets/images/nepenthes/KF6/2023-05-03-04.jpg"
+  ],
+  "nepenthes/KF6/2023-07-08": [
+    "/aristo/assets/images/nepenthes/KF6/2023-07-08-01.jpg"
+  ],
+  "nepenthes/KF6/2023-12-15": [
+    "/aristo/assets/images/nepenthes/KF6/2023-12-15-01.jpg"
+  ],
+  "nepenthes/KF8/2024-01-19": [
+    "/aristo/assets/images/nepenthes/KF8/2024-01-19-01.jpg",
+    "/aristo/assets/images/nepenthes/KF8/2024-01-19-02.jpg",
+    "/aristo/assets/images/nepenthes/KF8/2024-01-19-03.jpg"
+  ],
+  "nepenthes/KF8/2024-04-13": [
+    "/aristo/assets/images/nepenthes/KF8/2024-04-13-01.jpg"
+  ],
+  "nepenthes/KF9/2024-01-17": [
+    "/aristo/assets/images/nepenthes/KF9/2024-01-17-01.jpg"
+  ],
+  "nepenthes/KF9/2024-04-06": [
+    "/aristo/assets/images/nepenthes/KF9/2024-04-06-01.jpg",
+    "/aristo/assets/images/nepenthes/KF9/2024-04-06-02.jpg",
+    "/aristo/assets/images/nepenthes/KF9/2024-04-06-03.jpg"
+  ]
+}

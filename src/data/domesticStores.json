@@ -1,0 +1,81 @@
+[
+  {
+    "name": "Cherryradish Plants",
+    "location": "\u6771\u4eac\u90fd",
+    "types": [
+      "\u5b9f\u5e97\u8217(\u4e88\u7d04\u5236)",
+      "\u5373\u58f2\u4f1a??"
+    ],
+    "link": "<a href=\"https://cherryradishplants.com\">cherryradishplants.com</a>",
+    "memo": "\u5bb6\u8fd1\u3044\u306e\u306b\u307e\u3060\u884c\u3051\u3066\u3044\u306a\u3044\u3002\n\u5373\u58f2\u4f1a\u30671\u5ea6\u3060\u3051\u304a\u4e16\u8a71\u306b\u306a\u3063\u305f\u3002"
+  },
+  {
+    "name": "Exotic Botanics",
+    "location": "\u6771\u4eac\u90fd",
+    "types": [
+      "\u30aa\u30f3\u30e9\u30a4\u30f3"
+    ],
+    "link": "<a href=\"https://ebotanics.buyshop.jp\">ebotanics.buyshop.jp</a>\n\u30e4\u30d5\u30aa\u30af\u3082\u3042\u308a",
+    "memo": "\u5b89\u304f\u3066\u5c0f\u3055\u3044BE\u7531\u6765\u30cd\u30da\u30f3\u306e\u53d6\u6271\u304c\u591a\u3044\u3002\n\u4ed6\u7531\u6765\u3084\u5927\u682a\u306e\u53d6\u6271\u3082\u6642\u3005\u3042\u308a\u3002"
+  },
+  {
+    "name": "Heli's Garden",
+    "location": "\u5927\u962a\u5e9c",
+    "types": [
+      "\u5b9f\u5e97\u8217",
+      "\u30aa\u30f3\u30e9\u30a4\u30f3(\u9650\u5b9a\u7684)"
+    ],
+    "link": "<a href=\"https://helisgarden.themedia.jp\">helisgarden.themedia.jp</a>",
+    "memo": "\u3046\u3061\u304b\u3089\u9060\u3044\u306e\u3067\u307e\u3060\u884c\u3063\u305f\u3053\u3068\u304c\u306a\u3044\u3002\n\u30aa\u30f3\u30e9\u30a4\u30f3\u3067\u4e00\u5ea6\u3060\u3051\u633f\u3057\u7a42\u3092\u8cfc\u5165\u3002"
+  },
+  {
+    "name": "Hiro's Pitcher Plants",
+    "location": "\u5c71\u68a8\u770c",
+    "types": [
+      "\u5b9f\u5e97\u8217",
+      "\u30aa\u30f3\u30e9\u30a4\u30f3",
+      "\u8f38\u5165\u4ee3\u884c",
+      "\u5373\u58f2\u4f1a"
+    ],
+    "link": "<a href=\"https://www.hiros-pp.com\">www.hiros-pp.com</a>\n\u30e4\u30d5\u30aa\u30af\u3082\u3042\u308a",
+    "memo": "\u5e45\u5e83\u304f\u53d6\u6271\u3002\u4ea4\u914d\u7a2e\u306e\u5272\u5408\u9ad8\u3081\u3002\n\u4ed6\u3067\u306f\u898b\u304b\u3051\u306a\u3044\u30aa\u30ea\u30b8\u30ca\u30eb\u4ea4\u914d\u306b\u3082\u529b\u3092\u5165\u308c\u3066\u3044\u308b\u3002"
+  },
+  {
+    "name": "\u5927\u68ee\u98df\u866b\u690d\u7269\u8fb2\u5712",
+    "location": "\u5bae\u5d0e\u770c",
+    "types": [
+      "\u30aa\u30f3\u30e9\u30a4\u30f3",
+      "\u8f38\u5165\u4ee3\u884c"
+    ],
+    "link": "<a href=\"https://omori-kazunori.com\">omori-kazunori.com</a>\n\u30e4\u30d5\u30aa\u30af\u3082\u3042\u308a",
+    "memo": "\u8f38\u5165\u30cd\u30da\u30f3\u306a\u3069\u5e45\u5e83\u304f\u53d6\u6271\u3002\u30cd\u30da\u30f3\u4ee5\u5916\u3082\u5c11\u3057\u6709\u3002\n\u9ad8\u54c1\u8cea(&\u9ad8\u4fa1)\u306a\u3082\u306e\u304c\u4e3b\u3002"
+  },
+  {
+    "name": "\u5927\u8c37\u5712\u82b8",
+    "location": "\u795e\u5948\u5ddd\u770c",
+    "types": [
+      "\u5373\u58f2\u4f1a\u306a\u3069"
+    ],
+    "link": "<a href=\"http://www.greatvalley.sakura.ne.jp\">www.greatvalley.sakura.ne.jp</a>",
+    "memo": "BE\u7531\u6765\u306e\u30cd\u30da\u30f3\u304c\u591a\u3044?\u30cd\u30da\u30f3\u4ee5\u5916\u306e\u98df\u866b\u3082\u53d6\u6271\u3002\n\u5373\u58f2\u4f1a\u30672\u56de\u304a\u4e16\u8a71\u306b\u306a\u3063\u305f\u3002"
+  },
+  {
+    "name": "Y's Exotics",
+    "location": "\u5e83\u5cf6\u770c",
+    "types": [
+      "\u30aa\u30f3\u30e9\u30a4\u30f3",
+      "\u8f38\u5165\u4ee3\u884c"
+    ],
+    "link": "\u901a\u5e38\u8ca9\u58f2: <a href=\"https://ysexotics.cart.fc2.com\">ysexotics.cart.fc2.com</a>\n\u8f38\u5165\u4ee3\u884c: <a href=\"http://greengrass.shop-pro.jp\">greengrass.shop-pro.jp</a>",
+    "memo": "\u304b\u306a\u30fc\u308a\u5e45\u5e83\u304f\u53d6\u6271\u3002\n\u500b\u4eba\u7684No1\u30aa\u30b9\u30b9\u30e1\u3002"
+  },
+  {
+    "name": "ZERO PLANTS",
+    "location": "\u5343\u8449\u770c",
+    "types": [
+      "\u30aa\u30f3\u30e9\u30a4\u30f3"
+    ],
+    "link": "<a href=\"https://www.zeroplants.com\">www.zeroplants.com</a>",
+    "memo": "\u30cd\u30da\u30f3\u3060\u3068M\u30b5\u30a4\u30ba\u4ee5\u4e0b\u306e\u82d7\u3092\u4e2d\u5fc3\u306b\u53d6\u6271\u3002\n\u9ad8\u54c1\u8cea(&\u9ad8\u4fa1)\u306a\u30cd\u30da\u30f3\u3068\u30d8\u30ea\u30a2\u30f3\u30d5\u30a9\u30e9\u304c\u4e3b\u3002"
+  }
+]
