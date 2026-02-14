@@ -32,26 +32,22 @@ src/
   components/       # React components (Layout, Sidebar)
   pages/            # Route page components
   types/index.ts    # All TypeScript interfaces
-  data/             # Generated JSON (do NOT edit manually)
+  data/             # JSON data files (source of truth for cultivation logs)
   hooks/            # Custom React hooks
   utils/            # Utilities (imageResolver)
   test/setup.ts     # Test environment setup
-collections/
-  _cultivation_logs/  # Source markdown files with YAML front matter
 assets/images/        # Plant photos organized by genus/imageId/date
 scripts/              # Build-time data processing scripts (Node ESM)
 ```
 
 ## Data Pipeline
 
-Source markdown files in `collections/_cultivation_logs/` are processed at build time by prebuild scripts into `src/data/cultivationLogs.json`. Images in `assets/images/` are scanned into `src/data/imageManifest.json`. These JSON files in `src/data/` are **generated** — edit the source markdown or scripts instead.
+`src/data/cultivationLogs.json` is the **source of truth** for plant data — edit it directly or use `npm run add-entry`. Images in `assets/images/` are scanned into `src/data/imageManifest.json` at build time.
 
 The prebuild chain runs automatically before `dev` and `build`:
 1. `link-assets.mjs` — symlinks images into `public/`
 2. `generate-image-manifest.mjs` — builds image lookup table
-3. `convert-cultivation-logs.mjs` — parses markdown + YAML → JSON
-4. `convert-markdown-to-html.mjs` — converts body markdown to HTML
-5. `generate-sitemap.mjs` — generates sitemap.xml
+3. `generate-sitemap.mjs` — generates sitemap.xml
 
 ## Testing
 
