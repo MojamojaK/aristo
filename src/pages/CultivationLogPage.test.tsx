@@ -75,7 +75,7 @@ vi.mock('../data/cultivationLogs.json', () => ({
 }));
 
 vi.mock('../utils/imageResolver', () => ({
-  resolveAutoImages: vi.fn((_genus: string, _id: string, _date: string) => [
+  resolveAutoImages: vi.fn(() => [
     '/aristo/assets/images/nepenthes/KF99/2024-01-15-01.jpg',
   ]),
   resolveLocalImages: vi.fn((paths: string[]) =>
