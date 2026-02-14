@@ -1,8 +1,7 @@
 import { useRef, useEffect } from 'react';
 import { Link, Outlet, useLocation } from 'react-router-dom';
 import Sidebar from './Sidebar';
-
-const BASE = '/aristo';
+import { BASE } from '../config';
 
 export default function Layout() {
   const checkboxRef = useRef<HTMLInputElement>(null);
@@ -14,6 +13,11 @@ export default function Layout() {
     if (checkboxRef.current) {
       checkboxRef.current.checked = false;
     }
+  }, [location.pathname]);
+
+  // Scroll to top on route change (#16)
+  useEffect(() => {
+    window.scrollTo(0, 0);
   }, [location.pathname]);
 
   // Close sidebar when clicking outside
@@ -78,7 +82,11 @@ export default function Layout() {
         </div>
       </div>
 
-      <label htmlFor="sidebar-checkbox" className="sidebar-toggle"></label>
+      <label
+        htmlFor="sidebar-checkbox"
+        className="sidebar-toggle"
+        aria-label="メニューを開く"
+      ></label>
     </>
   );
 }

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mojamojak.github.io/aristo/sitemap.xml

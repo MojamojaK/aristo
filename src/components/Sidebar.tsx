@@ -1,11 +1,10 @@
-import { useState, useCallback } from 'react';
+import { useState, useCallback, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import genuses from '../data/genuses.json';
 import cultivationLogs from '../data/cultivationLogs.json';
 import greenhousePages from '../data/greenhousePages.json';
 import type { Genus, CultivationLog } from '../types';
-
-const BASE = '/aristo';
+import { BASE } from '../config';
 
 function AccordionItem({
   label,
@@ -20,16 +19,17 @@ function AccordionItem({
 }) {
   return (
     <li className={isActive ? 'active' : ''}>
-      <a
-        href="javascript:void(0);"
+      <button
+        type="button"
         className="sidebar-nav-item"
+        aria-expanded={isActive}
         onClick={(e) => {
           e.stopPropagation();
           onToggle();
         }}
       >
         {label}
-      </a>
+      </button>
       <ul className={isActive ? 'show-dropdown' : ''} style={{ display: isActive ? 'block' : 'none' }}>
         {children}
       </ul>
@@ -51,6 +51,29 @@ export default function Sidebar() {
   const logs = cultivationLogs as CultivationLog[];
   const typedGenuses = genuses as Genus[];
 
+  // Derive open accordion state from current route (#10)
+  useEffect(() => {
+    if (currentPath.startsWith(`${BASE}/cultivation_logs/`)) {
+      const slug = currentPath.replace(`${BASE}/cultivation_logs/`, '');
+      const log = logs.find((l) => l.slug === slug);
+      if (log) {
+        setCultivationListOpen(true);
+        setOpenGenus(log.genus);
+        setOpenSubCat(log.sub_category);
+        setOpenEnv(log.environment);
+        return;
+      }
+    }
+    if (currentPath.startsWith(`${BASE}/greenhouse`)) {
+      setGreenhouseOpen(true);
+      return;
+    }
+    if (currentPath.startsWith(`${BASE}/purchasing`)) {
+      setPurchasingOpen(true);
+      return;
+    }
+  }, [currentPath, logs]);
+
   const getLogsForEnv = useCallback(
     (genusName: string, subCatName: string, envName: string) =>
       logs.filter(
@@ -63,7 +86,7 @@ export default function Sidebar() {
   );
 
   return (
-    <nav className="sidebar-nav" id="accordian">
+    <nav className="sidebar-nav" id="accordian" role="navigation" aria-label="サイトナビゲーション">
       <ul className="show-dropdown">
         <li>
           <Link

@@ -1,26 +1,24 @@
 import { useParams } from 'react-router-dom';
 import cultivationLogs from '../data/cultivationLogs.json';
-import imageManifest from '../data/imageManifest.json';
+import { resolveAutoImages, resolveLocalImages } from '../utils/imageResolver';
+import { usePageTitle } from '../hooks/usePageTitle';
 import type { CultivationLog, ContentItem } from '../types';
-
-const manifest = imageManifest as Record<string, string[]>;
-
-function findImages(genus: string, imageId: string, date: string): string[] {
-  const key = `${genus}/${imageId}/${date}`;
-  return manifest[key] || [];
-}
 
 function ImageGallery({
   genus,
   item,
   date,
+  plantName,
 }: {
   genus: string;
   item: ContentItem;
   date: string;
+  plantName: string;
 }) {
+  const altText = `${plantName} - ${date}`;
+
   if (item.auto_image) {
-    const imagePaths = findImages(genus, item.auto_image.id, date);
+    const imagePaths = resolveAutoImages(genus, item.auto_image.id, date);
     if (imagePaths.length === 0) return null;
     return (
       <span>
@@ -28,7 +26,13 @@ function ImageGallery({
           <span key={path}>
             {item.auto_image?.line_breaks?.includes(idx) && <br />}
             <a href={path} target="_blank" rel="noreferrer">
-              <img className="log-image" src={path} alt="" />
+              <img
+                className="log-image"
+                src={path}
+                alt={altText}
+                loading="lazy"
+                decoding="async"
+              />
             </a>
           </span>
         ))}
@@ -37,17 +41,20 @@ function ImageGallery({
   }
 
   if (item.local_images) {
+    const allPaths = resolveLocalImages(item.local_images);
     return (
       <span>
-        {item.local_images.map((imagePath) => {
-          const key = imagePath.replace(/\.[^.]+$/, '');
-          const paths = manifest[key] || [`/aristo/assets/images/${imagePath}`];
-          return paths.map((path) => (
-            <a key={path} href={path} target="_blank" rel="noreferrer">
-              <img className="log-image" src={path} alt="" />
-            </a>
-          ));
-        })}
+        {allPaths.map((path) => (
+          <a key={path} href={path} target="_blank" rel="noreferrer">
+            <img
+              className="log-image"
+              src={path}
+              alt={altText}
+              loading="lazy"
+              decoding="async"
+            />
+          </a>
+        ))}
       </span>
     );
   }
@@ -59,7 +66,12 @@ export default function CultivationLogPage() {
   const { slug } = useParams<{ slug: string }>();
   const log = (cultivationLogs as CultivationLog[]).find((l) => l.slug === slug);
 
+  usePageTitle(log?.name);
+
   if (!log) {
+    if (import.meta.env.DEV) {
+      console.warn(`[CultivationLogPage] No log found for slug: ${slug}`);
+    }
     return (
       <>
         <h1>Page not found</h1>
@@ -68,11 +80,23 @@ export default function CultivationLogPage() {
     );
   }
 
+  // Compute last updated date from all entries
+  const allDates = log.logs.flatMap((logData) =>
+    logData.entries.map((entry) => entry.date)
+  );
+  const lastUpdated = allDates.length > 0
+    ? allDates.sort().reverse()[0]
+    : null;
+
   return (
     <>
       <h1>{log.name}</h1>
 
       {log.alias && <h2>{log.alias}</h2>}
+
+      {lastUpdated && (
+        <p className="post-date">最終更新: {lastUpdated}</p>
+      )}
 
       {log.bodyContent ? (
         <>
@@ -122,6 +146,7 @@ export default function CultivationLogPage() {
                             genus={log.genus}
                             item={item}
                             date={entry.date}
+                            plantName={log.name}
                           />
                         </span>
                       ))}
