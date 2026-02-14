@@ -59,10 +59,9 @@ src/
 scripts/
 ├── link-assets.mjs              # Symlinks image assets to public/
 ├── generate-image-manifest.mjs  # Generates image manifest JSON
-├── convert-cultivation-logs.mjs # Converts markdown logs to JSON
-├── convert-markdown-to-html.mjs # Markdown to HTML conversion
 ├── generate-sitemap.mjs         # Generates sitemap.xml
-└── validate-data.mjs            # Validates JSON data files
+├── validate-data.mjs            # Validates JSON data files
+└── add-entry.mjs                # CLI tool for adding cultivation log entries
 ```
 
 ## Data Files
@@ -78,10 +77,13 @@ Plant cultivation data is stored as JSON in `src/data/`:
 
 ## Adding Plant Data
 
-1. Add markdown files to `collections/_cultivation_logs/`
-2. Run `node scripts/convert-cultivation-logs.mjs` to generate JSON
-3. Add images to `assets/images/<genus>/<image_id>/`
-4. Run `node scripts/generate-image-manifest.mjs` to update the manifest
+Use the CLI tool to add new cultivation log entries:
+
+```bash
+node scripts/add-entry.mjs <slug> <source> [options] <images...>
+```
+
+Or edit `src/data/cultivationLogs.json` directly. Images go in `assets/images/<genus>/<image_id>/`.
 
 ## Deployment
 
