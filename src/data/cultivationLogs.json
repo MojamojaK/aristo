@@ -23,7 +23,7 @@
         "text": ""
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_AttractiveFuso",
@@ -49,7 +49,7 @@
         "text": ""
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_Dyeriana",
@@ -75,7 +75,7 @@
         "text": ""
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_Louisa",
@@ -140,7 +140,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_argentii",
@@ -338,7 +338,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_aristolochioides",
@@ -948,7 +948,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_aristolochioidesxdiabolica",
@@ -1116,7 +1116,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_aristolochioidesxrobcantleyi",
@@ -1226,7 +1226,7 @@
         "text": ""
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_boschinanaxcampanulata",
@@ -1284,7 +1284,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_burkei",
@@ -1410,7 +1410,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_clipeata",
@@ -1433,7 +1433,7 @@
       "temperature": "Night 18 - 22℃ / Day 28 - 32 ℃"
     },
     "cultivationEnvironment": null,
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_diabolica",
@@ -1570,7 +1570,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_diatasxedwardsiana",
@@ -1701,7 +1701,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_edwardsiana",
@@ -1802,7 +1802,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_hamata",
@@ -1926,7 +1926,7 @@
         "text": ""
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_hirsuta",
@@ -2003,7 +2003,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_inermis",
@@ -2171,7 +2171,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_jacquelineae",
@@ -2407,7 +2407,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_jamban",
@@ -2512,7 +2512,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_klossii",
@@ -2631,7 +2631,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_lowii",
@@ -2728,7 +2728,7 @@
         "text": ""
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_lowiixventricosa",
@@ -2827,7 +2827,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_macrophylla",
@@ -2902,7 +2902,7 @@
         "text": ""
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_mapuluensis",
@@ -2925,7 +2925,7 @@
       "temperature": "Night 18 - 22℃ / Day 28 - 32 ℃"
     },
     "cultivationEnvironment": null,
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_mollis",
@@ -3040,7 +3040,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_palawanensis",
@@ -3116,7 +3116,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_rajah",
@@ -3265,7 +3265,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_smilesii",
@@ -3392,7 +3392,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_sp_Jakarta",
@@ -3461,7 +3461,16 @@
     ],
     "nativeHabitat": null,
     "cultivationEnvironment": null,
-    "bodyContent": "<ul>\n<li>以下、Heli&#39;s Storeより引用<blockquote>\n<p>昭和60年(1985)、京都市とジョグジャカルタ区が姉妹自治区になりました。\n  その際ジャカルタ政府を通してジョグジャカルタ側から京都府立植物園へと送られてきたうちの1つがこの個体です。詳しい現地の情報が追いかけきれていません、追って詳細が分かり次第何かしらの形で発表したいと思います。\nジャカルタは発展途中で伐採整地が続いていると聞きます、もしかしたらもう自生地はないかもしれません。\n当時はレインワードシアナとして導入されましたが、葉やツボの形状・つき方から別種ではないかとなり、現在sp.(なんかよくわからん名前まだついてないんじゃない？的なもの)として扱われています。\n平成初期頃に植物園間の苗交換で兵庫県立フラワーセンターにやってきました。土居寛文技師が食虫植物室で地植えし約10年、自生地さながらそれ以上かもしれない大株へと育て上げ、緑の壁は兵庫県立フラワーセンター名物の一つとなりました。</p>\n<p>兵庫県立フラワーセンターの土居寛文技師の「貴重な株を後世に残したい」という強い意志の元、今回の福袋は実現しました。抱え込んで絶種させる事だけはやってはいけない、と。\n先生の努力と協力、そして皆様のこの株を育てたい！という意欲なしにこの企画は成立しません。ご賛同ありがとうございます。\n今後それぞれの地で成長した福袋挿木たちの姿をSNSなどで見ることができれば幸いです。</p>\n</blockquote>\n</li>\n<li>一般に情報がないのでとりあえず N. reinwardtiana の環境として育ても良いと勝手に考えている。</li>\n</ul>"
+    "sellerDescription": {
+      "source": "Heli's Store",
+      "quote": [
+        "昭和60年(1985)、京都市とジョグジャカルタ区が姉妹自治区になりました。その際ジャカルタ政府を通してジョグジャカルタ側から京都府立植物園へと送られてきたうちの1つがこの個体です。詳しい現地の情報が追いかけきれていません、追って詳細が分かり次第何かしらの形で発表したいと思います。ジャカルタは発展途中で伐採整地が続いていると聞きます、もしかしたらもう自生地はないかもしれません。当時はレインワードシアナとして導入されましたが、葉やツボの形状・つき方から別種ではないかとなり、現在sp.(なんかよくわからん名前まだついてないんじゃない？的なもの)として扱われています。平成初期頃に植物園間の苗交換で兵庫県立フラワーセンターにやってきました。土居寛文技師が食虫植物室で地植えし約10年、自生地さながらそれ以上かもしれない大株へと育て上げ、緑の壁は兵庫県立フラワーセンター名物の一つとなりました。",
+        "兵庫県立フラワーセンターの土居寛文技師の「貴重な株を後世に残したい」という強い意志の元、今回の福袋は実現しました。抱え込んで絶種させる事だけはやってはいけない、と。先生の努力と協力、そして皆様のこの株を育てたい！という意欲なしにこの企画は成立しません。ご賛同ありがとうございます。今後それぞれの地で成長した福袋挿木たちの姿をSNSなどで見ることができれば幸いです。"
+      ],
+      "notes": [
+        "一般に情報がないのでとりあえず N. reinwardtiana の環境として育ても良いと勝手に考えている。"
+      ]
+    }
   },
   {
     "slug": "N_sp_Pseudoklossii",
@@ -3473,7 +3482,7 @@
     "logs": [],
     "nativeHabitat": null,
     "cultivationEnvironment": null,
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_spectabilis",
@@ -3673,7 +3682,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_thorelii×aristolochioides",
@@ -3820,7 +3829,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_veitchii",
@@ -3960,7 +3969,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_ventricosa",
@@ -4046,7 +4055,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_villosa",
@@ -4115,7 +4124,7 @@
         ]
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   },
   {
     "slug": "N_xtrusmadiensis",
@@ -4176,6 +4185,6 @@
         "text": ""
       }
     },
-    "bodyContent": ""
+    "sellerDescription": null
   }
 ]

@@ -8,6 +8,7 @@ import type {
   NativeHabitat,
   CultivationEnvironment,
   CultivationNote,
+  SellerDescription,
 } from '../types';
 
 function ImageGallery({
@@ -156,6 +157,27 @@ function CultivationEnvironmentSection({
   );
 }
 
+function SellerDescriptionSection({ desc }: { desc: SellerDescription }) {
+  return (
+    <>
+      <h3>販売者情報</h3>
+      <ul>
+        <li>
+          以下、{desc.source}より引用
+          <blockquote>
+            {desc.quote.map((paragraph, i) => (
+              <p key={i}>{paragraph}</p>
+            ))}
+          </blockquote>
+        </li>
+        {desc.notes.map((note, i) => (
+          <li key={i}>{note}</li>
+        ))}
+      </ul>
+    </>
+  );
+}
+
 export default function CultivationLogPage() {
   const { slug } = useParams<{ slug: string }>();
   const log = (cultivationLogs as CultivationLog[]).find(
@@ -190,7 +212,9 @@ export default function CultivationLogPage() {
 
       {lastUpdated && <p className="post-date">最終更新: {lastUpdated}</p>}
 
-      {log.nativeHabitat || log.cultivationEnvironment || log.bodyContent ? (
+      {log.nativeHabitat ||
+      log.cultivationEnvironment ||
+      log.sellerDescription ? (
         <>
           <h2>特徴</h2>
           {log.nativeHabitat && (
@@ -199,8 +223,8 @@ export default function CultivationLogPage() {
           {log.cultivationEnvironment && (
             <CultivationEnvironmentSection env={log.cultivationEnvironment} />
           )}
-          {log.bodyContent && (
-            <div dangerouslySetInnerHTML={{ __html: log.bodyContent }} />
+          {log.sellerDescription && (
+            <SellerDescriptionSection desc={log.sellerDescription} />
           )}
         </>
       ) : (
