@@ -82,6 +82,22 @@ vi.mock('../data/cultivationLogs.json', () => ({
       cultivationEnvironment: null,
       sellerDescription: null,
     },
+    {
+      slug: 'N_with_seller',
+      name: 'N. with seller',
+      alias: null,
+      genus: 'nepenthes',
+      sub_category: 'species',
+      environment: 'lowland',
+      logs: [],
+      nativeHabitat: null,
+      cultivationEnvironment: null,
+      sellerDescription: {
+        source: 'Test Store',
+        quote: ['First paragraph of quote.', 'Second paragraph of quote.'],
+        notes: ['A personal note about cultivation.'],
+      },
+    },
   ],
 }));
 
@@ -183,6 +199,25 @@ describe('CultivationLogPage', () => {
   it('renders "準備中" when no structured content exists', () => {
     renderPage('N_empty');
     expect(screen.getByRole('heading', { name: '準備中' })).toBeInTheDocument();
+  });
+
+  it('renders seller description section', () => {
+    renderPage('N_with_seller');
+    expect(screen.getByText('販売者情報')).toBeInTheDocument();
+    expect(screen.getByText(/Test Storeより引用/)).toBeInTheDocument();
+    expect(screen.getByText('First paragraph of quote.')).toBeInTheDocument();
+    expect(screen.getByText('Second paragraph of quote.')).toBeInTheDocument();
+    expect(
+      screen.getByText('A personal note about cultivation.'),
+    ).toBeInTheDocument();
+  });
+
+  it('renders 特徴 heading when only sellerDescription exists', () => {
+    renderPage('N_with_seller');
+    expect(
+      screen.getByRole('heading', { name: '特徴' }),
+    ).toBeInTheDocument();
+    expect(screen.queryByText('準備中')).not.toBeInTheDocument();
   });
 
   it('does not render alias when null', () => {
