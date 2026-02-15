@@ -42,6 +42,30 @@ export interface CultivationLogData {
   entries: LogEntry[];
 }
 
+export interface NativeHabitatLocation {
+  name: string;
+  maps: string[];
+}
+
+export interface NativeHabitat {
+  locations: NativeHabitatLocation[];
+  elevation: string;
+  temperature: string;
+}
+
+export interface CultivationNote {
+  text: string;
+  children?: CultivationNote[];
+}
+
+export interface CultivationEnvironment {
+  temperatureTheory?: string;
+  temperature?: CultivationNote;
+  humidity?: CultivationNote;
+  soil?: CultivationNote;
+  light?: CultivationNote;
+}
+
 export interface CultivationLog {
   slug: string;
   name: string;
@@ -50,6 +74,8 @@ export interface CultivationLog {
   sub_category: string;
   environment: string;
   logs: CultivationLogData[];
+  nativeHabitat: NativeHabitat | null;
+  cultivationEnvironment: CultivationEnvironment | null;
   bodyContent: string;
 }
 
