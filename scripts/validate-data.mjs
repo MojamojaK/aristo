@@ -59,7 +59,7 @@ validate('cultivationLogs.json', {
   logs: 'array',
   nativeHabitat: 'object?',
   cultivationEnvironment: 'object?',
-  bodyContent: 'string',
+  sellerDescription: 'object?',
 });
 
 validate('genuses.json', {

@@ -262,7 +262,7 @@ async function main() {
     console.error(`Error: Species "${slug}" not found.`);
     console.error("\nAvailable species:");
     for (const l of logs) {
-      if (l.logs.length > 0 || l.bodyContent) {
+      if (l.logs.length > 0 || l.nativeHabitat || l.cultivationEnvironment || l.sellerDescription) {
         console.error(`  ${l.slug.padEnd(40)} ${l.name}`);
       }
     }

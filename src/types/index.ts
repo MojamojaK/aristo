@@ -66,6 +66,12 @@ export interface CultivationEnvironment {
   light?: CultivationNote;
 }
 
+export interface SellerDescription {
+  source: string;
+  quote: string[];
+  notes: string[];
+}
+
 export interface CultivationLog {
   slug: string;
   name: string;
@@ -76,7 +82,7 @@ export interface CultivationLog {
   logs: CultivationLogData[];
   nativeHabitat: NativeHabitat | null;
   cultivationEnvironment: CultivationEnvironment | null;
-  bodyContent: string;
+  sellerDescription: SellerDescription | null;
 }
 
 export interface DomesticStore {

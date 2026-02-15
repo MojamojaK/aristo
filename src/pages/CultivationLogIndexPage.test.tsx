@@ -31,7 +31,7 @@ vi.mock('../data/cultivationLogs.json', () => ({
       ],
       nativeHabitat: null,
       cultivationEnvironment: null,
-      bodyContent: '',
+      sellerDescription: null,
     },
     {
       slug: 'N_plant_b',
@@ -43,7 +43,7 @@ vi.mock('../data/cultivationLogs.json', () => ({
       logs: [],
       nativeHabitat: null,
       cultivationEnvironment: null,
-      bodyContent: '',
+      sellerDescription: null,
     },
   ],
 }));

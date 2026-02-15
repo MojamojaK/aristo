@@ -68,7 +68,7 @@ vi.mock('../data/cultivationLogs.json', () => ({
         soil: { text: '', children: [{ text: '鹿沼小粒+パーライト' }] },
         light: { text: '', children: [{ text: '12時間 9000Lux' }] },
       },
-      bodyContent: '',
+      sellerDescription: null,
     },
     {
       slug: 'N_empty',
@@ -80,7 +80,7 @@ vi.mock('../data/cultivationLogs.json', () => ({
       logs: [],
       nativeHabitat: null,
       cultivationEnvironment: null,
-      bodyContent: '',
+      sellerDescription: null,
     },
   ],
 }));
@@ -180,7 +180,7 @@ describe('CultivationLogPage', () => {
     );
   });
 
-  it('renders "準備中" when bodyContent is empty', () => {
+  it('renders "準備中" when no structured content exists', () => {
     renderPage('N_empty');
     expect(screen.getByRole('heading', { name: '準備中' })).toBeInTheDocument();
   });

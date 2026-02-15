@@ -39,7 +39,7 @@ vi.mock('../data/cultivationLogs.json', () => ({
       logs: [{ source: 'S1', entries: [{ date: '2023-01-01' }] }],
       nativeHabitat: null,
       cultivationEnvironment: null,
-      bodyContent: '',
+      sellerDescription: null,
     },
     {
       slug: 'N_ampullaria',
@@ -51,7 +51,7 @@ vi.mock('../data/cultivationLogs.json', () => ({
       logs: [],
       nativeHabitat: null,
       cultivationEnvironment: null,
-      bodyContent: '',
+      sellerDescription: null,
     },
     {
       slug: 'N_Dyeriana',
@@ -63,7 +63,7 @@ vi.mock('../data/cultivationLogs.json', () => ({
       logs: [],
       nativeHabitat: null,
       cultivationEnvironment: null,
-      bodyContent: '',
+      sellerDescription: null,
     },
   ],
 }));
