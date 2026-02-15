@@ -28,7 +28,7 @@ function renderLayout(initialEntry = '/aristo/') {
           />
         </Route>
       </Routes>
-    </MemoryRouter>
+    </MemoryRouter>,
   );
 }
 
@@ -57,7 +57,7 @@ describe('Layout', () => {
   it('renders the sidebar checkbox', () => {
     renderLayout();
     const checkbox = document.getElementById(
-      'sidebar-checkbox'
+      'sidebar-checkbox',
     ) as HTMLInputElement;
     expect(checkbox).toBeInTheDocument();
     expect(checkbox.type).toBe('checkbox');
@@ -78,7 +78,7 @@ describe('Layout', () => {
   it('closes sidebar on route change', () => {
     renderLayout('/aristo/other');
     const checkbox = document.getElementById(
-      'sidebar-checkbox'
+      'sidebar-checkbox',
     ) as HTMLInputElement;
 
     // Open sidebar
@@ -94,7 +94,9 @@ describe('Layout', () => {
   });
 
   it('scrolls to top on route change', () => {
-    const scrollToSpy = vi.spyOn(window, 'scrollTo').mockImplementation(() => {});
+    const scrollToSpy = vi
+      .spyOn(window, 'scrollTo')
+      .mockImplementation(() => {});
     renderLayout('/aristo/other');
 
     const goHomeLink = screen.getByRole('link', { name: 'Go Home' });
@@ -107,7 +109,7 @@ describe('Layout', () => {
   it('closes sidebar when clicking outside', () => {
     renderLayout();
     const checkbox = document.getElementById(
-      'sidebar-checkbox'
+      'sidebar-checkbox',
     ) as HTMLInputElement;
 
     // Open sidebar
@@ -124,7 +126,7 @@ describe('Layout', () => {
   it('does not close sidebar when clicking inside sidebar', () => {
     renderLayout();
     const checkbox = document.getElementById(
-      'sidebar-checkbox'
+      'sidebar-checkbox',
     ) as HTMLInputElement;
 
     // Open sidebar

@@ -1,7 +1,5 @@
 {
-  "greenhouse/mist_maker": [
-    "/aristo/assets/images/greenhouse/mist_maker.jpg"
-  ],
+  "greenhouse/mist_maker": ["/aristo/assets/images/greenhouse/mist_maker.jpg"],
   "greenhouse/peltier_fan": [
     "/aristo/assets/images/greenhouse/peltier_fan.jpg"
   ],

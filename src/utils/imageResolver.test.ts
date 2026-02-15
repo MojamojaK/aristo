@@ -51,7 +51,7 @@ describe('resolveAutoImages', () => {
 
     if (import.meta.env.DEV) {
       expect(warnSpy).toHaveBeenCalledWith(
-        expect.stringContaining('nepenthes/KF99/2023-01-01')
+        expect.stringContaining('nepenthes/KF99/2023-01-01'),
       );
     }
 
@@ -62,14 +62,14 @@ describe('resolveAutoImages', () => {
 describe('resolveLocalImages', () => {
   it('resolves paths from manifest by stripping extension', () => {
     const result = resolveLocalImages(['greenhouse/mist_maker.jpg']);
-    expect(result).toEqual([
-      '/aristo/assets/images/greenhouse/mist_maker.jpg',
-    ]);
+    expect(result).toEqual(['/aristo/assets/images/greenhouse/mist_maker.jpg']);
   });
 
   it('falls back to constructed path when not in manifest', () => {
     const result = resolveLocalImages(['greenhouse/unknown_image.png']);
-    expect(result).toEqual(['/aristo/assets/images/greenhouse/unknown_image.png']);
+    expect(result).toEqual([
+      '/aristo/assets/images/greenhouse/unknown_image.png',
+    ]);
   });
 
   it('handles multiple image paths', () => {

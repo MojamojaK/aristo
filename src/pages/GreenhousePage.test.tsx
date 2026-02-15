@@ -27,7 +27,7 @@ describe('GreenhousePage', () => {
       initialEntry: '/aristo/greenhouse/tank/mk1',
     });
     expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(
-      '自作温室MK1'
+      '自作温室MK1',
     );
     expect(screen.getByText('温室の内容です')).toBeInTheDocument();
   });
@@ -38,7 +38,7 @@ describe('GreenhousePage', () => {
       initialEntry: '/aristo/greenhouse/tech/system',
     });
     expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(
-      '温室環境 制御系'
+      '温室環境 制御系',
     );
   });
 
@@ -48,10 +48,10 @@ describe('GreenhousePage', () => {
       initialEntry: '/aristo/greenhouse/nonexistent',
     });
     expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(
-      'Page not found'
+      'Page not found',
     );
     expect(
-      screen.getByText('The greenhouse page could not be found.')
+      screen.getByText('The greenhouse page could not be found.'),
     ).toBeInTheDocument();
   });
 
