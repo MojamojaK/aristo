@@ -2,7 +2,13 @@ import { useParams } from 'react-router-dom';
 import cultivationLogs from '../data/cultivationLogs.json';
 import { resolveAutoImages, resolveLocalImages } from '../utils/imageResolver';
 import { usePageTitle } from '../hooks/usePageTitle';
-import type { CultivationLog, ContentItem } from '../types';
+import type {
+  CultivationLog,
+  ContentItem,
+  NativeHabitat,
+  CultivationEnvironment,
+  CultivationNote,
+} from '../types';
 
 function ImageGallery({
   genus,
@@ -62,6 +68,94 @@ function ImageGallery({
   return null;
 }
 
+function NoteTree({ notes }: { notes: CultivationNote[] }) {
+  return (
+    <ul>
+      {notes.map((note, i) => (
+        <li key={i}>
+          {note.text}
+          {note.children && <NoteTree notes={note.children} />}
+        </li>
+      ))}
+    </ul>
+  );
+}
+
+function CultivationField({
+  label,
+  note,
+}: {
+  label: string;
+  note: CultivationNote;
+}) {
+  return (
+    <li>
+      {label}: {note.text}
+      {note.children && <NoteTree notes={note.children} />}
+    </li>
+  );
+}
+
+function NativeHabitatSection({ habitat }: { habitat: NativeHabitat }) {
+  return (
+    <>
+      <h3>自生地</h3>
+      <ul>
+        {habitat.locations.map((loc, i) => (
+          <li key={i}>
+            {loc.name}
+            {loc.maps.length > 0 && (
+              <ul>
+                {loc.maps.map((src, j) => (
+                  <li key={j}>
+                    <iframe
+                      src={src}
+                      width="100%"
+                      height={loc.maps.length > 1 ? '250' : '450'}
+                      style={{ border: 0 }}
+                      allowFullScreen
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title={`${loc.name} map ${j + 1}`}
+                    />
+                  </li>
+                ))}
+              </ul>
+            )}
+          </li>
+        ))}
+        {habitat.elevation && <li>標高: {habitat.elevation}</li>}
+        {habitat.temperature && <li>温度: {habitat.temperature}</li>}
+      </ul>
+    </>
+  );
+}
+
+function CultivationEnvironmentSection({
+  env,
+}: {
+  env: CultivationEnvironment;
+}) {
+  return (
+    <>
+      <h3>栽培環境</h3>
+      <ul>
+        {env.temperatureTheory !== undefined && (
+          <li>温度理論値: {env.temperatureTheory}</li>
+        )}
+        {env.temperature && (
+          <CultivationField label="温度" note={env.temperature} />
+        )}
+        {env.humidity && (
+          <CultivationField label="空中湿度" note={env.humidity} />
+        )}
+        {env.soil && <CultivationField label="用土" note={env.soil} />}
+        {env.light && <CultivationField label="日照" note={env.light} />}
+      </ul>
+    </>
+  );
+}
+
 export default function CultivationLogPage() {
   const { slug } = useParams<{ slug: string }>();
   const log = (cultivationLogs as CultivationLog[]).find(
@@ -96,10 +190,18 @@ export default function CultivationLogPage() {
 
       {lastUpdated && <p className="post-date">最終更新: {lastUpdated}</p>}
 
-      {log.bodyContent ? (
+      {log.nativeHabitat || log.cultivationEnvironment || log.bodyContent ? (
         <>
           <h2>特徴</h2>
-          <div dangerouslySetInnerHTML={{ __html: log.bodyContent }} />
+          {log.nativeHabitat && (
+            <NativeHabitatSection habitat={log.nativeHabitat} />
+          )}
+          {log.cultivationEnvironment && (
+            <CultivationEnvironmentSection env={log.cultivationEnvironment} />
+          )}
+          {log.bodyContent && (
+            <div dangerouslySetInnerHTML={{ __html: log.bodyContent }} />
+          )}
         </>
       ) : (
         <h2>準備中</h2>

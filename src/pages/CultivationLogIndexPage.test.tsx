@@ -26,11 +26,11 @@ vi.mock('../data/cultivationLogs.json', () => ({
           source: 'Source2',
           propagation: null,
           start_date: '2023-03-01',
-          entries: [
-            { date: '2023-03-01', contents: [{ items: [] }] },
-          ],
+          entries: [{ date: '2023-03-01', contents: [{ items: [] }] }],
         },
       ],
+      nativeHabitat: null,
+      cultivationEnvironment: null,
       bodyContent: '',
     },
     {
@@ -41,6 +41,8 @@ vi.mock('../data/cultivationLogs.json', () => ({
       sub_category: 'hybrid',
       environment: 'lowland',
       logs: [],
+      nativeHabitat: null,
+      cultivationEnvironment: null,
       bodyContent: '',
     },
   ],
@@ -60,7 +62,7 @@ describe('CultivationLogIndexPage', () => {
   it('renders the page heading', () => {
     renderWithRouter(<CultivationLogIndexPage />);
     expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(
-      '栽培リスト'
+      '栽培リスト',
     );
   });
 
@@ -72,7 +74,7 @@ describe('CultivationLogIndexPage', () => {
   it('renders genus section header', () => {
     renderWithRouter(<CultivationLogIndexPage />);
     expect(
-      screen.getByRole('heading', { level: 2, name: 'Nepenthes - ネペンテス' })
+      screen.getByRole('heading', { level: 2, name: 'Nepenthes - ネペンテス' }),
     ).toBeInTheDocument();
   });
 

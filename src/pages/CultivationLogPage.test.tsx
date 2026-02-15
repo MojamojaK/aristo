@@ -22,9 +22,7 @@ vi.mock('../data/cultivationLogs.json', () => ({
               date: '2023-04-01',
               contents: [
                 {
-                  items: [
-                    { text: 'First entry text' },
-                  ],
+                  items: [{ text: 'First entry text' }],
                 },
               ],
             },
@@ -50,16 +48,27 @@ vi.mock('../data/cultivationLogs.json', () => ({
               date: '2024-06-01',
               contents: [
                 {
-                  items: [
-                    { text: 'AW clone arrived' },
-                  ],
+                  items: [{ text: 'AW clone arrived' }],
                 },
               ],
             },
           ],
         },
       ],
-      bodyContent: '<h3>栽培環境</h3><p>テスト環境情報</p>',
+      nativeHabitat: {
+        locations: [
+          { name: 'テスト自生地', maps: ['https://maps.example.com/test'] },
+        ],
+        elevation: '1000 - 2000m',
+        temperature: 'Night 10 - 15℃ / Day 20 - 25℃',
+      },
+      cultivationEnvironment: {
+        temperature: { text: '夜13 - 昼24℃' },
+        humidity: { text: '70%~' },
+        soil: { text: '', children: [{ text: '鹿沼小粒+パーライト' }] },
+        light: { text: '', children: [{ text: '12時間 9000Lux' }] },
+      },
+      bodyContent: '',
     },
     {
       slug: 'N_empty',
@@ -69,6 +78,8 @@ vi.mock('../data/cultivationLogs.json', () => ({
       sub_category: 'species',
       environment: 'lowland',
       logs: [],
+      nativeHabitat: null,
+      cultivationEnvironment: null,
       bodyContent: '',
     },
   ],
@@ -79,7 +90,7 @@ vi.mock('../utils/imageResolver', () => ({
     '/aristo/assets/images/nepenthes/KF99/2024-01-15-01.jpg',
   ]),
   resolveLocalImages: vi.fn((paths: string[]) =>
-    paths.map((p) => `/aristo/assets/images/${p}`)
+    paths.map((p) => `/aristo/assets/images/${p}`),
   ),
 }));
 
@@ -93,13 +104,15 @@ describe('CultivationLogPage', () => {
   it('renders the plant name as heading', () => {
     renderPage('N_test_plant');
     expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(
-      'N. test plant'
+      'N. test plant',
     );
   });
 
   it('renders the alias', () => {
     renderPage('N_test_plant');
-    expect(screen.getByRole('heading', { level: 2, name: 'Test Alias' })).toBeInTheDocument();
+    expect(
+      screen.getByRole('heading', { level: 2, name: 'Test Alias' }),
+    ).toBeInTheDocument();
   });
 
   it('computes and displays the last updated date', () => {
@@ -108,9 +121,18 @@ describe('CultivationLogPage', () => {
     expect(screen.getByText(/最終更新: 2024-06-01/)).toBeInTheDocument();
   });
 
-  it('renders body content HTML', () => {
+  it('renders native habitat section', () => {
     renderPage('N_test_plant');
-    expect(screen.getByText('テスト環境情報')).toBeInTheDocument();
+    expect(screen.getByText('自生地')).toBeInTheDocument();
+    expect(screen.getByText('テスト自生地')).toBeInTheDocument();
+    expect(screen.getByText(/1000 - 2000m/)).toBeInTheDocument();
+  });
+
+  it('renders cultivation environment section', () => {
+    renderPage('N_test_plant');
+    expect(screen.getByText('栽培環境')).toBeInTheDocument();
+    expect(screen.getByText(/夜13 - 昼24℃/)).toBeInTheDocument();
+    expect(screen.getByText('鹿沼小粒+パーライト')).toBeInTheDocument();
   });
 
   it('renders source headers with propagation', () => {
@@ -147,14 +169,14 @@ describe('CultivationLogPage', () => {
     expect(images.length).toBeGreaterThanOrEqual(1);
     expect(images[0]).toHaveAttribute(
       'src',
-      '/aristo/assets/images/nepenthes/KF99/2024-01-15-01.jpg'
+      '/aristo/assets/images/nepenthes/KF99/2024-01-15-01.jpg',
     );
   });
 
   it('renders 404 for unknown slug', () => {
     renderPage('N_nonexistent');
     expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(
-      'Page not found'
+      'Page not found',
     );
   });
 
@@ -167,7 +189,7 @@ describe('CultivationLogPage', () => {
     renderPage('N_empty');
     const headings = screen.getAllByRole('heading');
     const aliasHeading = headings.find(
-      (h) => h.tagName === 'H2' && h.textContent && h.textContent !== '準備中'
+      (h) => h.tagName === 'H2' && h.textContent && h.textContent !== '準備中',
     );
     expect(aliasHeading).toBeUndefined();
   });

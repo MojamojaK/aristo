@@ -20,9 +20,7 @@ vi.mock('../data/genuses.json', () => ({
         {
           name: 'hybrid',
           header: 'Hybrids - 交配種',
-          environments: [
-            { name: 'highland', header: 'Highland - 高山性温室' },
-          ],
+          environments: [{ name: 'highland', header: 'Highland - 高山性温室' }],
         },
       ],
     },
@@ -39,6 +37,8 @@ vi.mock('../data/cultivationLogs.json', () => ({
       sub_category: 'species',
       environment: 'highland',
       logs: [{ source: 'S1', entries: [{ date: '2023-01-01' }] }],
+      nativeHabitat: null,
+      cultivationEnvironment: null,
       bodyContent: '',
     },
     {
@@ -49,6 +49,8 @@ vi.mock('../data/cultivationLogs.json', () => ({
       sub_category: 'species',
       environment: 'lowland',
       logs: [],
+      nativeHabitat: null,
+      cultivationEnvironment: null,
       bodyContent: '',
     },
     {
@@ -59,6 +61,8 @@ vi.mock('../data/cultivationLogs.json', () => ({
       sub_category: 'hybrid',
       environment: 'highland',
       logs: [],
+      nativeHabitat: null,
+      cultivationEnvironment: null,
       bodyContent: '',
     },
   ],
@@ -95,9 +99,7 @@ describe('Sidebar', () => {
     const button = screen.getByText('栽培リスト');
     fireEvent.click(button);
     expect(button.closest('li')).toHaveClass('active');
-    expect(
-      screen.getByText('Nepenthes - ネペンテス')
-    ).toBeInTheDocument();
+    expect(screen.getByText('Nepenthes - ネペンテス')).toBeInTheDocument();
   });
 
   it('drills down through genus → subcategory → environment', () => {
@@ -119,9 +121,7 @@ describe('Sidebar', () => {
     fireEvent.click(screen.getByText('Species - 原種'));
     fireEvent.click(screen.getByText('Lowland - 低地性'));
 
-    expect(
-      screen.getByText(/N. ampullaria.*Coming Soon/)
-    ).toBeInTheDocument();
+    expect(screen.getByText(/N. ampullaria.*Coming Soon/)).toBeInTheDocument();
   });
 
   it('shows alias in link text', () => {
@@ -132,9 +132,7 @@ describe('Sidebar', () => {
     fireEvent.click(screen.getByText('Hybrids - 交配種'));
     fireEvent.click(screen.getByText('Highland - 高山性温室'));
 
-    expect(
-      screen.getByText(/N. Dyeriana.*Alias D/)
-    ).toBeInTheDocument();
+    expect(screen.getByText(/N. Dyeriana.*Alias D/)).toBeInTheDocument();
   });
 
   it('closes accordion when clicking same button again', () => {
@@ -152,16 +150,14 @@ describe('Sidebar', () => {
     renderWithRouter(<Sidebar />);
     fireEvent.click(screen.getByText('温室'));
     expect(
-      screen.getByRole('link', { name: '自作温室MK1' })
+      screen.getByRole('link', { name: '自作温室MK1' }),
     ).toBeInTheDocument();
   });
 
   it('opens purchasing accordion and shows retail link', () => {
     renderWithRouter(<Sidebar />);
     fireEvent.click(screen.getByText('入手方法'));
-    expect(
-      screen.getByRole('link', { name: '販売業者' })
-    ).toBeInTheDocument();
+    expect(screen.getByRole('link', { name: '販売業者' })).toBeInTheDocument();
   });
 
   it('auto-opens accordions based on current cultivation log route', () => {

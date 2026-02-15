@@ -7,7 +7,23 @@
     "sub_category": "hybrid",
     "environment": "lowland",
     "logs": [],
-    "bodyContent": "<h3>栽培環境</h3>\n<ul>\n<li>温度理論値: Night  - ℃ / Day  - ℃</li>\n<li>温度:</li>\n<li>空中湿度:</li>\n<li>用土:</li>\n<li>日照:</li>\n</ul>"
+    "nativeHabitat": null,
+    "cultivationEnvironment": {
+      "temperatureTheory": "Night  - ℃ / Day  - ℃",
+      "temperature": {
+        "text": ""
+      },
+      "humidity": {
+        "text": ""
+      },
+      "soil": {
+        "text": ""
+      },
+      "light": {
+        "text": ""
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_AttractiveFuso",
@@ -17,7 +33,23 @@
     "sub_category": "hybrid",
     "environment": "lowland",
     "logs": [],
-    "bodyContent": "<h3>栽培環境</h3>\n<ul>\n<li>温度理論値: Night  - ℃ / Day  - ℃</li>\n<li>温度:</li>\n<li>空中湿度:</li>\n<li>用土:</li>\n<li>日照:</li>\n</ul>"
+    "nativeHabitat": null,
+    "cultivationEnvironment": {
+      "temperatureTheory": "Night  - ℃ / Day  - ℃",
+      "temperature": {
+        "text": ""
+      },
+      "humidity": {
+        "text": ""
+      },
+      "soil": {
+        "text": ""
+      },
+      "light": {
+        "text": ""
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_Dyeriana",
@@ -27,7 +59,23 @@
     "sub_category": "hybrid",
     "environment": "livingroom",
     "logs": [],
-    "bodyContent": "<h3>栽培環境</h3>\n<ul>\n<li>温度理論値: Night  - ℃ / Day  - ℃</li>\n<li>温度:</li>\n<li>空中湿度:</li>\n<li>用土:</li>\n<li>日照:</li>\n</ul>"
+    "nativeHabitat": null,
+    "cultivationEnvironment": {
+      "temperatureTheory": "Night  - ℃ / Day  - ℃",
+      "temperature": {
+        "text": ""
+      },
+      "humidity": {
+        "text": ""
+      },
+      "soil": {
+        "text": ""
+      },
+      "light": {
+        "text": ""
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_Louisa",
@@ -37,7 +85,62 @@
     "sub_category": "hybrid",
     "environment": "livingroom",
     "logs": [],
-    "bodyContent": "<h3>栽培環境</h3>\n<ul>\n<li>温度理論値: Night 14 - 22℃ / Day  24 - 32℃</li>\n<li>温度: 22 - 25℃<ul>\n<li>リビングの気温がそのままなので季節による</li>\n</ul>\n</li>\n<li>空中湿度:<ul>\n<li>夏60-70%: 問題なくポコポコ捕虫葉をつけてくれる</li>\n<li>冬30-50%: ゆっくりだが全く捕虫葉をつけてくれないわけでもない</li>\n</ul>\n</li>\n<li>用土:<ul>\n<li>長繊維のピートモス<ul>\n<li>乾燥する環境では根腐れを心配せずとも乾湿のメリハリが付けられる</li>\n<li>乾燥する冬でも10日に一回ぐらいの灌水で十分</li>\n<li>灌水を忘れると捕虫葉が一気に枯れる</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>日照:<ul>\n<li>??? - 10000lux<ul>\n<li>ギリギリ葉焼けしない程度まで調節する</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": null,
+    "cultivationEnvironment": {
+      "temperatureTheory": "Night 14 - 22℃ / Day  24 - 32℃",
+      "temperature": {
+        "text": "22 - 25℃",
+        "children": [
+          {
+            "text": "リビングの気温がそのままなので季節による"
+          }
+        ]
+      },
+      "humidity": {
+        "text": "",
+        "children": [
+          {
+            "text": "夏60-70%: 問題なくポコポコ捕虫葉をつけてくれる"
+          },
+          {
+            "text": "冬30-50%: ゆっくりだが全く捕虫葉をつけてくれないわけでもない"
+          }
+        ]
+      },
+      "soil": {
+        "text": "",
+        "children": [
+          {
+            "text": "長繊維のピートモス",
+            "children": [
+              {
+                "text": "乾燥する環境では根腐れを心配せずとも乾湿のメリハリが付けられる"
+              },
+              {
+                "text": "乾燥する冬でも10日に一回ぐらいの灌水で十分"
+              },
+              {
+                "text": "灌水を忘れると捕虫葉が一気に枯れる"
+              }
+            ]
+          }
+        ]
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "??? - 10000lux",
+            "children": [
+              {
+                "text": "ギリギリ葉焼けしない程度まで調節する"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_argentii",
@@ -172,7 +275,70 @@
         ]
       }
     ],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>シブヤン島 - Guitung Guitung<ul>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90498.12452489306!2d122.58811169170345!3d12.391653703867771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a4429305df7281%3A0xe8e4a62974176fcb!2sMount%20Guiting-Guiting!5e0!3m2!1sen!2sjp!4v1708758445967!5m2!1sen!2sjp\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 1400 - 1900m</li>\n<li>温度: Night 13 - 18℃ / Day 23 - 28℃</li>\n</ul>\n<h3>栽培環境</h3>\n<ul>\n<li>温度: 夜13 - 昼24℃</li>\n<li>空中湿度: 70%~</li>\n<li>用土:<ul>\n<li>表面:生水苔 / 上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒+赤玉中粒<ul>\n<li>保水しつつ、通気性を保っている</li>\n<li>今の所大丈夫そうだが改善の余地もあるように見える。</li>\n<li>表面の生水苔はいらないかも</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>日照:<ul>\n<li>12時間 9000-12000Lux<ul>\n<li>1株はめちゃくちゃ葉焼けした</li>\n<li>もう1株は耐えられているが葉の色合いが良くない</li>\n</ul>\n</li>\n<li>12時間 6000-7000Lux<ul>\n<li>1株は割と調子良い, もう1株はまだなんとも言えない</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "シブヤン島 - Guitung Guitung",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d90498.12452489306!2d122.58811169170345!3d12.391653703867771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33a4429305df7281%3A0xe8e4a62974176fcb!2sMount%20Guiting-Guiting!5e0!3m2!1sen!2sjp!4v1708758445967!5m2!1sen!2sjp"
+          ]
+        }
+      ],
+      "elevation": "1400 - 1900m",
+      "temperature": "Night 13 - 18℃ / Day 23 - 28℃"
+    },
+    "cultivationEnvironment": {
+      "temperature": {
+        "text": "夜13 - 昼24℃"
+      },
+      "humidity": {
+        "text": "70%~"
+      },
+      "soil": {
+        "text": "",
+        "children": [
+          {
+            "text": "表面:生水苔 / 上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒+赤玉中粒",
+            "children": [
+              {
+                "text": "保水しつつ、通気性を保っている"
+              },
+              {
+                "text": "今の所大丈夫そうだが改善の余地もあるように見える。"
+              },
+              {
+                "text": "表面の生水苔はいらないかも"
+              }
+            ]
+          }
+        ]
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "12時間 9000-12000Lux",
+            "children": [
+              {
+                "text": "1株はめちゃくちゃ葉焼けした"
+              },
+              {
+                "text": "もう1株は耐えられているが葉の色合いが良くない"
+              }
+            ]
+          },
+          {
+            "text": "12時間 6000-7000Lux",
+            "children": [
+              {
+                "text": "1株は割と調子良い, もう1株はまだなんとも言えない"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_aristolochioides",
@@ -605,9 +771,7 @@
                   {
                     "auto_image": {
                       "id": "KF30",
-                      "line_breaks": [
-                        3
-                      ]
+                      "line_breaks": [3]
                     }
                   }
                 ]
@@ -706,7 +870,85 @@
         ]
       }
     ],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>スマトラ島 - Gunung Tujuh, Gunung Kerinci<ul>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79380.0692276567!2d101.38356461484655!3d-1.676785670805948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2c5729efda3fd7%3A0xe6b626cc3eb141a5!2sGunung%20Tudjuh!5e0!3m2!1sen!2sjp!4v1708758905054!5m2!1sen!2sjp\" width=\"100%\" height=\"250\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79380.0692276567!2d101.38356461484655!3d-1.676785670805948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2cf969cb1a6b07%3A0xc31a5eb85921983c!2sMount%20Kerinci!5e0!3m2!1sen!2sjp!4v1708758928486!5m2!1sen!2sjp\" width=\"100%\" height=\"250\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 1800 - 2500m</li>\n<li>温度: Night 10 - 16℃ / Day 20 - 26℃</li>\n</ul>\n<h3>栽培環境</h3>\n<ul>\n<li>温度: 夜13 - 昼24℃</li>\n<li>空中湿度: 70%~</li>\n<li>用土:<ul>\n<li>表面:生水苔 / 上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒+赤玉中粒<ul>\n<li>保水しつつ、通気性を保っている</li>\n<li>長期間水に浸かると急激に調子崩れる。</li>\n</ul>\n</li>\n<li>ベラボン+水苔<ul>\n<li>かなり保水性が高く、うちのように空中湿度が高いと乾きづらくて通気性が低い</li>\n<li>生育上問題はないが、理想的ではない。根が少ないものには良いかも。(これで挿木はしないほうが良いが)</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>日照:<ul>\n<li>12時間 9000-12000Lux<ul>\n<li>葉焼けこそしないが、葉が小さい?</li>\n<li>草体自体あまり縦に伸びようとするる気配もない。</li>\n<li>捕虫葉の大きさは変わらず。</li>\n</ul>\n</li>\n<li>12時間 6000-7000Lux (内11:00-14:00は 10000-12000Lux)<ul>\n<li>全体的に調子良さそう</li>\n<li>うちではaristolochioides優先なのでこれをキープする</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "スマトラ島 - Gunung Tujuh, Gunung Kerinci",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79380.0692276567!2d101.38356461484655!3d-1.676785670805948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2c5729efda3fd7%3A0xe6b626cc3eb141a5!2sGunung%20Tudjuh!5e0!3m2!1sen!2sjp!4v1708758905054!5m2!1sen!2sjp",
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79380.0692276567!2d101.38356461484655!3d-1.676785670805948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2cf969cb1a6b07%3A0xc31a5eb85921983c!2sMount%20Kerinci!5e0!3m2!1sen!2sjp!4v1708758928486!5m2!1sen!2sjp"
+          ]
+        }
+      ],
+      "elevation": "1800 - 2500m",
+      "temperature": "Night 10 - 16℃ / Day 20 - 26℃"
+    },
+    "cultivationEnvironment": {
+      "temperature": {
+        "text": "夜13 - 昼24℃"
+      },
+      "humidity": {
+        "text": "70%~"
+      },
+      "soil": {
+        "text": "",
+        "children": [
+          {
+            "text": "表面:生水苔 / 上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒+赤玉中粒",
+            "children": [
+              {
+                "text": "保水しつつ、通気性を保っている"
+              },
+              {
+                "text": "長期間水に浸かると急激に調子崩れる。"
+              }
+            ]
+          },
+          {
+            "text": "ベラボン+水苔",
+            "children": [
+              {
+                "text": "かなり保水性が高く、うちのように空中湿度が高いと乾きづらくて通気性が低い"
+              },
+              {
+                "text": "生育上問題はないが、理想的ではない。根が少ないものには良いかも。(これで挿木はしないほうが良いが)"
+              }
+            ]
+          }
+        ]
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "12時間 9000-12000Lux",
+            "children": [
+              {
+                "text": "葉焼けこそしないが、葉が小さい?"
+              },
+              {
+                "text": "草体自体あまり縦に伸びようとするる気配もない。"
+              },
+              {
+                "text": "捕虫葉の大きさは変わらず。"
+              }
+            ]
+          },
+          {
+            "text": "12時間 6000-7000Lux (内11:00-14:00は 10000-12000Lux)",
+            "children": [
+              {
+                "text": "全体的に調子良さそう"
+              },
+              {
+                "text": "うちではaristolochioides優先なのでこれをキープする"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_aristolochioidesxdiabolica",
@@ -827,7 +1069,54 @@
         ]
       }
     ],
-    "bodyContent": "<h3>栽培環境</h3>\n<ul>\n<li>温度理論値: Night 10 - 15℃ / Day 20 - 25℃</li>\n<li>温度: 13 - 24℃</li>\n<li>空中湿度: 70%~</li>\n<li>用土:<ul>\n<li>表面:生水苔 / 上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒+赤玉中粒<ul>\n<li>保水しつつ、通気性を保っている</li>\n<li>かなり調子良い - あまり用土にうるさくなさそうだが、うちの環境では砂利系が良い。</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>日照:<ul>\n<li>12時間 9000-12000Lux<ul>\n<li>調子良い</li>\n</ul>\n</li>\n<li>12時間 6000-7000Lux (内11:00-14:00は 10000-12000Lux)<ul>\n<li>調子良い - あまり照度にうるさくないのかな？</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": null,
+    "cultivationEnvironment": {
+      "temperatureTheory": "Night 10 - 15℃ / Day 20 - 25℃",
+      "temperature": {
+        "text": "13 - 24℃"
+      },
+      "humidity": {
+        "text": "70%~"
+      },
+      "soil": {
+        "text": "",
+        "children": [
+          {
+            "text": "表面:生水苔 / 上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒+赤玉中粒",
+            "children": [
+              {
+                "text": "保水しつつ、通気性を保っている"
+              },
+              {
+                "text": "かなり調子良い - あまり用土にうるさくなさそうだが、うちの環境では砂利系が良い。"
+              }
+            ]
+          }
+        ]
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "12時間 9000-12000Lux",
+            "children": [
+              {
+                "text": "調子良い"
+              }
+            ]
+          },
+          {
+            "text": "12時間 6000-7000Lux (内11:00-14:00は 10000-12000Lux)",
+            "children": [
+              {
+                "text": "調子良い - あまり照度にうるさくないのかな？"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_aristolochioidesxrobcantleyi",
@@ -908,7 +1197,36 @@
         ]
       }
     ],
-    "bodyContent": "<h3>栽培環境</h3>\n<ul>\n<li>温度理論値: Night 11 - 16℃ / Day 20 - 26℃</li>\n<li>温度: 13 - 24℃</li>\n<li>空中湿度: 80~99%</li>\n<li>用土:<ul>\n<li>上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒+赤玉中粒<ul>\n<li>保水しつつ、通気性を保っている</li>\n<li>まだ養生中なので経過観察</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>日照:</li>\n</ul>"
+    "nativeHabitat": null,
+    "cultivationEnvironment": {
+      "temperatureTheory": "Night 11 - 16℃ / Day 20 - 26℃",
+      "temperature": {
+        "text": "13 - 24℃"
+      },
+      "humidity": {
+        "text": "80~99%"
+      },
+      "soil": {
+        "text": "",
+        "children": [
+          {
+            "text": "上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒+赤玉中粒",
+            "children": [
+              {
+                "text": "保水しつつ、通気性を保っている"
+              },
+              {
+                "text": "まだ養生中なので経過観察"
+              }
+            ]
+          }
+        ]
+      },
+      "light": {
+        "text": ""
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_boschinanaxcampanulata",
@@ -940,7 +1258,33 @@
         ]
       }
     ],
-    "bodyContent": "<h3>栽培環境</h3>\n<ul>\n<li>温度理論値: Night 17 - 22℃ / Day 27 - 32℃</li>\n<li>温度: 15-24℃℃</li>\n<li>空中湿度: 80-90%</li>\n<li>用土:<ul>\n<li>上部:鹿沼小粒</li>\n</ul>\n</li>\n<li>日照:<ul>\n<li>12時間 9000 - 10000Lux</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": null,
+    "cultivationEnvironment": {
+      "temperatureTheory": "Night 17 - 22℃ / Day 27 - 32℃",
+      "temperature": {
+        "text": "15-24℃℃"
+      },
+      "humidity": {
+        "text": "80-90%"
+      },
+      "soil": {
+        "text": "",
+        "children": [
+          {
+            "text": "上部:鹿沼小粒"
+          }
+        ]
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "12時間 9000 - 10000Lux"
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_burkei",
@@ -1020,7 +1364,53 @@
         ]
       }
     ],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>ミンドロ島 - フィリピン<ul>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d754732.486202696!2d120.87756624113442!3d12.834316836566611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bc82a795f0b0a3%3A0xa7c97d5adf33b09b!2sMindoro!5e0!3m2!1sen!2sjp!4v1708759016562!5m2!1sen!2sjp\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 1100 - 2000m</li>\n<li>温度: Night 12 - 20℃ / Day 22 - 30℃</li>\n</ul>\n<h3>栽培環境</h3>\n<ul>\n<li>温度: 16 - 25℃</li>\n<li>空中湿度: 70%~</li>\n<li>用土:<ul>\n<li>上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒+赤玉中粒<ul>\n<li>経過観察</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>日照:<ul>\n<li>??? lux<ul>\n<li>経過観察</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "ミンドロ島 - フィリピン",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d754732.486202696!2d120.87756624113442!3d12.834316836566611!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33bc82a795f0b0a3%3A0xa7c97d5adf33b09b!2sMindoro!5e0!3m2!1sen!2sjp!4v1708759016562!5m2!1sen!2sjp"
+          ]
+        }
+      ],
+      "elevation": "1100 - 2000m",
+      "temperature": "Night 12 - 20℃ / Day 22 - 30℃"
+    },
+    "cultivationEnvironment": {
+      "temperature": {
+        "text": "16 - 25℃"
+      },
+      "humidity": {
+        "text": "70%~"
+      },
+      "soil": {
+        "text": "",
+        "children": [
+          {
+            "text": "上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒+赤玉中粒",
+            "children": [
+              {
+                "text": "経過観察"
+              }
+            ]
+          }
+        ]
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "??? lux",
+            "children": [
+              {
+                "text": "経過観察"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_clipeata",
@@ -1030,7 +1420,20 @@
     "sub_category": "species",
     "environment": "lowland",
     "logs": [],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>カリマンタ島西部 - Gunung Kelam の岩壁<ul>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1313905.6401458983!2d111.5127971577989!3d-0.2183147801838794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fe2f5a28809c11%3A0xa91f137f85e18998!2sMount%20Kelam!5e0!3m2!1sen!2sjp!4v1708759105719!5m2!1sen!2sjp\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 600 - 800m</li>\n<li>温度: Night 18 - 22℃ / Day 28 - 32 ℃</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "カリマンタ島西部 - Gunung Kelam の岩壁",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1313905.6401458983!2d111.5127971577989!3d-0.2183147801838794!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fe2f5a28809c11%3A0xa91f137f85e18998!2sMount%20Kelam!5e0!3m2!1sen!2sjp!4v1708759105719!5m2!1sen!2sjp"
+          ]
+        }
+      ],
+      "elevation": "600 - 800m",
+      "temperature": "Night 18 - 22℃ / Day 28 - 32 ℃"
+    },
+    "cultivationEnvironment": null,
+    "bodyContent": ""
   },
   {
     "slug": "N_diabolica",
@@ -1118,7 +1521,56 @@
         ]
       }
     ],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>インドネシア,スラウェシ島,中部スラウェシ州のどこかの山<ul>\n<li>保護のためどの山なのかは非公開</li>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1625023.029183338!2d121.41999850296702!3d-0.5992943930625992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d8809c9659a2d3d%3A0x436e33fd8cdb6299!2sCentral%20Sulawesi%2C%20Indonesia!5e0!3m2!1sen!2sjp!4v1708759295934!5m2!1sen!2sjp\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 2200 - 2300m</li>\n<li>温度: Night 11 - 14℃ / Day 21 - 24℃</li>\n</ul>\n<h3>栽培環境</h3>\n<ul>\n<li>温度: 13 - 24℃</li>\n<li>空中湿度: 80%~99%</li>\n<li>用土:<ul>\n<li>幼苗: 水苔と微粒砂利系の両方で1株ずつ。比較してみよう。</li>\n</ul>\n</li>\n<li>日照:<ul>\n<li>12時間 9000-12000Lux<ul>\n<li>情報不足 - 若干強すぎるイメージ、近縁のN. hamataが強光に弱いとどこかで読んだので確かにそうかもしれない。</li>\n</ul>\n</li>\n<li>12時間 6000-7000Lux (内11:00-14:00は 10000-12000Lux)<ul>\n<li>実験中</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "インドネシア,スラウェシ島,中部スラウェシ州のどこかの山",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1625023.029183338!2d121.41999850296702!3d-0.5992943930625992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d8809c9659a2d3d%3A0x436e33fd8cdb6299!2sCentral%20Sulawesi%2C%20Indonesia!5e0!3m2!1sen!2sjp!4v1708759295934!5m2!1sen!2sjp"
+          ]
+        }
+      ],
+      "elevation": "2200 - 2300m",
+      "temperature": "Night 11 - 14℃ / Day 21 - 24℃"
+    },
+    "cultivationEnvironment": {
+      "temperature": {
+        "text": "13 - 24℃"
+      },
+      "humidity": {
+        "text": "80%~99%"
+      },
+      "soil": {
+        "text": "",
+        "children": [
+          {
+            "text": "幼苗: 水苔と微粒砂利系の両方で1株ずつ。比較してみよう。"
+          }
+        ]
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "12時間 9000-12000Lux",
+            "children": [
+              {
+                "text": "情報不足 - 若干強すぎるイメージ、近縁のN. hamataが強光に弱いとどこかで読んだので確かにそうかもしれない。"
+              }
+            ]
+          },
+          {
+            "text": "12時間 6000-7000Lux (内11:00-14:00は 10000-12000Lux)",
+            "children": [
+              {
+                "text": "実験中"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_diatasxedwardsiana",
@@ -1210,7 +1662,46 @@
         ]
       }
     ],
-    "bodyContent": "<h3>栽培環境</h3>\n<ul>\n<li>温度理論値: Night 8 - 15 ℃ / Day 18 - 25℃</li>\n<li>温度: 夜13 - 昼24℃</li>\n<li>空中湿度: 80~99%</li>\n<li>用土:<ul>\n<li>上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒+赤玉中粒<ul>\n<li>保水しつつ、通気性を保っている</li>\n<li>まだ養生中なので経過観察</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>日照:<ul>\n<li>12時間 6000-7000Lux<ul>\n<li>まだ養生中なので経過観察</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": null,
+    "cultivationEnvironment": {
+      "temperatureTheory": "Night 8 - 15 ℃ / Day 18 - 25℃",
+      "temperature": {
+        "text": "夜13 - 昼24℃"
+      },
+      "humidity": {
+        "text": "80~99%"
+      },
+      "soil": {
+        "text": "",
+        "children": [
+          {
+            "text": "上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒+赤玉中粒",
+            "children": [
+              {
+                "text": "保水しつつ、通気性を保っている"
+              },
+              {
+                "text": "まだ養生中なので経過観察"
+              }
+            ]
+          }
+        ]
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "12時間 6000-7000Lux",
+            "children": [
+              {
+                "text": "まだ養生中なので経過観察"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_edwardsiana",
@@ -1269,7 +1760,49 @@
         ]
       }
     ],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>ボルネオ島 - フィリピン, Mt. Kinabalu, Mt. Tambuyukonなど<ul>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d323036.4934130912!2d116.5348611137822!3d6.128814545203386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323ba2565e9224cb%3A0x2281c3fec0a9c05e!2sMount%20Kinabalu!5e0!3m2!1sen!2sjp!4v1708759580400!5m2!1sen!2sjp\" width=\"100%\" height=\"250\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113736.82356288057!2d116.66360611154322!3d6.189364998548871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323bb0891b72d1d5%3A0x55e4be931ebad66f!2sMount%20Tambuyukon!5e0!3m2!1sen!2sjp!4v1708759602764!5m2!1sen!2sjp\" width=\"100%\" height=\"250\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 1600 - 2700 m</li>\n<li>温度: Night 9 - 17℃ / Day 19 - 27℃</li>\n</ul>\n<h3>栽培環境</h3>\n<ul>\n<li>温度: 13 - 24℃</li>\n<li>空中湿度: 80%~99%</li>\n<li>用土:<ul>\n<li>今は幼苗しかないので水苔のみ</li>\n</ul>\n</li>\n<li>日照:<ul>\n<li>12時間 6000-7000Lux (内11:00-14:00は 10000-12000Lux)<ul>\n<li>問題なさそう。</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "ボルネオ島 - フィリピン, Mt. Kinabalu, Mt. Tambuyukonなど",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d323036.4934130912!2d116.5348611137822!3d6.128814545203386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323ba2565e9224cb%3A0x2281c3fec0a9c05e!2sMount%20Kinabalu!5e0!3m2!1sen!2sjp!4v1708759580400!5m2!1sen!2sjp",
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113736.82356288057!2d116.66360611154322!3d6.189364998548871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323bb0891b72d1d5%3A0x55e4be931ebad66f!2sMount%20Tambuyukon!5e0!3m2!1sen!2sjp!4v1708759602764!5m2!1sen!2sjp"
+          ]
+        }
+      ],
+      "elevation": "1600 - 2700 m",
+      "temperature": "Night 9 - 17℃ / Day 19 - 27℃"
+    },
+    "cultivationEnvironment": {
+      "temperature": {
+        "text": "13 - 24℃"
+      },
+      "humidity": {
+        "text": "80%~99%"
+      },
+      "soil": {
+        "text": "",
+        "children": [
+          {
+            "text": "今は幼苗しかないので水苔のみ"
+          }
+        ]
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "12時間 6000-7000Lux (内11:00-14:00は 10000-12000Lux)",
+            "children": [
+              {
+                "text": "問題なさそう。"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_hamata",
@@ -1366,7 +1899,34 @@
         ]
       }
     ],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>自生地: インドネシア,スラウェシ島,Gunung Tumbusisi, Gunung Lumutなど<ul>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d619487.7188138196!2d121.31986998953934!3d-1.59302814435874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d8f9b89653cd0dd%3A0xbaa28f1260dd1691!2sGunung%20Tambusisi!5e0!3m2!1sen!2sjp!4v1709381159237!5m2!1sen!2sjp\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d932831.689209011!2d120.34289215539829!3d-1.9663408363088115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d8e6a6f361f0971%3A0x4e75e6c40406a10e!2sGunung%20Lumut!5e0!3m2!1sen!2sjp!4v1709381215964!5m2!1sen!2sjp\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 1400 - 2500m</li>\n<li>温度: Night 10 - 18℃ / Day 20 - 28℃</li>\n</ul>\n<h3>栽培環境</h3>\n<ul>\n<li>温度: 13 - 24℃</li>\n<li>空中湿度: 80~99%</li>\n<li>用土:</li>\n<li>日照:</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "インドネシア,スラウェシ島,Gunung Tumbusisi, Gunung Lumutなど",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d619487.7188138196!2d121.31986998953934!3d-1.59302814435874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d8f9b89653cd0dd%3A0xbaa28f1260dd1691!2sGunung%20Tambusisi!5e0!3m2!1sen!2sjp!4v1709381159237!5m2!1sen!2sjp",
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d932831.689209011!2d120.34289215539829!3d-1.9663408363088115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2d8e6a6f361f0971%3A0x4e75e6c40406a10e!2sGunung%20Lumut!5e0!3m2!1sen!2sjp!4v1709381215964!5m2!1sen!2sjp"
+          ]
+        }
+      ],
+      "elevation": "1400 - 2500m",
+      "temperature": "Night 10 - 18℃ / Day 20 - 28℃"
+    },
+    "cultivationEnvironment": {
+      "temperature": {
+        "text": "13 - 24℃"
+      },
+      "humidity": {
+        "text": "80~99%"
+      },
+      "soil": {
+        "text": ""
+      },
+      "light": {
+        "text": ""
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_hirsuta",
@@ -1412,7 +1972,38 @@
         ]
       }
     ],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>ボルネオ島 全域(熱帯白砂林、山地林が主)<ul>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212294.9117997328!2d110.09278166561258!3d1.6018136778096959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fb0577404bbd21%3A0xb7f58da041fac42b!2sGunung%20Serapi!5e0!3m2!1sen!2sjp!4v1708760485633!5m2!1sen!2sjp\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 200 - 1100m</li>\n<li>温度: Night 17 - 24℃ / Day 27 - 34℃</li>\n</ul>\n<h3>栽培環境</h3>\n<ul>\n<li>温度: 19 - 28℃</li>\n<li>空中湿度: 80%~99%</li>\n<li>用土:</li>\n<li>日照:<ul>\n<li>12時間 7000-8000Lux</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "ボルネオ島 全域(熱帯白砂林、山地林が主)",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d212294.9117997328!2d110.09278166561258!3d1.6018136778096959!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31fb0577404bbd21%3A0xb7f58da041fac42b!2sGunung%20Serapi!5e0!3m2!1sen!2sjp!4v1708760485633!5m2!1sen!2sjp"
+          ]
+        }
+      ],
+      "elevation": "200 - 1100m",
+      "temperature": "Night 17 - 24℃ / Day 27 - 34℃"
+    },
+    "cultivationEnvironment": {
+      "temperature": {
+        "text": "19 - 28℃"
+      },
+      "humidity": {
+        "text": "80%~99%"
+      },
+      "soil": {
+        "text": ""
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "12時間 7000-8000Lux"
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_inermis",
@@ -1546,7 +2137,41 @@
         ]
       }
     ],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>スマトラ島 - Gunung Talang, Gunung Kerintji, Gunung Gadut, Guning Belirang, Gunung Gadang<ul>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79380.0692276567!2d101.38356461484655!3d-1.676785670805948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2cf969cb1a6b07%3A0xc31a5eb85921983c!2sMount%20Kerinci!5e0!3m2!1sen!2sjp!4v1708758928486!5m2!1sen!2sjp\" width=\"100%\" height=\"250\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d67701.54869020259!2d100.64385163891934!3d-0.96922649707558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2b4c6da50bd541%3A0x3f6bd78d294269f5!2sMount%20Talang!5e0!3m2!1sen!2sjp!4v1708760547567!5m2!1sen!2sjp\" width=\"100%\" height=\"250\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 1500 - 2600m</li>\n<li>温度: Night 9 - 18℃ / Day 19 - 28℃</li>\n</ul>\n<h3>栽培環境</h3>\n<ul>\n<li>温度: 13 - 24℃</li>\n<li>空中湿度: 70~90%</li>\n<li>鉢内:<ul>\n<li>上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒+赤玉中粒<ul>\n<li>保水しつつ、通気性を保っている</li>\n<li>絶好調 - 極端に乾かしたりしなければ大丈夫そう</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>日照:<ul>\n<li>12時間 8000-9000Lux<ul>\n<li>問題なさそう。これで花芽も出た。</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "スマトラ島 - Gunung Talang, Gunung Kerintji, Gunung Gadut, Guning Belirang, Gunung Gadang",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d79380.0692276567!2d101.38356461484655!3d-1.676785670805948!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2cf969cb1a6b07%3A0xc31a5eb85921983c!2sMount%20Kerinci!5e0!3m2!1sen!2sjp!4v1708758928486!5m2!1sen!2sjp",
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d67701.54869020259!2d100.64385163891934!3d-0.96922649707558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e2b4c6da50bd541%3A0x3f6bd78d294269f5!2sMount%20Talang!5e0!3m2!1sen!2sjp!4v1708760547567!5m2!1sen!2sjp"
+          ]
+        }
+      ],
+      "elevation": "1500 - 2600m",
+      "temperature": "Night 9 - 18℃ / Day 19 - 28℃"
+    },
+    "cultivationEnvironment": {
+      "temperature": {
+        "text": "13 - 24℃"
+      },
+      "humidity": {
+        "text": "70~90%"
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "12時間 8000-9000Lux",
+            "children": [
+              {
+                "text": "問題なさそう。これで花芽も出た。"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_jacquelineae",
@@ -1730,7 +2355,59 @@
         ]
       }
     ],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>スマトラ島 - 西スマトラ州 Bukittinggi より北の山々<ul>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15959.05050253022!2d100.35249621667884!3d-0.30273912482861376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd538a460df4be1%3A0xc940d13d891ab206!2sBukittinggi%2C%20Bukittinggi%20City%2C%20West%20Sumatra%2C%20Indonesia!5e0!3m2!1sen!2sjp!4v1708761465940!5m2!1sen!2sjp\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 1700 - 2200m</li>\n<li>温度: Night 11 - 17℃ / Day 21 - 27℃</li>\n</ul>\n<h3>栽培環境</h3>\n<ul>\n<li>温度: 13 - 24℃</li>\n<li>空中湿度: 80%~99%</li>\n<li>用土:<ul>\n<li>表面:生水苔 / 上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒<ul>\n<li>保水しつつ、通気性を保っている</li>\n<li>特に問題はなさそう</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>日照:<ul>\n<li>12時間 6000-7000Lux (内11:00-14:00は 10000-12000Lux)<ul>\n<li>BE-3092 幼苗は特に葉焼けせず、着々とリーフジャンプしながら成長</li>\n<li>株Aは時間が経つにつれ紅葉している - 悪い葉焼けではないと思う。</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>その他<ul>\n<li>消化液の粘性が高い</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "スマトラ島 - 西スマトラ州 Bukittinggi より北の山々",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15959.05050253022!2d100.35249621667884!3d-0.30273912482861376!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2fd538a460df4be1%3A0xc940d13d891ab206!2sBukittinggi%2C%20Bukittinggi%20City%2C%20West%20Sumatra%2C%20Indonesia!5e0!3m2!1sen!2sjp!4v1708761465940!5m2!1sen!2sjp"
+          ]
+        }
+      ],
+      "elevation": "1700 - 2200m",
+      "temperature": "Night 11 - 17℃ / Day 21 - 27℃"
+    },
+    "cultivationEnvironment": {
+      "temperature": {
+        "text": "13 - 24℃"
+      },
+      "humidity": {
+        "text": "80%~99%"
+      },
+      "soil": {
+        "text": "",
+        "children": [
+          {
+            "text": "表面:生水苔 / 上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒",
+            "children": [
+              {
+                "text": "保水しつつ、通気性を保っている"
+              },
+              {
+                "text": "特に問題はなさそう"
+              }
+            ]
+          }
+        ]
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "12時間 6000-7000Lux (内11:00-14:00は 10000-12000Lux)",
+            "children": [
+              {
+                "text": "BE-3092 幼苗は特に葉焼けせず、着々とリーフジャンプしながら成長"
+              },
+              {
+                "text": "株Aは時間が経つにつれ紅葉している - 悪い葉焼けではないと思う。"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_jamban",
@@ -1791,7 +2468,51 @@
         ]
       }
     ],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>スマトラ島 - 北スマトラ州の Padang Sidempuanから南の山々<ul>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31909.45158011927!2d99.24213094719536!3d1.3678148880672345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302c04c7ec8ae94f%3A0x3039d80b220d060!2sPadang%20Sidempuan%2C%20Padangsidimpuan%20Utara%2C%20Padang%20Sidempuan%20City%2C%20North%20Sumatra%2C%20Indonesia!5e0!3m2!1sen!2sjp!4v1708761517438!5m2!1sen!2sjp\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 1800 - 2100m</li>\n<li>温度: Night 12 - 16℃ / Day 22 - 26℃</li>\n</ul>\n<h3>栽培環境</h3>\n<ul>\n<li>温度: 13 - 24℃</li>\n<li>空中湿度: 80~99%</li>\n<li>用土:<ul>\n<li>上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒<ul>\n<li>保水しつつ、通気性を保っている</li>\n<li>経過観察中</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>日照:<ul>\n<li>12時間 6000-7000Lux</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "スマトラ島 - 北スマトラ州の Padang Sidempuanから南の山々",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31909.45158011927!2d99.24213094719536!3d1.3678148880672345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x302c04c7ec8ae94f%3A0x3039d80b220d060!2sPadang%20Sidempuan%2C%20Padangsidimpuan%20Utara%2C%20Padang%20Sidempuan%20City%2C%20North%20Sumatra%2C%20Indonesia!5e0!3m2!1sen!2sjp!4v1708761517438!5m2!1sen!2sjp"
+          ]
+        }
+      ],
+      "elevation": "1800 - 2100m",
+      "temperature": "Night 12 - 16℃ / Day 22 - 26℃"
+    },
+    "cultivationEnvironment": {
+      "temperature": {
+        "text": "13 - 24℃"
+      },
+      "humidity": {
+        "text": "80~99%"
+      },
+      "soil": {
+        "text": "",
+        "children": [
+          {
+            "text": "上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒",
+            "children": [
+              {
+                "text": "保水しつつ、通気性を保っている"
+              },
+              {
+                "text": "経過観察中"
+              }
+            ]
+          }
+        ]
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "12時間 6000-7000Lux"
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_klossii",
@@ -1854,7 +2575,63 @@
         ]
       }
     ],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>ニューギニア島西南部 - パプア州<ul>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d707947.2308506999!2d135.939159907399!3d-3.688597076885888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x68221884715c6a27%3A0x3ab182ea3071e7af!2sPaniai%20Lakes!5e0!3m2!1sen!2sjp!4v1708762106175!5m2!1sen!2sjp\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d384735.6834726944!2d138.32140964158023!3d-7.854645571845378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6834dee3fbe457b1%3A0x8e90fe7df1b4af85!2sMerauke%20Regency%2C%20Papua%2C%20Indonesia!5e0!3m2!1sen!2sjp!4v1708769461017!5m2!1sen!2sjp\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 930 - 2000m</li>\n<li>温度: Night 12 - 20℃ / Day 22 - 30℃</li>\n<li>リンク<ul>\n<li><a href=\"https://www.carnivero.com/blogs/news/spotlight-on-nepenthes-klossii\">https://www.carnivero.com/blogs/news/spotlight-on-nepenthes-klossii</a></li>\n</ul>\n</li>\n</ul>\n<h3>栽培環境</h3>\n<ul>\n<li>温度: 13 - 24℃<ul>\n<li>夜はちょっと寒いかな</li>\n</ul>\n</li>\n<li>空中湿度: 80%~99%<ul>\n<li>若干葉にカビがつきやすい印象 - あまり濡れないor濡れたらすぐ乾く環境が良さそう</li>\n</ul>\n</li>\n<li>用土:<ul>\n<li>表面:生水苔 / 上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒<ul>\n<li>経過観察中　- 表面生水苔はやめた方が良い...?</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>日照:<ul>\n<li>12時間 6000-7000Lux</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "ニューギニア島西南部 - パプア州",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d707947.2308506999!2d135.939159907399!3d-3.688597076885888!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x68221884715c6a27%3A0x3ab182ea3071e7af!2sPaniai%20Lakes!5e0!3m2!1sen!2sjp!4v1708762106175!5m2!1sen!2sjp",
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d384735.6834726944!2d138.32140964158023!3d-7.854645571845378!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6834dee3fbe457b1%3A0x8e90fe7df1b4af85!2sMerauke%20Regency%2C%20Papua%2C%20Indonesia!5e0!3m2!1sen!2sjp!4v1708769461017!5m2!1sen!2sjp"
+          ]
+        },
+        {
+          "name": "リンク",
+          "maps": []
+        }
+      ],
+      "elevation": "930 - 2000m",
+      "temperature": "Night 12 - 20℃ / Day 22 - 30℃"
+    },
+    "cultivationEnvironment": {
+      "temperature": {
+        "text": "13 - 24℃",
+        "children": [
+          {
+            "text": "夜はちょっと寒いかな"
+          }
+        ]
+      },
+      "humidity": {
+        "text": "80%~99%",
+        "children": [
+          {
+            "text": "若干葉にカビがつきやすい印象 - あまり濡れないor濡れたらすぐ乾く環境が良さそう"
+          }
+        ]
+      },
+      "soil": {
+        "text": "",
+        "children": [
+          {
+            "text": "表面:生水苔 / 上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒",
+            "children": [
+              {
+                "text": "経過観察中　- 表面生水苔はやめた方が良い...?"
+              }
+            ]
+          }
+        ]
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "12時間 6000-7000Lux"
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_lowii",
@@ -1924,7 +2701,34 @@
         ]
       }
     ],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>自生地: マレーシア, ボルネオ島北部 - Gunung Kinabalu, Gunung Trusmadi, Gunung Murud, Gunung Mulu などSabah州およびSarawak州の山<ul>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31739.277950394935!2d116.53822414702758!3d6.075355284984267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323ba2565e9224cb%3A0x2281c3fec0a9c05e!2sMount%20Kinabalu!5e0!3m2!1sen!2sjp!4v1708951552246!5m2!1sen!2sjp\" width=\"100%\" height=\"250\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1860465.153052369!2d115.5915527574986!3d5.788547822652009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323c648055727ca3%3A0x3118380113a29de5!2sMount%20Trusmadi!5e0!3m2!1sen!2sjp!4v1708951118926!5m2!1sen!2sjp\" width=\"100%\" height=\"250\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 1650 - 2600m</li>\n<li>温度: Night 9 - 17℃ / Day 19 - 27℃</li>\n</ul>\n<h3>栽培環境</h3>\n<ul>\n<li>温度: 13 - 24℃</li>\n<li>空中湿度: 80~99%</li>\n<li>用土:</li>\n<li>日照:</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "マレーシア, ボルネオ島北部 - Gunung Kinabalu, Gunung Trusmadi, Gunung Murud, Gunung Mulu などSabah州およびSarawak州の山",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31739.277950394935!2d116.53822414702758!3d6.075355284984267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323ba2565e9224cb%3A0x2281c3fec0a9c05e!2sMount%20Kinabalu!5e0!3m2!1sen!2sjp!4v1708951552246!5m2!1sen!2sjp",
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1860465.153052369!2d115.5915527574986!3d5.788547822652009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323c648055727ca3%3A0x3118380113a29de5!2sMount%20Trusmadi!5e0!3m2!1sen!2sjp!4v1708951118926!5m2!1sen!2sjp"
+          ]
+        }
+      ],
+      "elevation": "1650 - 2600m",
+      "temperature": "Night 9 - 17℃ / Day 19 - 27℃"
+    },
+    "cultivationEnvironment": {
+      "temperature": {
+        "text": "13 - 24℃"
+      },
+      "humidity": {
+        "text": "80~99%"
+      },
+      "soil": {
+        "text": ""
+      },
+      "light": {
+        "text": ""
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_lowiixventricosa",
@@ -1987,7 +2791,43 @@
         ]
       }
     ],
-    "bodyContent": "<h3>栽培環境</h3>\n<ul>\n<li>温度理論値: Night 11 - 18℃ / Day 21 - 28℃</li>\n<li>温度: 夜16 - 昼25℃</li>\n<li>空中湿度: 70~90%</li>\n<li>用土:<ul>\n<li>表面:生水苔 / 上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒<ul>\n<li>経過観察中</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>日照:<ul>\n<li>...?<ul>\n<li>経過観察中</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": null,
+    "cultivationEnvironment": {
+      "temperatureTheory": "Night 11 - 18℃ / Day 21 - 28℃",
+      "temperature": {
+        "text": "夜16 - 昼25℃"
+      },
+      "humidity": {
+        "text": "70~90%"
+      },
+      "soil": {
+        "text": "",
+        "children": [
+          {
+            "text": "表面:生水苔 / 上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒",
+            "children": [
+              {
+                "text": "経過観察中"
+              }
+            ]
+          }
+        ]
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "...?",
+            "children": [
+              {
+                "text": "経過観察中"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_macrophylla",
@@ -2036,7 +2876,33 @@
         ]
       }
     ],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>自生地: マレーシア, ボルネオ島北部 - Gunung Trusmadi<ul>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1860465.153052369!2d115.5915527574986!3d5.788547822652009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323c648055727ca3%3A0x3118380113a29de5!2sMount%20Trusmadi!5e0!3m2!1sen!2sjp!4v1708951118926!5m2!1sen!2sjp\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 2200 - 2642m</li>\n<li>温度: Night 9 - 14℃ / Day 19 - 24℃</li>\n</ul>\n<h3>栽培環境</h3>\n<ul>\n<li>温度: 13 - 24℃</li>\n<li>空中湿度: 80~99%</li>\n<li>用土:</li>\n<li>日照:</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "マレーシア, ボルネオ島北部 - Gunung Trusmadi",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1860465.153052369!2d115.5915527574986!3d5.788547822652009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323c648055727ca3%3A0x3118380113a29de5!2sMount%20Trusmadi!5e0!3m2!1sen!2sjp!4v1708951118926!5m2!1sen!2sjp"
+          ]
+        }
+      ],
+      "elevation": "2200 - 2642m",
+      "temperature": "Night 9 - 14℃ / Day 19 - 24℃"
+    },
+    "cultivationEnvironment": {
+      "temperature": {
+        "text": "13 - 24℃"
+      },
+      "humidity": {
+        "text": "80~99%"
+      },
+      "soil": {
+        "text": ""
+      },
+      "light": {
+        "text": ""
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_mapuluensis",
@@ -2046,7 +2912,20 @@
     "sub_category": "species",
     "environment": "lowland",
     "logs": [],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>ボルネオ島 - 東カリマンタン州 - Gunung Ilas Mapulu<ul>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d564227.4311673382!2d117.69664079347092!3d1.2739981657184043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x320c2d8c34a4942d%3A0x4699a3b7b4267b0c!2sMapulu%2C%20Kelay%2C%20Berau%20Regency%2C%20East%20Kalimantan%2C%20Indonesia!5e0!3m2!1sen!2sjp!4v1708762610958!5m2!1sen!2sjp\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 700 - 800m</li>\n<li>温度: Night 18 - 22℃ / Day 28 - 32 ℃</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "ボルネオ島 - 東カリマンタン州 - Gunung Ilas Mapulu",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d564227.4311673382!2d117.69664079347092!3d1.2739981657184043!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x320c2d8c34a4942d%3A0x4699a3b7b4267b0c!2sMapulu%2C%20Kelay%2C%20Berau%20Regency%2C%20East%20Kalimantan%2C%20Indonesia!5e0!3m2!1sen!2sjp!4v1708762610958!5m2!1sen!2sjp"
+          ]
+        }
+      ],
+      "elevation": "700 - 800m",
+      "temperature": "Night 18 - 22℃ / Day 28 - 32 ℃"
+    },
+    "cultivationEnvironment": null,
+    "bodyContent": ""
   },
   {
     "slug": "N_mollis",
@@ -2107,7 +2986,61 @@
         ]
       }
     ],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>ボルネオ島 - 東カリマンタン州 - Gunung Kemul<ul>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7975.431017035644!2d116.1712391488086!3d1.8602887156929735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x320fb97bc288fe61%3A0x209d71fe1a15e797!2sMount%20Kemul!5e0!3m2!1sen!2sjp!4v1708762657533!5m2!1sen!2sjp\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 1300 - 2400m</li>\n<li>温度:<ul>\n<li>理論値: Night 10 - 19℃ / Day 20 - 29℃</li>\n</ul>\n</li>\n</ul>\n<h3>栽培環境</h3>\n<ul>\n<li>温度:13 - 24℃</li>\n<li>空中湿度: 80%~99%<ul>\n<li>理想よりは高めかな</li>\n</ul>\n</li>\n<li>用土:<ul>\n<li>上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒+赤玉中粒<ul>\n<li>保水しつつ、通気性を保っている</li>\n<li>経過観察中</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>日照:<ul>\n<li>12時間 7000-8000Lux<ul>\n<li>経過観察中</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "ボルネオ島 - 東カリマンタン州 - Gunung Kemul",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7975.431017035644!2d116.1712391488086!3d1.8602887156929735!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x320fb97bc288fe61%3A0x209d71fe1a15e797!2sMount%20Kemul!5e0!3m2!1sen!2sjp!4v1708762657533!5m2!1sen!2sjp"
+          ]
+        }
+      ],
+      "elevation": "1300 - 2400m",
+      "temperature": ""
+    },
+    "cultivationEnvironment": {
+      "temperature": {
+        "text": "13 - 24℃"
+      },
+      "humidity": {
+        "text": "80%~99%",
+        "children": [
+          {
+            "text": "理想よりは高めかな"
+          }
+        ]
+      },
+      "soil": {
+        "text": "",
+        "children": [
+          {
+            "text": "上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒+赤玉中粒",
+            "children": [
+              {
+                "text": "保水しつつ、通気性を保っている"
+              },
+              {
+                "text": "経過観察中"
+              }
+            ]
+          }
+        ]
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "12時間 7000-8000Lux",
+            "children": [
+              {
+                "text": "経過観察中"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_palawanensis",
@@ -2142,7 +3075,48 @@
         ]
       }
     ],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>フィリピン - パラワン島 - Mount Victoria<ul>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107587.70518273365!2d118.2928390055292!3d9.388015798496703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32354ace6dbf0a0d%3A0xcb64337b75c021e9!2sMount%20Victoria!5e0!3m2!1sen!2sjp!4v1708762773433!5m2!1sen!2sjp\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 1100 - 1236m</li>\n<li>温度: Night 16 - 20℃ / Day 26 - 30℃</li>\n</ul>\n<h3>栽培環境</h3>\n<ul>\n<li>温度: 19-28℃</li>\n<li>空中湿度: 80-90%</li>\n<li>用土:<ul>\n<li>自生地は超苦鉄質岩</li>\n</ul>\n</li>\n<li>日照:<ul>\n<li>12時間 6000 - 10000Lux<ul>\n<li>経過観察中</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "フィリピン - パラワン島 - Mount Victoria",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d107587.70518273365!2d118.2928390055292!3d9.388015798496703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32354ace6dbf0a0d%3A0xcb64337b75c021e9!2sMount%20Victoria!5e0!3m2!1sen!2sjp!4v1708762773433!5m2!1sen!2sjp"
+          ]
+        }
+      ],
+      "elevation": "1100 - 1236m",
+      "temperature": "Night 16 - 20℃ / Day 26 - 30℃"
+    },
+    "cultivationEnvironment": {
+      "temperature": {
+        "text": "19-28℃"
+      },
+      "humidity": {
+        "text": "80-90%"
+      },
+      "soil": {
+        "text": "",
+        "children": [
+          {
+            "text": "自生地は超苦鉄質岩"
+          }
+        ]
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "12時間 6000 - 10000Lux",
+            "children": [
+              {
+                "text": "経過観察中"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_rajah",
@@ -2239,7 +3213,59 @@
         ]
       }
     ],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>ボルネオ島北部 - Sabah, Mt. Kinabalu, Mt. Tambuyukon<ul>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d323036.4934130912!2d116.5348611137822!3d6.128814545203386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323ba2565e9224cb%3A0x2281c3fec0a9c05e!2sMount%20Kinabalu!5e0!3m2!1sen!2sjp!4v1708759580400!5m2!1sen!2sjp\" width=\"100%\" height=\"250\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113736.82356288057!2d116.66360611154322!3d6.189364998548871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323bb0891b72d1d5%3A0x55e4be931ebad66f!2sMount%20Tambuyukon!5e0!3m2!1sen!2sjp!4v1708759602764!5m2!1sen!2sjp\" width=\"100%\" height=\"250\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 1500 - 2650 m</li>\n<li>温度: Night 9 - 18 ℃ / Day 19 - 28 ℃</li>\n</ul>\n<h3>栽培環境</h3>\n<ul>\n<li>うちでは 13 - 24℃</li>\n<li>空中湿度: 70%~90%</li>\n<li>用土:<ul>\n<li>自生地は超苦鉄質岩<ul>\n<li>他の品種より根がかなり空気を好む。</li>\n</ul>\n</li>\n<li>幼苗: 鹿沼微粒+パーライト多めのミックス<ul>\n<li>経過観察中</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>日照:<ul>\n<li>12時間 6000-7000Lux<ul>\n<li>経過観察中</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "ボルネオ島北部 - Sabah, Mt. Kinabalu, Mt. Tambuyukon",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d323036.4934130912!2d116.5348611137822!3d6.128814545203386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323ba2565e9224cb%3A0x2281c3fec0a9c05e!2sMount%20Kinabalu!5e0!3m2!1sen!2sjp!4v1708759580400!5m2!1sen!2sjp",
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d113736.82356288057!2d116.66360611154322!3d6.189364998548871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323bb0891b72d1d5%3A0x55e4be931ebad66f!2sMount%20Tambuyukon!5e0!3m2!1sen!2sjp!4v1708759602764!5m2!1sen!2sjp"
+          ]
+        }
+      ],
+      "elevation": "1500 - 2650 m",
+      "temperature": "Night 9 - 18 ℃ / Day 19 - 28 ℃"
+    },
+    "cultivationEnvironment": {
+      "humidity": {
+        "text": "70%~90%"
+      },
+      "soil": {
+        "text": "",
+        "children": [
+          {
+            "text": "自生地は超苦鉄質岩",
+            "children": [
+              {
+                "text": "他の品種より根がかなり空気を好む。"
+              }
+            ]
+          },
+          {
+            "text": "幼苗: 鹿沼微粒+パーライト多めのミックス",
+            "children": [
+              {
+                "text": "経過観察中"
+              }
+            ]
+          }
+        ]
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "12時間 6000-7000Lux",
+            "children": [
+              {
+                "text": "経過観察中"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_smilesii",
@@ -2327,7 +3353,46 @@
         ]
       }
     ],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>自生地: タイ東北部, ラオス南部, カンボジア, ベトナム<ul>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30544.657732661613!2d108.54823201329414!3d12.142218116667506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3171098e0fb3187f%3A0xb6e6105c4aa122e7!2sBQL%20Bidoup%20Nui%20Ba%20National%20Park!5e0!3m2!1sen!2sjp!4v1708762907455!5m2!1sen!2sjp\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 0 - 1500m</li>\n<li>温度: Night 15 - 25℃ / Day 25 - 35 ℃</li>\n</ul>\n<h3>栽培環境</h3>\n<ul>\n<li>温度: 19-28℃</li>\n<li>空中湿度: 80-90%</li>\n<li>用土:<ul>\n<li>自生地は砂利っぽい草原。</li>\n<li>自生地では乾季と雨季がはっきりしているので冬は割と乾かせる。</li>\n</ul>\n</li>\n<li>日照:<ul>\n<li>12時間 6000 - 10000Lux</li>\n</ul>\n</li>\n<li>その他<ul>\n<li>耐火性があり、根部は太くなりやすい。<ul>\n<li>草体が火事で燃えても根部が元気に太く栄養を蓄えられていれば復活できるらしい。</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "タイ東北部, ラオス南部, カンボジア, ベトナム",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30544.657732661613!2d108.54823201329414!3d12.142218116667506!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3171098e0fb3187f%3A0xb6e6105c4aa122e7!2sBQL%20Bidoup%20Nui%20Ba%20National%20Park!5e0!3m2!1sen!2sjp!4v1708762907455!5m2!1sen!2sjp"
+          ]
+        }
+      ],
+      "elevation": "0 - 1500m",
+      "temperature": "Night 15 - 25℃ / Day 25 - 35 ℃"
+    },
+    "cultivationEnvironment": {
+      "temperature": {
+        "text": "19-28℃"
+      },
+      "humidity": {
+        "text": "80-90%"
+      },
+      "soil": {
+        "text": "",
+        "children": [
+          {
+            "text": "自生地は砂利っぽい草原。"
+          },
+          {
+            "text": "自生地では乾季と雨季がはっきりしているので冬は割と乾かせる。"
+          }
+        ]
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "12時間 6000 - 10000Lux"
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_sp_Jakarta",
@@ -2367,9 +3432,7 @@
                   {
                     "auto_image": {
                       "id": "KF35_38",
-                      "line_breaks": [
-                        1
-                      ]
+                      "line_breaks": [1]
                     }
                   }
                 ]
@@ -2396,6 +3459,8 @@
         ]
       }
     ],
+    "nativeHabitat": null,
+    "cultivationEnvironment": null,
     "bodyContent": "<ul>\n<li>以下、Heli&#39;s Storeより引用<blockquote>\n<p>昭和60年(1985)、京都市とジョグジャカルタ区が姉妹自治区になりました。\n  その際ジャカルタ政府を通してジョグジャカルタ側から京都府立植物園へと送られてきたうちの1つがこの個体です。詳しい現地の情報が追いかけきれていません、追って詳細が分かり次第何かしらの形で発表したいと思います。\nジャカルタは発展途中で伐採整地が続いていると聞きます、もしかしたらもう自生地はないかもしれません。\n当時はレインワードシアナとして導入されましたが、葉やツボの形状・つき方から別種ではないかとなり、現在sp.(なんかよくわからん名前まだついてないんじゃない？的なもの)として扱われています。\n平成初期頃に植物園間の苗交換で兵庫県立フラワーセンターにやってきました。土居寛文技師が食虫植物室で地植えし約10年、自生地さながらそれ以上かもしれない大株へと育て上げ、緑の壁は兵庫県立フラワーセンター名物の一つとなりました。</p>\n<p>兵庫県立フラワーセンターの土居寛文技師の「貴重な株を後世に残したい」という強い意志の元、今回の福袋は実現しました。抱え込んで絶種させる事だけはやってはいけない、と。\n先生の努力と協力、そして皆様のこの株を育てたい！という意欲なしにこの企画は成立しません。ご賛同ありがとうございます。\n今後それぞれの地で成長した福袋挿木たちの姿をSNSなどで見ることができれば幸いです。</p>\n</blockquote>\n</li>\n<li>一般に情報がないのでとりあえず N. reinwardtiana の環境として育ても良いと勝手に考えている。</li>\n</ul>"
   },
   {
@@ -2406,6 +3471,8 @@
     "sub_category": "species",
     "environment": "highland",
     "logs": [],
+    "nativeHabitat": null,
+    "cultivationEnvironment": null,
     "bodyContent": ""
   },
   {
@@ -2561,7 +3628,52 @@
         ]
       }
     ],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>自生地: スマトラ島北部 - Lake Toba から Mount Kemiriにかけて広く分布<ul>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d893103.7983973733!2d98.51953916621538!3d2.9952480000688073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30305226580ce755%3A0x72ce20db5930c2fc!2sMount%20Sibuatan!5e0!3m2!1sen!2sjp!4v1708762965273!5m2!1sen!2sjp\" width=\"100%\" height=\"250\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29787.449188621667!2d98.39328224352656!3d3.1564141038964197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3030fb896e2dce3d%3A0x78aa2a0b96c7f525!2sMount%20Sinabung!5e0!3m2!1sen!2sjp!4v1708762980638!5m2!1sen!2sjp\" width=\"100%\" height=\"250\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 1400 - 2200m</li>\n<li>温度: Night 11 - 18℃ / Day 21 - 28℃</li>\n</ul>\n<h3>栽培環境</h3>\n<ul>\n<li>温度: 13 - 24℃</li>\n<li>空中湿度: 80~99%</li>\n<li>用土:</li>\n<li>日照:<ul>\n<li>12時間 9000-12000Lux<ul>\n<li>元々葉が赤いので強光は良くないと思う。葉と捕虫葉が少し縮んだ。</li>\n</ul>\n</li>\n<li>12時間 6000-7000Lux (内11:00-14:00は 10000-12000Lux)<ul>\n<li>ちょうど良さそう。葉が赤めではあるが焼けてはいないし捕虫葉がでかいのでこれで良いと思う。</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "スマトラ島北部 - Lake Toba から Mount Kemiriにかけて広く分布",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d893103.7983973733!2d98.51953916621538!3d2.9952480000688073!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30305226580ce755%3A0x72ce20db5930c2fc!2sMount%20Sibuatan!5e0!3m2!1sen!2sjp!4v1708762965273!5m2!1sen!2sjp",
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29787.449188621667!2d98.39328224352656!3d3.1564141038964197!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3030fb896e2dce3d%3A0x78aa2a0b96c7f525!2sMount%20Sinabung!5e0!3m2!1sen!2sjp!4v1708762980638!5m2!1sen!2sjp"
+          ]
+        }
+      ],
+      "elevation": "1400 - 2200m",
+      "temperature": "Night 11 - 18℃ / Day 21 - 28℃"
+    },
+    "cultivationEnvironment": {
+      "temperature": {
+        "text": "13 - 24℃"
+      },
+      "humidity": {
+        "text": "80~99%"
+      },
+      "soil": {
+        "text": ""
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "12時間 9000-12000Lux",
+            "children": [
+              {
+                "text": "元々葉が赤いので強光は良くないと思う。葉と捕虫葉が少し縮んだ。"
+              }
+            ]
+          },
+          {
+            "text": "12時間 6000-7000Lux (内11:00-14:00は 10000-12000Lux)",
+            "children": [
+              {
+                "text": "ちょうど良さそう。葉が赤めではあるが焼けてはいないし捕虫葉がでかいのでこれで良いと思う。"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_thorelii×aristolochioides",
@@ -2664,7 +3776,51 @@
         ]
       }
     ],
-    "bodyContent": "<h3>栽培環境</h3>\n<ul>\n<li>温度理論値: Night 15 - 21℃ / Day 25 - 31℃</li>\n<li>温度: 19-28℃<ul>\n<li>aristolochioidesが入っているが、中間/高山性よりがっつり低地性の管理の方が良さそう</li>\n<li>ES(高山性の取り扱いが無いタイの業者)経由で輸入しているものだったのでそう考えてもおかしくないと思っている</li>\n</ul>\n</li>\n<li>空中湿度: 80-90%</li>\n<li>用土:<ul>\n<li>上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒+赤玉中粒<ul>\n<li>絶好調</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>日照:<ul>\n<li>12時間 9000 - 10000Lux<ul>\n<li>絶好調</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": null,
+    "cultivationEnvironment": {
+      "temperatureTheory": "Night 15 - 21℃ / Day 25 - 31℃",
+      "temperature": {
+        "text": "19-28℃",
+        "children": [
+          {
+            "text": "aristolochioidesが入っているが、中間/高山性よりがっつり低地性の管理の方が良さそう"
+          },
+          {
+            "text": "ES(高山性の取り扱いが無いタイの業者)経由で輸入しているものだったのでそう考えてもおかしくないと思っている"
+          }
+        ]
+      },
+      "humidity": {
+        "text": "80-90%"
+      },
+      "soil": {
+        "text": "",
+        "children": [
+          {
+            "text": "上部:鹿沼小粒+パーライト / 底部: 鹿沼中粒+赤玉中粒",
+            "children": [
+              {
+                "text": "絶好調"
+              }
+            ]
+          }
+        ]
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "12時間 9000 - 10000Lux",
+            "children": [
+              {
+                "text": "絶好調"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_veitchii",
@@ -2755,7 +3911,56 @@
         ]
       }
     ],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>ボルネオ島全域<ul>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4188054.3995132456!2d117.21943641908322!3d2.0516920800646608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3219c360a1c09f57%3A0x99d6fb7dce35d306!2sBario%2C%20Sarawak%2C%20Malaysia!5e0!3m2!1sen!2sjp!4v1708763307739!5m2!1sen!2sjp\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 0 - 1600m</li>\n<li>温度: Night 14 - 25℃ / Day 24 - 35 ℃</li>\n</ul>\n<h3>栽培環境</h3>\n<ul>\n<li>温度<ul>\n<li>以前: 19-28℃</li>\n<li>現在: 15-24℃</li>\n</ul>\n</li>\n<li>空中湿度: 80-90%<ul>\n<li>葉が濡れることを嫌うらしいが真偽不明。</li>\n</ul>\n</li>\n<li>用土:<ul>\n<li>割と乾かしめで頻繁に水やりはしない。湿度が高いので大丈夫だと思う。</li>\n</ul>\n</li>\n<li>日照:<ul>\n<li>12時間 6000 - 10000Lux</li>\n</ul>\n</li>\n<li>その他<ul>\n<li>自生地の標高差もあり、品種によって適正環境が変わる</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "ボルネオ島全域",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4188054.3995132456!2d117.21943641908322!3d2.0516920800646608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3219c360a1c09f57%3A0x99d6fb7dce35d306!2sBario%2C%20Sarawak%2C%20Malaysia!5e0!3m2!1sen!2sjp!4v1708763307739!5m2!1sen!2sjp"
+          ]
+        }
+      ],
+      "elevation": "0 - 1600m",
+      "temperature": "Night 14 - 25℃ / Day 24 - 35 ℃"
+    },
+    "cultivationEnvironment": {
+      "temperature": {
+        "text": "温度",
+        "children": [
+          {
+            "text": "以前: 19-28℃"
+          },
+          {
+            "text": "現在: 15-24℃"
+          }
+        ]
+      },
+      "humidity": {
+        "text": "80-90%",
+        "children": [
+          {
+            "text": "葉が濡れることを嫌うらしいが真偽不明。"
+          }
+        ]
+      },
+      "soil": {
+        "text": "",
+        "children": [
+          {
+            "text": "割と乾かしめで頻繁に水やりはしない。湿度が高いので大丈夫だと思う。"
+          }
+        ]
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "12時間 6000 - 10000Lux"
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_ventricosa",
@@ -2781,10 +3986,7 @@
                   {
                     "auto_image": {
                       "id": "KF48",
-                      "line_breaks": [
-                        4,
-                        8
-                      ]
+                      "line_breaks": [4, 8]
                     }
                   },
                   {
@@ -2797,7 +3999,54 @@
         ]
       }
     ],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>自生地: フィリピン - ルソン島,パネイ島,シブヤン島<ul>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1967722.3084136236!2d119.4753018080778!3d15.580551447647132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339103efece0ad43%3A0x46ea558aeab35e0e!2sLuzon!5e0!3m2!1sen!2sjp!4v1708763369975!5m2!1sen!2sjp\" width=\"100%\" height=\"250\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d501016.80227500654!2d122.17463663738447!3d11.17328451200802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33af72a469893b91%3A0x75829e9914e06e18!2sPanay!5e0!3m2!1sen!2sjp!4v1708763397170!5m2!1sen!2sjp\" width=\"100%\" height=\"250\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 1000 - 2000m</li>\n<li>温度: Night 12 - 20℃ / Day 22 - 30℃</li>\n</ul>\n<h3>栽培環境</h3>\n<ul>\n<li>温度: 13 - 24℃</li>\n<li>空中湿度: 80~99%</li>\n<li>用土:<ul>\n<li>Long Bottle 土居 - Bayombong, Nueva Vizcayaの場合<ul>\n<li>水苔 &amp; 乾燥気味が良いらしい</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>日照:<ul>\n<li>12時間 6000-7000Lux<ul>\n<li>挿木の発根待ちで経過観察中</li>\n</ul>\n</li>\n</ul>\n</li>\n<li>その他<ul>\n<li>自生地の標高差もあり、品種によって適正環境が変わる<ul>\n<li>&quot;ventricosaって???種類あんねん&quot;</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "フィリピン - ルソン島,パネイ島,シブヤン島",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1967722.3084136236!2d119.4753018080778!3d15.580551447647132!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x339103efece0ad43%3A0x46ea558aeab35e0e!2sLuzon!5e0!3m2!1sen!2sjp!4v1708763369975!5m2!1sen!2sjp",
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d501016.80227500654!2d122.17463663738447!3d11.17328451200802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x33af72a469893b91%3A0x75829e9914e06e18!2sPanay!5e0!3m2!1sen!2sjp!4v1708763397170!5m2!1sen!2sjp"
+          ]
+        }
+      ],
+      "elevation": "1000 - 2000m",
+      "temperature": "Night 12 - 20℃ / Day 22 - 30℃"
+    },
+    "cultivationEnvironment": {
+      "temperature": {
+        "text": "13 - 24℃"
+      },
+      "humidity": {
+        "text": "80~99%"
+      },
+      "soil": {
+        "text": "",
+        "children": [
+          {
+            "text": "Long Bottle 土居 - Bayombong, Nueva Vizcayaの場合",
+            "children": [
+              {
+                "text": "水苔 & 乾燥気味が良いらしい"
+              }
+            ]
+          }
+        ]
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "12時間 6000-7000Lux",
+            "children": [
+              {
+                "text": "挿木の発根待ちで経過観察中"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_villosa",
@@ -2829,7 +4078,44 @@
         ]
       }
     ],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>ボルネオ島 - Gunung Kinabalu, Gunung Tambuyukon<ul>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31739.28046647442!2d116.53822414849135!3d6.075312610283523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323ba2565e9224cb%3A0x2281c3fec0a9c05e!2sMount%20Kinabalu!5e0!3m2!1sen!2sjp!4v1713964527291!5m2!1sen!2sjp\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31739.28046647442!2d116.53822414849135!3d6.075312610283523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323bb0891b72d1d5%3A0x55e4be931ebad66f!2sMount%20Tambuyukon!5e0!3m2!1sen!2sjp!4v1713964552765!5m2!1sen!2sjp\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 1600 - 3240m</li>\n<li>温度: Night 6 - 17℃ / Day 16 - 27℃</li>\n</ul>\n<h3>栽培環境</h3>\n<ul>\n<li>温度: 夜13 - 昼24℃</li>\n<li>空中湿度: 70%~</li>\n<li>用土:</li>\n<li>日照:<ul>\n<li>12時間 6000-7000Lux (内11:00-14:00は 10000-12000Lux)<ul>\n<li>特に問題はない?</li>\n</ul>\n</li>\n</ul>\n</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "ボルネオ島 - Gunung Kinabalu, Gunung Tambuyukon",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31739.28046647442!2d116.53822414849135!3d6.075312610283523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323ba2565e9224cb%3A0x2281c3fec0a9c05e!2sMount%20Kinabalu!5e0!3m2!1sen!2sjp!4v1713964527291!5m2!1sen!2sjp",
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31739.28046647442!2d116.53822414849135!3d6.075312610283523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323bb0891b72d1d5%3A0x55e4be931ebad66f!2sMount%20Tambuyukon!5e0!3m2!1sen!2sjp!4v1713964552765!5m2!1sen!2sjp"
+          ]
+        }
+      ],
+      "elevation": "1600 - 3240m",
+      "temperature": "Night 6 - 17℃ / Day 16 - 27℃"
+    },
+    "cultivationEnvironment": {
+      "temperature": {
+        "text": "夜13 - 昼24℃"
+      },
+      "humidity": {
+        "text": "70%~"
+      },
+      "soil": {
+        "text": ""
+      },
+      "light": {
+        "text": "",
+        "children": [
+          {
+            "text": "12時間 6000-7000Lux (内11:00-14:00は 10000-12000Lux)",
+            "children": [
+              {
+                "text": "特に問題はない?"
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "bodyContent": ""
   },
   {
     "slug": "N_xtrusmadiensis",
@@ -2864,6 +4150,32 @@
         ]
       }
     ],
-    "bodyContent": "<h3>自生地</h3>\n<ul>\n<li>自生地: マレーシア, ボルネオ島北部 - Gunung Trusmadi<ul>\n<li><iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1860465.153052369!2d115.5915527574986!3d5.788547822652009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323c648055727ca3%3A0x3118380113a29de5!2sMount%20Trusmadi!5e0!3m2!1sen!2sjp!4v1708951118926!5m2!1sen!2sjp\" width=\"100%\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe></li>\n</ul>\n</li>\n<li>標高: 2500 - 2600m</li>\n<li>温度: Night 9 - 15℃ / Day 18 - 14℃</li>\n</ul>\n<h3>栽培環境</h3>\n<ul>\n<li>温度: 13 - 24℃</li>\n<li>空中湿度: 80~99%</li>\n<li>用土:</li>\n<li>日照:</li>\n</ul>"
+    "nativeHabitat": {
+      "locations": [
+        {
+          "name": "マレーシア, ボルネオ島北部 - Gunung Trusmadi",
+          "maps": [
+            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1860465.153052369!2d115.5915527574986!3d5.788547822652009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x323c648055727ca3%3A0x3118380113a29de5!2sMount%20Trusmadi!5e0!3m2!1sen!2sjp!4v1708951118926!5m2!1sen!2sjp"
+          ]
+        }
+      ],
+      "elevation": "2500 - 2600m",
+      "temperature": "Night 9 - 15℃ / Day 18 - 14℃"
+    },
+    "cultivationEnvironment": {
+      "temperature": {
+        "text": "13 - 24℃"
+      },
+      "humidity": {
+        "text": "80~99%"
+      },
+      "soil": {
+        "text": ""
+      },
+      "light": {
+        "text": ""
+      }
+    },
+    "bodyContent": ""
   }
 ]

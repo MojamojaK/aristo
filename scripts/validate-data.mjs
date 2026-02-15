@@ -39,6 +39,10 @@ function validate(fileName, checks) {
         console.error(`[FAIL] ${fileName}[${i}].${field}: expected array, got ${typeof value}`);
         errors++;
       }
+      if (type === 'object?' && value !== null && typeof value !== 'object') {
+        console.error(`[FAIL] ${fileName}[${i}].${field}: expected object or null, got ${typeof value}`);
+        errors++;
+      }
     }
   }
 
@@ -53,6 +57,9 @@ validate('cultivationLogs.json', {
   sub_category: 'string',
   environment: 'string',
   logs: 'array',
+  nativeHabitat: 'object?',
+  cultivationEnvironment: 'object?',
+  bodyContent: 'string',
 });
 
 validate('genuses.json', {
