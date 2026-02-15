@@ -6,9 +6,9 @@ import HomePage from './HomePage';
 describe('HomePage', () => {
   it('renders the site heading', () => {
     renderWithRouter(<HomePage />);
-    expect(
-      screen.getByRole('heading', { level: 1 })
-    ).toHaveTextContent('aristo - 食虫植物 素人栽培 備忘録');
+    expect(screen.getByRole('heading', { level: 1 })).toHaveTextContent(
+      'aristo - 食虫植物 素人栽培 備忘録',
+    );
   });
 
   it('renders introductory text content', () => {

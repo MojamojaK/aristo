@@ -23,10 +23,9 @@ describe('usePageTitle', () => {
   });
 
   it('updates title when argument changes', () => {
-    const { rerender } = renderHook(
-      ({ title }) => usePageTitle(title),
-      { initialProps: { title: 'Page A' as string | undefined } }
-    );
+    const { rerender } = renderHook(({ title }) => usePageTitle(title), {
+      initialProps: { title: 'Page A' as string | undefined },
+    });
 
     expect(document.title).toBe('Page A - aristo');
 
@@ -35,10 +34,9 @@ describe('usePageTitle', () => {
   });
 
   it('reverts to default title when title becomes undefined', () => {
-    const { rerender } = renderHook(
-      ({ title }) => usePageTitle(title),
-      { initialProps: { title: 'Page A' as string | undefined } }
-    );
+    const { rerender } = renderHook(({ title }) => usePageTitle(title), {
+      initialProps: { title: 'Page A' as string | undefined },
+    });
 
     expect(document.title).toBe('Page A - aristo');
 

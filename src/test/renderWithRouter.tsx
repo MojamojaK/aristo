@@ -14,13 +14,13 @@ export function renderWithRouter(
   }: {
     path?: string;
     initialEntry?: string;
-  } = {}
+  } = {},
 ) {
   return render(
     <MemoryRouter initialEntries={[initialEntry]}>
       <Routes>
         <Route path={path} element={ui} />
       </Routes>
-    </MemoryRouter>
+    </MemoryRouter>,
   );
 }
