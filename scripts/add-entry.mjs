@@ -303,6 +303,11 @@ async function main() {
     console.log(`Auto-assigned image ID: ${imageId}`);
   }
 
+  if (!/^KF\d+$/.test(imageId)) {
+    console.error(`Error: Invalid image ID "${imageId}" (expected KF## format)`);
+    process.exit(1);
+  }
+
   // Read EXIF dates from images
   console.log("\nReading image metadata...");
   const imagesByDate = new Map();

@@ -5,7 +5,7 @@ import type { DomesticStore, InternationalStore } from '../types';
 
 function SafeLink({ html }: { html: string }) {
   const match = html.match(/href=["']([^"']*)["'][^>]*>([^<]*)<\/a>/);
-  if (match) {
+  if (match && /^https?:\/\//i.test(match[1])) {
     return (
       <a href={match[1]} target="_blank" rel="noreferrer">
         {match[2]}
