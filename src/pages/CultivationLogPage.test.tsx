@@ -214,9 +214,7 @@ describe('CultivationLogPage', () => {
 
   it('renders 特徴 heading when only sellerDescription exists', () => {
     renderPage('N_with_seller');
-    expect(
-      screen.getByRole('heading', { name: '特徴' }),
-    ).toBeInTheDocument();
+    expect(screen.getByRole('heading', { name: '特徴' })).toBeInTheDocument();
     expect(screen.queryByText('準備中')).not.toBeInTheDocument();
   });
 
