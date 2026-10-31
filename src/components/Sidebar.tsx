@@ -1,4 +1,4 @@
-import { useState, useCallback, useEffect } from 'react';
+import { useState, useCallback } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import genuses from '../data/genuses.json';
 import cultivationLogs from '../data/cultivationLogs.json';
@@ -82,10 +82,11 @@ export default function Sidebar() {
   const logs = cultivationLogs as CultivationLog[];
   const typedGenuses = genuses as Genus[];
 
-  // Derive open accordion state from current route (#10)
-  useEffect(() => {
-    if (currentPath.startsWith(`${BASE}/cultivation_logs/`)) {
-      const slug = currentPath.replace(`${BASE}/cultivation_logs/`, '');
+  // Derive open accordion state from current route (#10).
+  // Adjusted during render on path change instead of in an effect.
+  function openForPath(path: string) {
+    if (path.startsWith(`${BASE}/cultivation_logs/`)) {
+      const slug = path.replace(`${BASE}/cultivation_logs/`, '');
       const log = logs.find((l) => l.slug === slug);
       if (log) {
         setCultivationListOpen(true);
@@ -95,15 +96,21 @@ export default function Sidebar() {
         return;
       }
     }
-    if (currentPath.startsWith(`${BASE}/greenhouse`)) {
+    if (path.startsWith(`${BASE}/greenhouse`)) {
       setGreenhouseOpen(true);
       return;
     }
-    if (currentPath.startsWith(`${BASE}/purchasing`)) {
+    if (path.startsWith(`${BASE}/purchasing`)) {
       setPurchasingOpen(true);
       return;
     }
-  }, [currentPath, logs]);
+  }
+
+  const [syncedPath, setSyncedPath] = useState<string | null>(null);
+  if (syncedPath !== currentPath) {
+    setSyncedPath(currentPath);
+    openForPath(currentPath);
+  }
 
   const getLogsForEnv = useCallback(
     (genusName: string, subCatName: string, envName: string) =>
