@@ -62,8 +62,10 @@ Tests are co-located with source files (`*.test.tsx`). Coverage thresholds: 80% 
 
 ## CI/CD
 
-GitHub Actions (`.github/workflows/deploy.yml`) runs on push to `main`:
-`npm ci` → `lint` → `type-check` → `validate-data.mjs` → `build` → deploy to GitHub Pages
+GitHub Actions (`.github/workflows/deploy.yml`) runs on push to `main` and on pull requests:
+`npm ci` → `lint` → `type-check` → `validate-data.mjs` → `build` → deploy to GitHub Pages (deploy is skipped for PRs)
+
+Node version comes from `.nvmrc`; `engines` in `package.json` reflects the minimums of jsdom/Vite/Vitest (22.22.2+).
 
 ## Key Notes
 
